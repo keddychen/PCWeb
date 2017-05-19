@@ -1,0 +1,9 @@
+#page-ul {float: right;}
+.simple-pagination {display: block;overflow: hidden;width: 100%;}
+.simple-pagination li {float: left;}
+.light-theme a, .light-theme span {float: left;color: #607575;font-size:14px;line-height:24px;font-weight: normal;text-align: center;border: 1px solid #d9d9d9;min-width: 14px;padding: 2px 7px;margin-left: 5px;background-color: #fff;}
+.light-theme a:hover {border-color: #f08300;color: #f08300;}
+.light-theme .current {background: #f08300;color: #FFF;cursor: default;border: none;line-height: 26px;padding: 2px 8px;font-weight: 600;}
+.light-theme .ellipse {background: none;border: none;border-radius: 0;box-shadow: none;font-weight: bold;cursor: default;}
+span.prevNext {background-color: #fff!important;color: #d8dcdc!important;font-weight: normal!important;border: 1px solid #d9d9d9!important;line-height:24px!important;}
+

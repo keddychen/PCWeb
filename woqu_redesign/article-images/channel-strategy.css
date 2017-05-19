@@ -1,0 +1,122 @@
+.main_wrapper{overflow: hidden;font-size: 14px;}
+.banner_section{overflow: hidden;background: #fff;}
+.banner_left{width: 360px; height: 439px;float: left;border-bottom: 1px solid #f5f5f5;}
+.main_title{font-size: 36px;color: #0aaa96;padding: 15px 18px;}
+.city_list{color: #0aaa96;margin-left: 18px;margin-bottom: 10px;}
+.condition{padding: 0 18px 6px;}
+.strategy_list {padding-top: 2px;}
+.strategy_tag{width: 94px;height: 30px;background: #0aaa96;color: #fff;font-size: 16px;line-height: 30px;text-align: center;}
+.strategy_item{color: #5f5f5f;border: 1px solid #0aaa96;padding: 1px 3px;border-radius: 2px;margin-right: 5px;display: inline-block;margin-bottom: 8px;}
+.strategy_item:hover{color: #0aaa96;}
+.strategy_area{margin: 15px 0 0 20px;height: 58px; overflow: hidden;}
+.banner_right{float: left;width: 840px;height: 440px;position: relative;}
+.devider{height: 440px;width: 20px;background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -617px 0 no-repeat #ebeef2;position: absolute;left: 0px;top: 0px;}
+.banner_right img{width: 840px;height: 440px;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center #fff;}
+.section_top{border-bottom: 1px solid #f5f5f5;padding-bottom: 32px;background: #fff;overflow: hidden;width: 1210px;}
+.top_block{border-right: 1px solid #f5f5f5;border-bottom: 1px solid #f5f5f5;width: 300px;float: left;}
+.item_top{padding: 30px 0 0 10px;overflow: hidden;}
+.item_down{padding: 20px 0 20px 10px; overflow: hidden;}
+.pic_bg{width: 152px;height: 152px; background: #f7f7f7;overflow: hidden;border-radius: 2px;float: left;}
+.pic_bg img{width: 140px; height: 140px;margin: 6px;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center #fff;}
+.top_des_r{min-height: 95px;width: 110px;border-left: 1px solid #f5f5f5;float: left;margin:23px 0 0 15px;}
+.top_des_l{min-height: 95px;width: 110px;border-right: 1px solid #f5f5f5;float: left;margin:23px 15px 0 0;}
+.top_sort{font-size: 18px; color: #0aaa96;}
+.top_sort_l{font-size: 18px; color: #0aaa96;text-align: right;padding-right: 5px;}
+.top_sort i{display: inline-block;width: 7px; height: 13px;margin: 0 5px;}
+.top_sort_l i{display: inline-block;width: 7px; height: 13px;margin: 0 5px;}
+.top_text{font-size: 16px;color: #848484;margin:0 5px;}
+.top_text_r{font-size: 16px;color: #848484;margin:0 5px;text-align: right;}
+.arrow_l{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -503px -352px no-repeat;}
+.arrow_r{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -504px -331px no-repeat;}
+.section_play{overflow: hidden;background: #deecf1;}
+.title_blue{height: 80px; background: #1199d1;overflow: hidden;}
+.blue_icon{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) 0 0 no-repeat;}
+.icon_pos{width: 290px; height: 60px;position: relative;left: 50%;top: 50%;margin-top: -30px;margin-left: -145px;}
+.sub_title{border-bottom: 1px solid #1199d1;margin-top: 20px;}
+.sub_title_inner{display: inline-block;height: 38px;line-height: 38px;background: #1199d1;color: #fff;padding: 0 30px;}
+.section_des{margin: 20px; color: #333;}
+.play_list{overflow: hidden;}
+.play_item{display: block;width: 380px;height: 436px;background: #fff;margin: 10px;float: left; overflow: hidden;}
+.img_outer{width: 344px; height: 227px;background:url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -828px 0 no-repeat;margin: 13px 0 0 18px;position: relative;overflow: hidden;}
+.img_tag{width: 84px; height: 39px;background:url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -480px -3px no-repeat;position: absolute;top: 0px;right: 12px;color: #fff;line-height: 50px;}
+.img_tag span{margin-left: 22px;}
+.img_outer img{width: 320px; height: 192px;margin: 11px 0 0 12px;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center #fff;}
+.des_product{font-size: 16px;color: #848484;padding: 0 20px 20px;margin-bottom: 20px;height: 44px;overflow: hidden;}
+.item_name{height: 52px; line-height: 52px;font-size: 18px; text-align: center;font-weight: bold; color: #06a6a6;}
+.item_bottom{height: 59px;border-top: 1px solid #deecf1;}
+.bottom_left{width: 190px;height: 59px;border-right: 1px solid #deecf1;float: left;color: #333;text-align: center;line-height: 59px;color: #848484;font-size: 16px;}
+.bottom_right{height: 59px; line-height: 59px;text-align: center;font-size: 16px;color: #848484;}
+.show_more{text-align: center;margin: 5px 0 30px 0;}
+.show_more a{color: #f08300;background: #fff;display: inline-block;height: 37px;line-height: 37px;padding: 0 0 0 10px;border-radius: 2px;}
+.show_more_go{display: inline-block;background: #f08300;margin-left: 10px;width: 40px;padding: 0 10px;color: #fff;border-top-right-radius: 2px;border-bottom-right-radius:2px; }
+.play_devide{border-top: 10px solid #ebf4f7;border-bottom: 10px solid #a0d3e7;}
+.product_star{display: inline-block;width: 15px; height: 15px;background:url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -377px -17px no-repeat;margin-right: 3px;}
+.magnify_icon{display: inline-block;width: 15px; height: 15px;background:url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -408px -17px no-repeat;margin-right: 3px;}
+.heart_icon{display: inline-block;width: 15px; height: 15px;background:url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -437px -17px no-repeat;margin-right: 3px;}
+.product_item{display: block;width: 380px;height: 366px;background: #fff;margin: 10px;float: left; overflow: hidden;}
+.item_pic{width: 380px;height: 228px;margin-bottom:16px;  display: block;}
+.product_price{color: #f08300;font-size: 11px;}
+.curency{font-size: 16px;}
+.price_num{font-size: 20px;}
+.content_outer{height: 62px;}
+.section_traffic{overflow: hidden;background: #f4e9dc;}
+.orange_icon{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) 0 -68px no-repeat;}
+.title_orange{height: 80px; background: #f08300;overflow: hidden;}
+.traffic_item{width: 1160px;margin: 0 auto;min-height: 110px;background: #ffffff;margin-bottom: 10px;position: relative;overflow: hidden;}
+.tra_item_l{width: 130px;height: 100%;background: url(//www.quimg.com/a3204/img/page/channel/strategy/traffic_bg.png) 0 0 repeat-y;position: absolute;left: 0px; top: 0px;}
+.traffic_icon{width: 110px;height: 82px;position:relative; left: 50%;top: 50%; margin: -41px 0 0 -55px;text-align: center;overflow: hidden;font-size: 16px;color: #fff;}
+.mt_10{margin-top: 10px;}
+.plane_icon{display: block;width: 60px; height: 43px;background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -371px -59px no-repeat;margin-left:25px; }
+.car_icon{display: block;width: 70px; height: 42px;background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -371px -181px no-repeat;margin-left:22px; }
+.ship_icon{display: block;width: 70px; height: 50px;background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -371px -295px no-repeat;margin-left:22px; }
+.click_tag{color: #333;border: 1px solid #0aaa96;padding: 2px 5px;border-radius: 2px;margin-right: 10px;}
+.click_tag:hover{color: #0aaa96;}
+.tra_item_r{margin:20px 25px 20px 145px;}
+.section_stay{overflow: hidden;background: #ddedeb;}
+.green_icon{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) 0 -142px no-repeat;}
+.title_green{height: 80px; background: #0aaa96;overflow: hidden;}
+.hotel_list{overflow: hidden;}
+.hotel_item{display: block; width: 380px;height: 295px;background: #fff; margin: 10px 10px 20px;float: left;position: relative;overflow: hidden;}
+.hotel_item img{width: 340px;height: 255px;display: block;margin: 20px;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center #fff;}
+.hotel_name{width: 120px; min-height: 80px;position: absolute;top: 56px; left: 43px;color: #fff;text-align: center;}
+.hotel_name_cover{background:#0aaa96;position:absolute;opacity:0.8;filter:alpha(opacity=80);width:100%;height:103px;}
+.hotel_name_inner{position:relative;}
+.place_name{font-size: 18px;margin: 15px 0 10px 0;}
+.section_buy{overflow: hidden;background: #efecf3;}
+.pink_icon{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) 0 -216px no-repeat;}
+.title_pink{height: 80px; background: #b89de6;overflow: hidden;}
+.des_title{font-size: 16px;color: #333;padding: 0 10px;}
+.des_tag{color: #aeaeae;margin: 5px 10px;}
+.left_adjust{line-height: normal;}
+.clock_icon{display: inline-block;width: 15px; height: 15px;background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -500px -76px no-repeat;}
+.time_line{height: 30px; line-height: 30px;position: relative;}
+.section_food{overflow: hidden;background: #f2eee9;}
+.brown_icon{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) 0 -293px no-repeat;}
+.title_brown{height: 80px; background: #d9af7d;overflow: hidden;}
+.food_item{display: block; width: 380px;height: 345px;background: #fff;margin: 10px;float: left;}
+.food_item img{width: 380px;height: 228px;display: block;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center #fff;}
+.food_bottom{height: 117px;position: relative;overflow: hidden;}
+.food_bottom_l{width: 120px;height: 117px; background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -681px -113px no-repeat;color: #fff;text-align: center;padding-top: 35px;position: absolute;left: 0px; top: 0px;}
+.food_bottom_r{height: 70px;width: 250px;color: #333;margin-left: 120px;padding: 18px 10px 10px;overflow: hidden;}
+
+.lift_wrapper{width:82px;height: 315px; overflow: hidden;font-size: 14px;position: fixed;right:215px ;top:330px;z-index: 99;}
+.lift_connect{width: 48px;height: 310px;border-left:1px solid #c6e6e2; border-right:1px solid #c6e6e2;position: absolute;top: 0px; left: 15px;}
+.lift_inner{position: relative;z-index: 10;}
+.list_header{height: 30px;line-height: 30px; background: #0aaa96;border-bottom: 1px solid #9e9e9e;text-align: center;color: #fff;}
+.nav_list{margin-top: 7px;}
+.nav_list a{color: #848484}
+.nav_list a:hover{color: #0aaa96}
+.nav_list li{height: 34px;line-height: 34px; background: #fff;border:1px solid #c6e6e2;margin-top: -1px;text-align: center;}
+li.mt_7{margin-top: 7px;}
+.nav_list i{display: inline-block;width: 22px; height: 20px;float: left;margin: 6px 0 0 5px;}
+.icon_play{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -500px -110px no-repeat;}
+.icon_go{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -500px -155px no-repeat;}
+.icon_stay{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -500px -201px no-repeat;}
+.icon_buy{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -500px -244px no-repeat;}
+.icon_eat{background: url(//www.quimg.com/a3204/img/page/channel/strategy/strategy.png) -500px -285px no-repeat;}
+.side_on a{color: #0aaa96;font-weight: bold;}
+a.hotel_single {height: 428px;}
+.hotel_single .item_pic{height: 285px;}
+.hotel_single .bottom_right{text-align: right;padding-right: 20px;}
+.scroll_loc{font-size: 12px;padding-left: 21px;}
+.scroll_must{font-size: 12px;padding-left: 29px;}

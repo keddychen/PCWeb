@@ -1,0 +1,87 @@
+
+/* +++++++++++
+ *  checkbox +
+ * +++++++++++
+ */
+.comp_checkbox {position: relative;padding-left: 25px;}
+.comp_checkbox i {position: absolute;top: 0;left: 0;width: 24px;height: 24px;background: url(//www.quimg.com/a168/img/common/checkbox-btn.png) no-repeat 0 -6px;}  
+.comp_active_checkbox i {height: 30px;width: 30px;top: -6px;left: 0;background: url(//www.quimg.com/a168/img/common/checkbox-btn.png) no-repeat -37px 0;}
+.comp_checkbox i:hover {cursor: pointer;}
+
+/* +++++++++++++
+ *  hover tips +
+ * +++++++++++++
+ */
+.wq_hover_tips_down {display: none;position: absolute;padding-top:0px;border:1px #35b9b9 solid;font-size: 14px;background-color:white;z-index: 999;}
+.wq_hover_tips_down i {position: absolute;top: -12px;width: 28px;height: 13px;background: url(//www.quimg.com/a168/img/common/room_table_sharp.png) no-repeat;}
+.wq_tips_content_title{background-color: #d4f5f5;font-size: 18px;font-family: "微软雅黑";font-weight: bold;padding-left: 26px;color: #06a6a6;line-height: 40px;}
+.wq_tips_content {color: #000;line-height: 20px;font-size:13px;font-family:"微软雅黑";padding:26px;}
+
+/* +++++++++++++++++
+ * new  hover tips +
+ * +++++++++++++++++
+ */
+.wqdialog{border:1px solid #35b9b9; width:400px;position:absolute;display:none;background:#fff;z-index: 999}
+.arrow{position:absolute;width:21px;height:12px;display:block;top:-12px;}
+.wqdialog-title{height:40px;background:#d4f5f5;color:#06a6a6;line-height:40px;font-size:18px;font-weight:bold;padding-left:25px;}
+.triangle-white{background:url(//www.quimg.com/a168/img/common/wq-triangle.png) -30px 0 no-repeat;}
+.triangle-blue{background:url(//www.quimg.com/a168/img/common/wq-triangle.png) 0 0 no-repeat;}
+
+/* +++++++++++
+ * alert msg +
+ * +++++++++++
+ */
+.alert_msg {position:absolute;z-index:999999;display:none;padding:5px;color:#f08300;font-size:14px;}
+.alert_msg_error {padding-left:26px;color:#f08300;background:url(//www.quimg.com/a1722/img/common/alert-status.png) no-repeat 2px -38px;}
+.alert_msg_suc {padding-left:26px;color:#0aaa96 !important;background:url(//www.quimg.com/a1722/img/common/alert-status.png) no-repeat 2px 7px;}
+.alert_msg_tips {color:#0aaa96 !important;}
+
+/* ++++++++++++++++++++++++++++++
+ * confirm dialog(use in hotel) +
+ * ++++++++++++++++++++++++++++++
+ */
+.hotel_dialog_mask_wrapper {position: absolute;width: 100%;height: 100%;top: 0;left: 0;z-index: 10002;}
+.hotel_dialog_mask {position: fixed;width: 100%;height: 100%;background-color: #000;opacity: 0.7;filter: alpha(opacity=70);}
+.hotel_dialog_wrapper {position: fixed;border: 1px solid #f08300;background-color: #fff;width: 370px;top: 50%;left: 50%;}
+.hd_title {font-size: 14px;width: 100%;height: 26px;line-height: 26px;background-color: #f08300;text-indent: 12px;color: #fff;}
+.hd_close {position: absolute;width: 12px;height: 12px;right: 5px;top: 5px;background: url(//www.quimg.com/img/common/woqu-hotel-all.png) no-repeat -319px -412px;}
+.hd_main {position: relative;padding: 20px;}
+.hd_content {min-height: 90px;padding-left: 85px;font-size: 15px;color: #333;}
+.hd_main i {position: absolute;width: 60px;height: 91px;background-image: url(//www.quimg.com/img/common/woqu-hotel-all.png);background-repeat: no-repeat;top: 20px;left: 20px;}
+i.free_icon {background-position: -447px -498px;}
+i.pay_icon {background-position: -298px -504px;width: 79px;height: 70px;}
+.hd_btn_wrapper {text-align: center;}
+.hd_btn_wrapper a {display: inline-block;width: 58px;height: 26px;line-height: 26px;background-color: #f08300;margin-left: 15px;}
+
+/* ++++++++++++++++++++++
+ * activity info dialog +
+ * ++++++++++++++++++++++
+ */
+.activity_mask_wrapper {position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 10000;}
+.activity_mask {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: #000;opacity: 0.4;filter: alpha(opacity=40);}
+.activity_dialog {position: absolute;top: 50%;left: 50%;border: 1px solid #cfdfdf;background-color: #fff;}
+.acd_title {position: relative;font-size: 16px;color: #06a6a6;height: 39px;line-height: 39px;border-bottom: 1px solid #cfdfdf;background-color: #ecf8f4;text-indent: 15px;}
+.acd_title i {position: absolute;width: 4px;height: 18px;background-color: #06a6a6;top: 11px;left: -1px;}
+.activity_dialog_close_icon {position: absolute;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) -95px -243px;width: 16px;height: 16px;right: 10px;top: 10px;}
+.acd_content {padding: 20px;font-size: 13px;color: #333;line-height: 22px;}
+.acd_content span {font-weight: bold;}
+.activity_dialog_close_btn {display: block;margin: 0 auto 20px auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

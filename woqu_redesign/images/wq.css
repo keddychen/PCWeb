@@ -1,0 +1,709 @@
+/* +++++++++++++ 
+ * reset start +
+ * +++++++++++++  
+ */
+* 						{margin: 0;padding: 0;}
+body 					{min-width: 1200px;background-color: #f0f0f0;font-family: "Microsoft Yahei", Verdana;overflow-y: scroll;}
+.ie7 body 				{overflow-y: hidden;}
+ul,li 					{list-style: none;}
+a 						{text-decoration: none;color: #fff;outline-style: none;}
+i 						{font-weight: normal;font-style: normal;}
+img 					{border: none;}
+table 					{border-spacing: 0;}
+h1, h2, h3, 
+h4, h5, h6 				{font-weight: normal;font-family: "Microsoft Yahei", Verdana;}
+textarea:focus 
+,input:focus			{outline: none;}
+textarea,
+input[type="text"]
+,input[type="password"] {padding: 3px 6px;font-family: "Microsoft Yahei", Verdana;}
+input[type="button"],
+button, select 			{font-family: "Microsoft Yahei", Verdana;}
+
+/* ++++++++++++++
+ * global start +
+ * ++++++++++++++
+ */
+.wq_clearfix:before, .wq_clearfix:after {display: table;content: " ";}
+.wq_clearfix:after {clear: both;}
+.ie7 .wq_clearfix {zoom: 1;}
+
+.hide {display:none;}
+.dis-visibility {visibility: hidden;}
+.cover {position: fixed;z-index: 9999;left: 0;top: 0;opacity: 0.6;filter: alpha(opacity=60);background-color: #000;}
+
+@media print {
+	.not-print {
+		display: none;
+	}
+}
+
+/* +++++++++++++++++++++++++
+ * base style setter start +
+ * +++++++++++++++++++++++++ 
+ */
+/*font size */
+.font_size12 {font-size: 12px;}
+.font_size13 {font-size: 13px;}
+.font_size14 {font-size: 14px;}
+.font_size16 {font-size: 16px;}
+.font_size18 {font-size: 18px;}
+.font_size20 {font-size: 20px;}
+.font_size24 {font-size: 24px;}
+.font_size28 {font-size: 28px;}
+.font_size30 {font-size: 30px;}
+.font_size40 {font-size: 40px;}
+
+/* font color */
+.font_color_white  		{color: #fff;}
+.font_color_black  		{color: #333;}
+.font_color_light_gray 	{color: #aeaeae;}
+.font_color_gray   		{color: #848484;}
+.font_color_light_green {color: #008000;}
+.font_color_green  		{color: #0aaa96;}
+.font_color_red 		{color: #da0000;}
+.font_color_orange 		{color: #f08300;}
+
+/* font weight */
+.font_bold {font-weight: bold;}
+
+/* background color */
+.bg_color_gray 	{background-color: #f9f9f9;}
+.bg_color_white {background-color: #fff;}
+.bg_color_green {background-color: #0aaa96;}
+
+/* border color */
+.bd_color_gray   {border: 1px solid #cfdfdf;}
+.bd_color_green  {border: 1px solid #0aaa96;}
+.bd_color_orange {border: 1px solid #f08300;}
+
+/* ++++++++++++++
+ * button style +
+ * ++++++++++++++ 
+ */
+.btn {-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius: 2px;-o-border-radius: 2px;border-radius: 2px;text-align: center;cursor: pointer;color: #fff;}
+.btn_confirm {background-color: #f08300;}
+.btn_confirm:hover {background-color: #ff8800;}
+.btn_confirm_green {background-color: #0aac97;}
+.btn_confirm_green:hover {background-color: #00b699;}
+.btn_cancel {background-color: #fff;border: 1px solid #cfdfdf;color: #0aaa96;}
+.btn_cancel:hover {background-color: #fff;border: 1px solid #0aaa96;}
+.btn_disable {background-color: #ccc;}
+.btn_disable:hover {background-color: #d4d4d4;}
+.btn_h24 {height: 24px;line-height: 24px;font-size: 14px;}
+.btn_h30 {height: 30px;line-height: 30px;font-size: 16px;}
+.btn_h36 {height: 36px;line-height: 36px;font-size: 18px;}
+.btn_w50 {width: 50px;}
+.btn_w60 {width: 60px;}
+.btn_w80 {width: 80px;}
+.btn_w110 {width: 110px;}
+.btn_w140 {width: 140px;}
+.btn_w250 {width: 250px;}
+
+/* ++++++++++++++
+ * header start +
+ * ++++++++++++++
+ */
+#wqHeader{height:100px;width:100%;position:absolute;top:0;left:0;z-index:10;background:url(//www.quimg.com/a13072/img/page/index/header-bg.png) repeat-x 0 0;}
+.wqHeader-info{width:1200px;margin:0 auto;clear:both;height:60px;}
+#logo{display:block;float:left;width:160px;height:60px;background:#f08300 url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat 0 0;border-bottom-left-radius:4px;border-bottom-right-radius:4px;}
+/*nav*/
+.wqHeader-nav{float:left;margin-left:20px;padding-top:26px;position:relative;z-index:99;}
+.wqHeader-nav li{display:inline-block;padding:0 20px;float:left;position:relative;}
+
+.wqHeader-nav li > a{font-size:18px;position:relative;overflow:hidden;display:block;cursor:default;}
+.wqHeader-nav li > a::after{content:' ';display:block;width:100%;height:23px;border-bottom:1px solid #fff;position:absolute;top:0;left:-100%;-webkit-transition: all 0.5s linear;transition: all 0.5s linear;}
+.wqHeader-nav li:hover > a::after{left:0;}
+.wqHeader-base-info li > a{color:#333;}
+
+.wqHeader-nav li i{position:absolute;top:50%;margin-top:-2px;right:6px;display:block;width:8px;height:5px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat 0 -140px;-webkit-transition:-webkit-transform .25s linear;-moz-transition:-moz-transform .25s linear;-o-transition:-o-transform .25s linear;-ms-transition:-ms-transform .25s linear;transition:transform .25s linear;}
+.wqHeader-nav li:hover i{-webkit-transform:-webkit-rotate(180deg);-moz-transform:-moz-rotate(180deg);-o-transform:-o-rotate(180deg);-ms-transform:-ms-rotate(180deg);transform:rotate(180deg);}
+.wqHeader-base-info li i{background-position:-20px -141px;}
+.wqHeader-nav .side-bar{position:absolute;top:42px;background-color:#fff;border-radius:4px;border:1px solid #d2d2d2;padding:20px 0;}
+.wqHeader-nav .sideBar-bugle{position:absolute;top:-12px;left:40px;display:block;width:22px;height:12px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat 0 -100px;}
+.wqHeader-nav .sideBar-group{float:left;border-right:1px solid #e5e5e5;padding:0 30px;line-height:16px;}
+.wqHeader-nav .sideBar-group-last{border-right:none;}
+.wqHeader-nav .sideBar-group h2{margin-bottom:15px;}
+.wqHeader-nav .sideBar-group h2 a{color:#00bb66;font-size:14px;font-weight:700;}
+.wqHeader-nav .sideBar-group h3 a{color:#000;font-size:14px;overflow:hidden;font-weight:700;position:relative;display:inline-block;/* -webkit-transition: color 0.5s linear;-moz-transition: color 0.5s linear;-o-transition: color 0.5s linear;-ms-transition: color 0.5s linear;transition: color 0.5s linear; */}
+.wqHeader-nav .sideBar-group p{font-size:12px;padding-top:10px;}
+.wqHeader-nav .sideBar-group p a{color:#5c5c5c;margin-right:10px;display:inline-block;position:relative;overflow:hidden;/* -webkit-transition: color 0.5s linear;-moz-transition: color 0.5s linear;-o-transition: color 0.5s linear;-ms-transition: color 0.5s linear;transition: color 0.5s linear; */}
+.wqHeader-nav .sideBar-group p a:hover,.wqHeader-nav .side-bar-termini .sideBar-group h3 a:hover{/* color:#fff;* */color:#00bb66;/* font-weight:700; */}
+
+/* .ie8 .wqHeader-nav .sideBar-group p a:hover,ie8 .wqHeader-nav .side-bar-termini .sideBar-group h3 a{color:#00bb66;}
+.wqHeader-nav .sideBar-group p a::after,.wqHeader-nav .side-bar-termini .sideBar-group h3 a::after {content: attr(data-letters);position: absolute;color: #00bb66;left: 100%;overflow: hidden;white-space: nowrap;width: 100%;-webkit-transition: all 0.5s linear;transition: all 0.5s linear;} 
+.wqHeader-nav .sideBar-group p a:hover::after,.wqHeader-nav .side-bar-termini .sideBar-group h3 a:hover::after {left:0; text-shadow:0 0 1px #00bb66; } 
+ */
+.wqHeader-nav .side-bar-market{width:359px;left:0;}
+.wqHeader-nav .side-bar-market .sideBar-group{height:192px;}
+.wqHeader-nav .side-bar-market .sideBar-group p a{margin-right:0;}
+.wqHeader-nav .side-bar-market .sideBar-group h3 a{cursor:default;}
+.wqHeader-nav .side-bar-termini{width:783px;left:-177px;}
+.wqHeader-nav .side-bar-termini .sideBar-group{height:365px;}
+.wqHeader-nav .side-bar-termini .sideBar-group h3{margin-top:10px;}
+.wqHeader-nav .side-bar-termini .sideBar-bugle{left:210px;}
+/*user*/
+.wqHeader-user{float:right;padding-top:24px;}
+.wqHeader-user li{display:inline-block;padding:0 10px;border-left:2px solid #fff;font-size:14px;height:16px;line-height:16px;*display:inline;}
+.wqHeader-base-info .wqHeader-user li{border-color:#ccc;}
+.wqHeader-user li.wqHeader-search{/* width:162px; */width:0px;height:20px;padding:3px 10px;margin-bottom:-8px;overflow:hidden;border:1px solid transparent;position:relative;/* -webkit-transition: all 0.5s linear;-moz-transition: all 0.5s linear;-o-transition: all 0.5s linear;-ms-transition: all 0.5s linear;transition: all 0.5s linear; */}
+.wqHeader-user input{position:absolute;left:10px;top:3px;width:100%;color:#fff;background:none;height:100%;max-height:20px;max-width:162px;padding:0;border:none;}
+.wqHeader-user li.wqHeader-search span{cursor:pointer;position:absolute;right:0px;top:3px;display:block;width:20px;height:20px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat 2px -167px;}
+.wqHeader-base-info .wqHeader-user input{color:#ccc;}
+.wqHeader-base-info .wqHeader-user li.wqHeader-search span{background-position:-77px -137px;}
+/* ++++++++++++++++++++++
+ * header global search +
+ * ++++++++++++++++++++++
+ */
+.autocomplete-suggestions {border: 1px solid #dfdfdf;background-color: white;overflow: hidden;z-index: 99999;margin-left:2px;border-radius:4px;}
+.autocomplete-suggestion {position: relative;padding: 0 5px;cursor: default;font-size: 14px;height: 33px;line-height: 33px;color: #333;overflow: hidden;}
+.autocomplete-suggestion:hover {color: #0aaa96;background-color: #f0f0f0;}
+.autocomplete-no-suggestion {font-size: 12px;color: #848484;background-color: #fef8e8;height: 27px;line-height: 27px;text-indent: 15px;}
+.autocomplete-selected {color: #0aaa96;background-color: #f0f0f0;}
+.autocomplete-suggestions strong {font-weight: bold; color: #000;}
+.autocomplete-selected strong {color: #0aaa96;}
+.autocomplete-group {padding: 2px 5px;}
+.autocomplete-group strong {font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000;}
+.s-product {float: left;width: 300px;overflow: hidden;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.s-category {position: absolute;top: 0;right: 5px;background-color: #fff;padding-left: 20px;}
+.arrow-tips {overflow: hidden;font-size: 12px;color: #848484;line-height: 33px;height: 33px;}
+.at-left {float: left;padding-left: 5px;}
+.at-right {float: right;padding-right: 5px;}
+
+/* ++++++++++++++
+ * old header start
+ * ++++++++++++++
+ */
+#wq_header {position: relative;z-index: 100;font-size: 12px;color: #5c5c5c;} 
+.wq_header_top{position: relative;z-index: 105;width: 100%;background-color: #ebeef2;border-bottom: 1px solid #dde0e4;font-family: Verdana;}
+.wq_header_top_container{width: 1200px;margin: 0 auto;height: 30px;}
+
+.tencent_partner {position: relative;float: left;height: 30px;line-height: 30px;padding-left: 24px;}
+.tencent_partner i {position: absolute;width: 15px;height: 16px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat 0 -159px;left: 0;top: 7px;}
+
+.wq_header_top_right{float: right;font-family: Verdana;max-width: 550px;}
+.wq_header_top_right li {position: relative;float: right;height: 30px;line-height: 30px;}
+.wq_header_top_right > li{padding-left:14px;padding-right:14px;}
+.wq_header_top_right li a {font-size: 13px;color: #5c5c5c;}
+.wq_header_top_right .wq_header_top_right_li {float:none;height:25px;line-height:25px;overflow: hidden;}
+.wq_header_top_right .wq_header_app{text-align:center;padding-right:30px;}
+.wq_header_top_right .wq_header_app span{display:block;margin:0 auto;width:90px;height:90px;background:url(//www.quimg.com/a10590/img/about/download/index.png ) no-repeat -263px 0;}
+.wq_header_top_right .wq_header_app .ewm{background:url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat -211px -813px;width:81px;height:80px;margin-bottom:14px;}
+.wq_header_top_right .wq_header_app .hide{position:absolute;top:31px;left:-1px;width:140px;background:#fff;border: 1px solid #e5e5e5;border-top:none;}
+.wq_header_top_right .wq_header_app .hide p{text-indent:0;font-size:12px;color:#848484;line-height:13px;margin:14px 0 10px;}
+.wq_header_top_right .wq_header_app .hide .last{margin:10px 0 14px;}
+.wq_header_top_right .wq_header_app .hide a{color:#0aaa96;}
+.wq_header_top_right .wq_header_app .hide a:hover{text-decoration:underline;}
+.wq_header_top_right .wq_header_app:hover{background:#fff;height:35px;left:-1px;z-index:10;}
+.wq_header_top_right .wq_header_currency_li,.wq_header_top_right .wq_header_mycount_li{padding:0;}
+.wq_header_top_right .wq_header_currency_li:hover{left:-1px;}
+.wq_header_top_right .wq_header_app:hover .hide{display:block;}
+.wq_header_top_right .wq_header_app:hover .wq_header_brline{display:none;}
+.wq_header_top_right .wq_header_brline{position:absolute;right:0;top:7px;width:1px;height:16px;background-color:#bfbfbf;}
+.wq_header_top_right .wq_header_currency_li,{padding:0;}
+#markLogoutForConponent{padding:0;}
+#markLogoutForConponent li {position:relative;}
+#wq_notice,.noticebox{height:40px;line-height:40px;margin:0 auto;background-color:#fff;}
+.noticebox{width:1200px;position:relative;overflow:hidden;}
+.noticebox p{position:absolute;top:0;left:300px;height:40px;font-size:13px;color:#5c5c5c;}
+.noticebox span{color:#e40918;padding-left:20px;background:url(//www.quimg.com/a8303/img/common/horn.png ) no-repeat center left;}
+/* ++++++++++++++
+ * restore
+ * ++++++++++++++
+ */
+.restore_title{position:absolute;top:28px;left:-40px;width:278px;height:136px;background:url(//www.quimg.com/a7370/img/page/vip/restore_title.png ) no-repeat left -40px;}
+.restore_title_close{cursor:pointer;display:block;width:36px;height:35px;background:url(//www.quimg.com/a7370/img/page/vip/restore_title.png ) no-repeat left top;margin:14px 0 0 208px;}
+
+.wq_right_divide {font-size: 13px;border: none;line-height: 37px;color: #bfbfbf;}
+.wq_header_mycount, .wq_header_currency {z-index:10000;padding-left: 21px;}
+#headMycount {margin-right: 10px;position: relative;}
+li.wq_header_mycount, li.wq_header_currency {padding-right: 20px;text-align: center;float: none;}
+.ie7 li.wq_header_currency {padding-right: 35px;}
+.wq_header_mycount > p, .wq_header_currency > p {float: left;margin:0 10px;font-size: 12px;color: #fff;}
+.wq_header_mycount i, .wq_header_currency i,.wq_header_app i {position: absolute;width: 8px;height: 4px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat 0 -258px;top: 13px;right: 14px;}
+.wq_header_mycount:hover i, .wq_header_currency:hover i {background-position: -20px -258px;top: 14px;}
+.wq_nav_op {padding: 0 14px;}
+.wq_header_currency span {float: left;text-align: left;width: 60px;text-indent: 5px;cursor: pointer;}
+.wq_header_currency .symbol {width: 30px;margin-left: 5px;text-align: right;text-indent: 0;}
+.wq_header_currency .currency_icon {position: absolute;width: 12px;height: 16px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat -102px -159px;left: 13px;top: 7px;}
+.wq_header_mycount .mycount_icon {position: absolute;width: 13px;height: 15px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat -124px -159px;left: 13px;top: 9px;}
+.active_currency span {color: #f08300;}
+.has_sub_list:hover {background-color: #fff;cursor: pointer;}
+.wq_header_currency_li:hover .sub_list,.wq_header_mycount_li:hover .sub_list {display: block;}
+.sub_list {display: none;position: absolute;z-index: 10000;left: -1px;top: 30px;background-color: #fff;width: 100%;padding: 6px 0;border: 1px solid #dde0e4;border-top: none;min-width:100px;}
+.sub_list li {line-height: 24px;font-size: 12px;color: #848484;overflow: hidden;}
+.sub_list li a {color: #848484;}
+.sub_list li:hover, .sub_list li:hover a,.faq_sidebar a:hover,.sub_list .sidebar_on a {color: #0aaa96;}
+.wq_header_bottom_wrapper {position: relative;background-color: #fff;height: 104px;}
+.wq_header_bottom {position: relative;width: 1200px;height: 100%;margin: 0 auto;}
+.wq_logo {position: absolute;float: left;left: 0;top: 28.5px;width: 180px;height: 47px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat;}
+.wq_slogan{position:absolute;left:195px;top:55px;display:block;width:154px;height:23px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat 0 -859px;}
+.continent_illustration {position: absolute;width: 300px;height: 70px;background-repeat: no-repeat;background-position: 0 0;left: 156px;bottom: 0;}
+.continent_oceania {background-image: url(//www.quimg.com/a10165/img/page/index/destination/continent/oceania.png);}
+.continent_north_america {background-image: url(//www.quimg.com/a10165/img/page/index/destination/continent/north_america.png);}
+.continent_europe {background-image: url(//www.quimg.com/a10165/img/page/index/destination/continent/europe.png);}
+.continent_asia {background-image: url(//www.quimg.com/a10165/img/page/index/destination/continent/japan.png);}
+
+.country_switch {position: absolute;top: 20px;left: 240px;top: 57px;cursor: pointer;padding: 0 40px 6px 0;z-index: 999;}
+.country_switch > span {font-size: 18px;color: #333;font-weight: bold;}
+.country_switch > i {font-size: 12px;color: #fff;background-color: #55cbbc;border-radius: 2px;padding: 1px 3px;}
+.country_switch .switch_opt {display: none;position: absolute;padding: 0 20px;background-color: #fff;border-left: 1px solid #e8e8e8;box-shadow: 1px 1px 2px #888;right: 40px;top: 30px;z-index:1001;}
+.switch_opt .country_group {overflow: hidden;border-bottom: 1px solid #d9d9d9;padding: 10px 0;}
+.switch_opt .country_group a {display: block;color: #333;font-size: 16px;line-height: 28px;}
+.switch_opt .country_group a:hover {color: #0aaa96;text-decoration: underline;}
+.country_switch:hover .switch_opt {display: block;}
+
+.header_search_wrapper {position: absolute;top: 25px;right: 243px;width: 420px;height: 36px;background-color: #206d64;}
+.search_continent_switch {position: absolute;overflow: hidden;height: 20px;line-height: 20px;top: -20px;left: 0;}
+.search_continent_switch span {float: left;width: 48px;text-align: center;color: #0aaa96;cursor: pointer;}
+.search_continent_switch .on {background-color: #0aaa96;color: #fff;}
+.search_icon {position: absolute;}
+
+.header_hotkeys_wrapper{position:absolute;top:36px;left:0;width:420px;height:26px;line-height:26px;}
+.header_hotkeys_wrapper a{color:#6a6a6a;margin-right:10px;}
+.header_hotkeys_wrapper a:hover{color:#0aaa96;text-decoration:underline;}
+
+.header_phone {position: absolute;right: 0px;top: 34px;}
+.header_phone > i {position: absolute;width: 27px;height: 32px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat -25px -159px;top: 5px;left: 0;}
+.header_phone > div {font-size: 24px;color: #333;font-family: arial;line-height: 24px;}
+.header_phone > div strong {position: relative;font-size: 12px;color: #fff;background-color: #206d64;border-radius: 2px;padding: 1px 6px 1px 3px;display:inline-block;line-height:16px;margin-left: 4px;top: -4px;font-family: "Microsoft Yahei", Verdana;}
+.header_phone > span {font-size: 14px;color: #848484;}
+.phone_group {display: none;position: absolute;z-index: 1000;background-color: #fff;border-left: 1px solid #e8e8e8;box-shadow: 1px 1px 2px #888;right: 0;top: 25px;width: 244px;}
+.phone_group {overflow: hidden;border-bottom: 1px solid #d9d9d9;padding: 10px 0;}
+.phone_group p {display: block;color: #333;font-size: 12px;overflow: hidden;}
+.phone_group p:hover {color: #0aaa96;}
+.phone_group p span {float: left;width: 118px;padding: 0 2px;}
+.phone_group .label {text-align: right;}
+.header_phone > div:hover .phone_group {display: block;}
+
+.header_nav {width: 100%;height: 40px;line-height: 40px;font-size: 16px;color: #fff;text-align: center;box-shadow: 0px 1px 4px #888;background:#1e6e64;}
+/*old header end*/
+
+/* +++++++++++++++++++
+ * bread crumb start +
+ * +++++++++++++++++++
+ */
+.wq_bread_crumb {font-size: 14px;line-height: 14px;color: #848484;padding: 15px 0 20px 0;}
+.wq_bread_crumb a {color: #0aaa96;cursor: text;}
+.wq_bread_crumb .wq_bc_able {color: #848484;}
+.wq_bread_crumb .wq_bc_able:hover {color: #f08300;cursor: pointer;}
+
+
+/* ++++++++++++
+ * body start +
+ * ++++++++++++
+ */
+/* old width */
+.wq_body_wrapper {width: 1000px;padding-bottom: 30px;}
+/* old width */
+.body_wrapper {width: 1200px;padding-bottom: 30px;}
+.container {margin: 0 auto;}
+
+
+/* ++++++++++++++
+ * footer start +
+ * ++++++++++++++
+ */
+.wq_footer_wrapper {width: 100%;font-size: 13px;background-color: #fff;}
+.wq_footer {width: 1000px;margin: 0 auto;text-align: left;padding-top: 40px;}
+.wq_copyright{position: relative;height: 42px;text-align: center;padding-top: 10px;font-size: 12px;line-height: 18px;color: #d2d4d7;}
+.wq_copyright_span{margin: 0 10px 0 27px;}
+.wq_copyright a {color: #d2d4d7;}
+.wq_link {padding: 40px 0 20px 0;}
+.wq_link li {margin-right: 10px;color: #768989;}
+.wq_link a {color: #d2d4d7;}
+.wq_link a:hover {color: #f07c00;}
+.wq_footer_top {padding-bottom: 23px;width: 1200px;margin: 0 auto;font-family: "microsoft yahei";color: #757575;}
+.wq_footer_top a{font-size:20px;color:#848484;font-weight:normal;}
+.wq_footer_top a:hover{text-decoration:underline;color:#0aaa96;}
+.wq_footer_top dl {position: relative;float: left;width: 254px;height: 44px;line-height:44px;color: #757575;}
+dl.wq_ft_fee {width: 184px;}
+.wq_footer_top dt {position: absolute;width: 44px;height: 44px;top: 0;left: 0;background-image: url(//www.quimg.com/a7196/img/common/trust_link.png );background-repeat: no-repeat;}
+.wq_footer_top .ftp_t {text-indent:56px;line-height:44px;}
+.wq_ft_product dt {background-position: 0 0;}
+.wq_ft_price dt {background-position: 0 -44px;}
+.wq_ft_kefu dt {background-position: 0 -88px;}
+.wq_ft_safety dt {background-position: 0 -132px;}
+.wq_ft_fee dt {background-position: 0 -176px;}
+.wq_partner_wrapper {width: 1200px;margin: 0 auto;padding-top: 20px;border-top: 1px solid #4f5f7c;border-bottom: 1px solid #2f3849;}
+.partner_link {padding-top: 14px;}
+.wq_certificate_wrapper{width: 1200px;margin: 0 auto;padding-top: 20px;border-top: 1px solid #4f5f7c;border-bottom: 1px solid #2f3849;}
+.wq_p_link {float: left;margin: 0 14px 10px 0;height: 60px;width: 136px;font-size: 12px;}
+.wq_p_link a {display: block;height: 30px;width: 130px;margin-left: 3px;background-image: url(//www.quimg.com/a9708/img/common/partner-icon/all.png );background-repeat: no-repeat;}
+.wq_p_link p {height: 30px;line-height: 30px;color: #8d96b5;text-align: center;}
+li.label_link {text-align: left;background-image: none;color: #fff;line-height: 38px;margin-right: 0;font-size: 18px;width: 100%;height: 30px;}
+
+.nta_link a {background-position: 0 0;}
+.visitbritain_link a {background-position: -140px 0;}
+.ge_link a {background-position: 0 -120px;}
+.la_link a {background-position: -280px 0;}
+.nz_link a {background-position: -420px 0;}
+.lv_link a {background-position: -560px 0;}
+.spain_link a {background-position: -700px 0;}
+.bln_link a {background-position: -840px 0;}
+.azot_link a {background-position: -980px 0;}
+
+.lyon_link a {background-position: 0 -40px;}
+.marseille_link a {background-position: -140px -40px;}
+.cotedazur_link a {background-position: -280px -40px;}
+.nicetourisme_link a {background-position: -420px -40px;}
+.ctrip_link a {background-position: -560px -40px;}
+.qunar_link a {background-position: -700px -40px;}
+.qyer_link a {background-position: -840px -40px;}
+.tzls_link a {background-position: -980px -40px;}
+
+.daodao_link a {background-position: 0 -80px;}
+.tmall_link a {background-position: -140px -80px;}
+.mafengwo_link a {background-position: -280px -80px;}
+.hnair_link a {background-position: -420px -80px;}
+.zfb_link a {background-position: -560px -80px;}
+.cft_link a {background-position: -700px -80px;}
+.pufa_link a {background-position: -840px -80px;}
+.gt_link a {background-position: -980px -80px;}
+.post100_link a {background-position: -140px -120px;}
+.texas_link a {background-position: -280px -120px;}
+.zxbank_link a {background-position: -420px -120px;}
+.gdbank_link a {background-position: -560px -120px;}
+.qqvip_link a {background-position: -700px -120px;}
+
+.wq_friendly_link {width: 1200px;margin: 0 auto;padding: 13px 0;border-top: 1px solid #4f5f7c;border-bottom: 1px solid #2f3849;}
+.wq_friendly_link a {margin-right: 9px;font-size: 12px;color: #8d96b5;line-height: 24px;white-space: nowrap;}
+.wq_friendly_link a:hover {text-decoration: underline;}
+.wq_footer_bottom {text-align: center;border-top: 1px solid #4f5f7c;width: 1200px;margin: 0 auto;padding: 6px 0 50px 0;}
+.wq_footer_top_container {width: 100%;background-color: #fff;padding-top: 23px;}
+.wq_footer_wrapper_container {width: 100%;background-color: #3d495f;}
+.wq_footer_center {width: 1200px;margin: 0 auto;padding-top: 40px;padding-bottom: 13px;border-bottom: 1px solid #2f3849;color: #fff;}
+.wq_footer_about {float: left;width: 135px;font-size: 12px;}
+.wq_footer_about_title {line-height: 14px;margin-bottom: 15px;font-size: 14px;}
+.wq_footer_about_link {margin-bottom: 3px;}
+.wq_footer_about_link a:hover {text-decoration: underline;}
+.label_link a:hover {text-decoration: none;}
+.wq_footer_about_link_traveladviser a {color: #0aaa96;text-decoration: underline;}
+
+.wq_footer_adviser {position: relative;float: left;padding-left: 90px;}
+.wq_footer_adviser i {position: absolute;width: 50px;height: 50px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat -147px -159px;top: 32px;left: 30px;}
+p.wq_footer_adviser_title {margin-bottom: 11px;color: #8d96b5;font-size: 14px;}
+.wq_footer_phone {overflow: hidden;width: 430px;}
+.wq_footer_phone li {float: left;width: 215px;margin-bottom: 6px;font-size: 12px;color: #8d96b5;}
+.wq_footer_phone li span {color: #fff;}
+
+.wq_footer_follow ul {padding-top: 20px;color: #d2d4d7;}
+.wq_footer_follow li {float: left;margin-right: 50px;text-align: center;}
+.wq_footer_follow li p {padding-top: 4px;}
+.qr_code {position: relative;display: inline-block;width: 46px;height: 46px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat;}
+.ie7 .qr_code {display: inline;zoom: 1;}
+.wb_code {background-position: -200px -159px;}
+.wx_code {background-position: -246px -159px;}
+.qr_code i {position: absolute;top: -34px;display: none;width: 122px;height: 130px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat;}
+.wb_code i {background-position: -130px -320px;right: -125px;}
+.wx_code i {background-position: 0 -320px;left: -125px;}
+.qr_code:hover i {display: block;}
+
+.wq_footer_mixin {width: 1200px;margin: 0 auto;border-bottom: 1px solid #2f3849;padding: 20px 0;}
+.wq_footer_mixin > div {float: left;margin-left: 25px;}
+.footer_video_wrapper {color: #8d96b5;width: 360px;margin-left: 0!important;}
+.footer_video {width: 360px;height: 234px;background: url(//www.quimg.com/a4674/img/common/bottom-video-front.jpg ) no-repeat center;cursor: pointer;margin: 20px 0 13px;} 
+.footer_video_wrapper p {line-height: 18px;padding-top: 8px;}
+.wq_media_report {position: relative;width: 360px;font-size: 14px;color: #fff;}
+.wq_media_report .more_report {position: absolute;right: 0;top: -15px;}
+.wq_media_report li {padding-top: 16px;line-height: 20px;overflow: hidden;}
+.wq_media_report span {float: right;color: #8d96b5;}
+.verify_list {overflow: hidden;padding-bottom: 20px;}
+.verify_list li {float: left;width: 82px;height: 42px;margin: 15px 15px 0 0;}
+.verify_list .last {margin-right: 0;}
+.verify_list li a {display: block;width: 100%;height: 100%;background: url(//www.quimg.com/a6830/img/common/verify-icon/all.png ) no-repeat;}
+.verify_list .license_icon a {background-position: 0 0;}
+.verify_list .zfb_icon a {background-position: -95px 0;}
+.verify_list .baidu_icon a {background-position: -189px 0;}
+.verify_list .a360_icon a {background-position: -284px 0;}
+.verify_list .bbb_icon a {background-position: 0 -55px;}
+.verify_list .cert_icon a {background-position: -95px -55px;}
+.verify_list .record_icon a {background-position: -189px -55px;}
+.verify_list .geo_icon a {background-position: -284px -55px;}
+.verify_list .bb_icon a {background-position: 0 -107px;}
+
+.module_label {position: relative;border-radius: 2px 0 0 2px;padding-right: 7px;display: inline-block;}
+.ie7 .module_label {display: inline;zoom: 1;}
+.module_label i {position: absolute;width: 0;height: 0;border-top: 9px solid transparent;border-bottom: 10px solid transparent;border-left: 7px solid #646d7f;right: 0;top: 0;}
+.module_label a {font-size: 14px;background-color: #646d7f;line-height: 20px;padding: 0 6px;}
+
+.vertical_divide {float: left;width: 0;border-left: 1px solid #4f5f7c;border-right: 1px solid #2f3849;}
+
+/* +++++++++++++++++++
+ * bubble list start +
+ * +++++++++++++++++++
+ */
+.wq_bubble_list {position: fixed;right: 1px;bottom: 180px;width: 50px;z-index: 10084;height: 255px;}
+.wq_bubble_list > li {position: relative;float: left;width: 50px;height: 51px;}
+.wq_bubble_list .slide_wrapper {position: absolute;top: 0;right: -240px;z-index: 1;background-color: #fff;opacity: 0;filter: alpha(opacity=0);-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
+.wq_bubble_list .simple {width: 80px;text-align: center;height: 50px;line-height: 50px;font-size: 16px;color: #333;}
+.wq_bubble_list li:hover .slide_wrapper {opacity: 1;filter: alpha(opacity=100);-webkit-transform: translateX(-290px);-moz-transform: translateX(-290px);-o-transform: translateX(-290px);transform: translateX(-290px);}
+.ie .wq_bubble_list li:hover .slide_wrapper {right: 50px;}
+li.wq_to_top {display: none;}
+.wq_bubble_list > li > a {position: absolute;left: 0;top: 0;z-index: 2;display: block;width: 100%;height: 100%;background-image: url(//www.quimg.com/a12088/img/common/woqu-common.png);background-repeat: no-repeat;cursor: pointer;}
+.wq_bubble_list > li .wq-kefu-gif{position:absolute;top:-26px;right:0;display:none;width:53px;height:24px;background:url(//www.quimg.com/a12577/img/common/bargain.gif) no-repeat center;}
+#toTop {background-position: 0 -704px;}
+#toTop:hover {background-position: -51px -704px;}
+#feedBack {background-position: 0 -653px;}
+#feedBack:hover {background-position: -51px -653px;}
+#wechatCode {background-position: -102px -500px;}
+#wechatCode:hover {background-position: -153px -500px;}
+#onlineKefu {background-position: 0 -602px;}
+#onlineKefu:hover {background-position: -51px -602px;}
+.tel_list {position: relative;}
+.tel_list div {padding: 10px;width: 220px;}
+.tel_list p {overflow: hidden;line-height: 24px;}
+.tel_list p span {float: left;color: #848484;font-size: 12px;}
+.tel_list p .country {width: 100px;text-align: right;margin-right: 10px;}
+#telList {background-position: 0 -500px;}
+#telList:hover {background-position: -51px -500px;}
+#qqKefu {background-position: 0 -551px;}
+#qqKefu:hover {background-position: -51px -551px;}
+
+
+/* +++++++++++++++
+ * loading start +
+ * +++++++++++++++
+ */
+.loading_tips_sm {width: 490px;height: 260px;font-size: 14px;color: #00a5a5;position: absolute;display: none;background-color: #fff;text-align: center;}
+.loading_tips_sm span {line-height: 32px;height: 32px;display: inline-block;vertical-align: top;margin-left: 10px;}
+
+
+/* +++++++++++++++++++++++
+ * feedback dialog start +
+ * +++++++++++++++++++++++
+ */
+.wq_feedback_dialog {position: fixed;top: 50%;left: 50%;margin-top: -170px;margin-left: -285px;width: 570px;min-height: 290px;background: #fff;padding: 20px;z-index: 100001;display: none;}
+.wq_feedback_title {font-size: 18px;color: #062e2e;line-height: 18px;vertical-align: middle;padding-bottom: 10px;}
+.wq_feedback_content {float: left;width: 548px;height: 180px;border: 1px solid #dce5e6;resize: none;padding: 10px;font-size: 14px;overflow: auto;font-family: Verdana;}
+input.wq_your_email {float: left;width: 548px;height: 14px;line-height: 14px;font-size: 14px;border: 1px solid #dce5e6;padding: 8px 10px;margin-top: 8px;}
+.wq_feedback_btn {padding: 20px 0 0 176px;}
+.wq_feedback_btn a {float: left;}
+a.wq_fb_cancel {margin-left: 20px;}
+.wq_alert_div {position: absolute;z-index:9999;left:0;top:0;display:none;width: 232px;background-color: #004248;padding: 20px;}
+.wq_alert_content {padding-left: 44px;font-size: 14px;color: #b0bcbd;line-height: 20px;}
+
+
+/* ++++++++++++++++++++++++
+ * old browser tips start +
+ * ++++++++++++++++++++++++
+ */
+.browsehappy {position: fixed;width: 100%;height: 60px;line-height: 60px;text-align: center;top: 0;left: 0;background-color: #ff6600;z-index: 100000;font-size: 14px;color: #fff;}
+.browsehappy > a {color: #ff9;border-bottom: 1px dotted #ff9;}
+
+
+/* ++++++++++++++++++
+ * icon style start +
+ * ++++++++++++++++++
+ */
+/* detail-*.jsp */
+.icon-detail-all {display: inline-block;background: url(//www.quimg.com/a2358/img/common/woqu-detail-all.png ) no-repeat;}
+.icon-triangle-fram{width: 18px;height: 11px;background-position: -331px -87px;}
+.icon-video{width: 24px;height: 24px;background-position: -577px -111px;}
+.icon-board{width: 24px;height: 24px;background-position: -577px -617px;}
+/* detail-localjoin.jsp */
+.icon-map{width: 16px;height: 19px;background-position: 0 -164px;}
+.icon-loading{display: inline-block;width: 31px;height: 31px;background: url(//www.quimg.com/a4535/img/common/loading.gif ) no-repeat;}
+.ie7 .icon-loading{zoom: 1;display: inline;}
+/* detail-nstd.jsp */
+.icon-global{width: 24px;height: 24px;background-position: -577px -573px;}
+/* hotel-detail.jsp */
+.icon-sys-busy{width: 64px;height: 63px;background-position: -217px -900px;}
+.icon-not-founed{width: 80px;height: 65px;background-position: -123px -901px}
+/* destination-detail.jsp && play-detail.jsp */
+.icon-hot{display: inline-block;width: 40px;height: 15px;text-align: center;padding: 3px 0;color: #fff;font-size: 12px;font-style: normal;border-radius: 3px;background-color: #f08300;}
+.icon-frame-small, .icon-frame-small-down{display: inline-block;width: 13px;height: 13px;border: 1px solid #cddede;background-color: #fff;font-size: 12px;color: #6fcdcd;font-style: normal;text-align: center;}
+.icon-frame-small-down{-moz-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.icon-sqaure-small{width: 5px;height: 5px;display: inline-block;background-color: #00a5a5}
+
+.wp_book_email_input_err {border-color: #f08300!important;background-color: #fdf1ec!important;outline: none!important;color: rgb(51, 51, 51)!important;}
+
+
+/* ++++++++++++++++++++
+ * hai hang vip start +
+ * ++++++++++++++++++++
+ */
+.hh_select {float: left;}
+.hh_text {float: left;line-height: 13px;font-size: 13px;color: #333;}
+.hh_info_btn {color: #0aaa96;text-decoration: underline;font-size: 14px;}
+.hh_hide {position: relative;display: none;padding-top: 10px;}
+.hh_input {border: 1px solid #cfdfdf;margin-right: 10px;}
+.hh_label, .hh_select {float: left;font-size: 14px;color: #333;line-height: 25px;margin-right: 10px;}
+.hh_input_wrapper, .hh_error_tips {position: relative;float: left;}
+.hh_error_tips {display: none;color: #da0000;}
+
+
+/* ++++++++++++++++++
+ * poi dialog start +
+ * ++++++++++++++++++
+ */
+.wq_tour_poi_wrapper{position: fixed;left: 600px;top: 200px;z-index: 10001;}
+.wq_tour_line_wrapper {left: 35%;width: 400px;color: #848484;font-size: 14px;}
+.wq_tour_item {width: 100%;background-color: #fff;padding-bottom: 20px;display: none;}
+.wq_item_active {display: block;}
+.wq_tt_hd {position: relative;}
+.wq_tour_img {float: left;width:400px;height:240px;border:0;}
+.wq_tt_title {display: block;position: absolute;left: 0;bottom: 0;width: 100%;height: 40px;line-height: 40px;text-align: center;background-color: #000;color: #fff;opacity: 0.7;filter: alpha(opacity=70);}
+.wq_tt_bd {padding: 0 15px 0 20px;}
+.wq_tt_bd table {width: 100%;}
+.wq_tt_bd td {line-height: 18px;}
+.wq_tt_tb_label {width: 72px;text-align: right;}
+.wq_tt_tb_label2 {width: 57px;}
+.wq_mt5 {margin-top: 5px;}
+.wq_ttul_title {padding: 10px 0;}
+.wq_dialog_close_bt {display: block;margin: 27px auto 0 auto;}
+.wq_slide_btn {display: block;position: absolute;width: 33px;height: 60px;background-color: #000;opacity: 0.3;filter: alpha(opacity=30);}
+.wq_slide_btn:hover {opacity: 0.7;filter: alpha(opacity=70);}
+.wq_slide_btn i {position: absolute;width: 20px;height: 30px;top: 15px;left: 6px;}
+.wq_prev_btn {top: 240px;left: -33px;}
+.wq_prev_btn i {background: url(//www.quimg.com/a168/img/common/d-prev.png ) no-repeat;}
+.wq_next_btn {top: 240px;right: -33px;}
+.wq_next_btn i {background: url(//www.quimg.com/a168/img/common/d-next.png ) no-repeat;}
+
+
+
+.wq_common_radio{display:none;}
+.wq_common_radio_label{background:url(//www.quimg.com/a168/img/common/d-unselect.png ) 0 1px no-repeat;padding:0px 10px 2px 20px;}
+.wq_common_radio_label_on{background:url(//www.quimg.com/a168/img/common/d-select.png ) 0 1px no-repeat;}
+
+
+/* ++++++++++++++++++++++++++
+ * order & pay header start +
+ * ++++++++++++++++++++++++++
+ */
+.order_pay_header {position: relative;z-index: 8;border-bottom: 2px solid #d9d9d9;background-color: #fff;}
+.order_pay_step {position: relative;float: right;height: 40px;width: 425px;overflow: hidden;padding-top: 40px;}
+.not_foreign_exchange {width: 300px;}
+.order_pay_step p {float: left;position: relative;}
+.order_pay_step i {position: absolute;left: 0;bottom: 0;width: 427px;height: 14px;background-image: url(//www.quimg.com/a6684/img/page/pay/pay-all.png );background-repeat: no-repeat;background-position: 0 -185px;}
+.pay_step i {background-position: 0 -204px;}
+.complete_step i {background-position: 0 -242px;}
+
+
+/* ++++++++++++++++++++
+ * recommend category +
+ * ++++++++++++++++++++
+ */
+.recommend_wrapper_bottom {width: 1000px;margin: 0 auto;padding-bottom: 20px;}
+.recommend_wrapper_bottom h2 {font-size: 20px;color: #0aaa96;border-bottom: 1px solid #e5e5e5;padding-bottom: 10px;}
+.recommend_list_bottom {overflow: hidden;padding-top: 20px;}
+.recommend_list_bottom li {float: left;margin-right: 24px;width: 232px;}
+.recommend_list_bottom li.last {margin-right: 0;} 
+.recommend_list_bottom li a {display: block;position: relative;}
+.rlb_img {display: block;}
+.rbl_info {position: absolute;bottom: 12px;left: 0;width: 100%;height: 47px;line-height: 47px;}
+.rlb_mask {position: absolute;width: 100%;height: 100%;background-color: #fff;opacity: 0.85;filter: alpha(opacity=85);top: 0;left: 0;z-index: 0;}
+.rlb_cate, .rlb_city {position: relative;z-index: 2;}
+.rlb_cate {font-size: 18px;color: #0aaa96;font-weight: bold;margin-left: 10px;}
+.rlb_city {font-size: 16px;color: #848484;top: 1px;}
+.rlb_count {position: absolute;font-size: 13px;color: #848484;right: 10px;top: 3px;z-index: 2;}
+
+
+/* +++++++++++++++++++
+ * recommend product +
+ * +++++++++++++++++++
+ */
+.rlb_link {position: relative;border: 1px solid #d7e4e4;padding: 0 10px;height: 75px;background-color: #fff;}
+.rbl_title {color: #848484;font-size: 14px;display: block;line-height: 20px;padding-top: 5px;}
+.recommend_list_bottom li:hover .rbl_title {color: #f08300;}
+.rbl_price {color: #f08300;}
+.link_icon {position: absolute;right: 10px;bottom: 10px;width: 22px;height: 22px;background: url(//www.quimg.com/a12088/img/common/woqu-common.png) no-repeat  -185px -232px;}
+
+
+/* ++++++++++++++++++++++++
+ * vip login dialog start +
+ * ++++++++++++++++++++++++
+ */
+.wp_vip_icon-reminder {position: absolute;top: 1px;left: 0;width: 14px;height: 14px;background: url(//www.quimg.com/a1722/img/common/alert-status.png ) no-repeat -1px -46px;margin-right: 5px;}
+.ie7 .wp_vip_icon-reminder{height: 15px;}
+.icon-tab-triangle {display: none;position: absolute;z-index: 10;bottom: -12px;right: 50%;margin-left: -4.5px;width: 0;height: 0;border-left: 9px solid transparent;border-right: 9px solid transparent;border-top: 12px solid #f08300;}
+.wp_vip_login_dialog {width: 498px;border: 1px solid #cfdfdf;}
+.wp_vip_login_dialog_register {display: none;}
+.wp_vip_login_dialog_header {width: 100%;border-bottom: 1px solid #cfdfdf;padding: 10px 0;background: #ecf8f4;}
+.wp_vip_login_dialog_header .icon-close-large-blue {float: right;margin: 0 7px 0 0;cursor: pointer;}
+.wp_vip_login_dialog_head_text {border-left: 4px solid #06a6a6;padding-left: 13px;font-size: 16px;color: #06a6a6;display: inline-block;margin-left: -1px;}
+.wp_vip_login_dialog_sec {padding: 20px 40px;}
+.wp_vip_login_dialog_sec_head {font-size: 0;padding-bottom: 40px;cursor: pointer;}
+.ie7 .wp_vip_login_dialog_sec_head {height:28px;}
+.wp_vip_login_dialog_sec_head .on {background: #f08300;color: white;border: 1px solid #f08300;position: relative;}
+.wp_vip_login_dialog_sec_head .on .icon-tab-triangle {display: inline-block;}
+.ie7 .wp_vip_login_dialog_sec_head .on {top:4px;}
+.ie7 .wp_vip_login_dialog_sec_head .on .icon-tab-triangle {display: inline;zoom:1;}
+.wp_vip_login_dialog_sec_tab {width: 49.5%;text-align: center;padding: 10px 0;display: inline-block;font-size: 14px;color: #333333;background: #f9fbfb;border: 1px solid #cfdfdf;}
+.wp_vip_login_dialog_sec_tab:hover {background: #f08300;color: white;border: 1px solid #f08300;position: relative;}
+.ie7 .wp_vip_login_dialog_sec_tab:hover {top:4px;}
+.wp_vip_login_dialog_sec_tab:hover .icon-tab-triangle {display: inline-block;}
+.ie7 .wp_vip_login_dialog_sec_tab {display: inline;zoom:1;}
+.form_control dl {padding-bottom: 10px;}
+.ie7 .form_control dl.err{margin-top: -10px;}
+.form_control dl.err .wp_vip_login_dialog_form_header{height: 20px;}
+.form_control dl:hover {padding-bottom: 10px;}
+.form_control {margin-bottom: 50px;}
+.form_control .wp_vip_login_dialog_form_header, .form_control .wp_vip_login_dialog_form_body {display: inline-block;}
+.ie7 .form_control .wp_vip_login_dialog_form_header, .ie7 .form_control .wp_vip_login_dialog_form_body {display: inline;zoom:1;}
+.form_control .wp_vip_login_dialog_form_header {width: 90px;text-align: right;vertical-align: text-top;color: #4c4c4c;font-size: 14px;}
+.ie7 .form_control .wp_vip_login_dialog_form_header{vertical-align:middle;height:38px;}
+.form_control .wp_vip_login_dialog_form_body {width: 70%;}
+.form_control .wp_vip_login_dialog_input {padding: 10px 8px;width: 100%;border: 1px solid #cfdfdf;}
+.form_control .wp_vip_login_dialog_input_err {border-color: #f08300;background-color: #fdf1ec;outline: none;}
+.form_control .wp_vip_login_dialog_form_err {position: relative;color: #f08300;font-size: 12px;padding-left: 20px;}
+.form_control .wp_vip_login_dialog_input_short {width: 35%;}
+.form_control .wp_vip_login_dialog_vercode {display: inline-block;margin: 0 10px;width: 35%;height: 36px;vertical-align: bottom;border: 1px solid #cfdfdf;}
+.form_control .wp_vip_login_dialog_vercode_change {color: #f08300;font-size: 14px;}
+.form_control .wp_vip_login_dialog_checkbox {text-align: center;padding: 11px 0 30px 0;}
+.form_control .wp_vip_login_dialog_checkbox .comp_checkbox i {top: 4px;}
+.ie7 .form_control .wp_vip_login_dialog_checkbox .comp_checkbox i {top: 14px;}
+.form_control .wp_vip_login_dialog_checkbox .comp_active_checkbox i {top: -2px;}
+.ie7 .form_control .wp_vip_login_dialog_checkbox .comp_active_checkbox i {top: 8px;}
+.form_control .wp_vip_login_dialog_checkbox .wq_remenber_login {font-size: 14px;color: #333333;vertical-align: super;}
+.form_control .wp_vip_login_dialog_btns {text-align: center;}
+.form_control .wp_vip_login_dialog_login_btn {cursor: pointer;margin-right: 10px;display: inline-block;width: 100px;color: white;font-size: 18px;padding: 6px 0;background-color: #f08300;border:none;outline:none;}
+.ie7 .form_control .wp_vip_login_dialog_login_btn {display: inline;zoom:1;}
+.form_control .wp_vip_login_dialog_find_psd_btn {color: #f08300;font-size: 14px;}
+.ie7 .form_control .wp_vip_login_dialog_find_psd_btn {display:inline;zoom:1;height:30px;line-height:20px;}
+.form_control a:hover {text-decoration: underline;}
+.wp_vip_login_dialog_sec_footer {text-align: center;}
+.wp_vip_login_dialog_sec_footer ul {display: inline-block;}
+.ie7 .wp_vip_login_dialog_sec_footer ul {display: inline;zoom:1;}
+.wp_vip_login_dialog_text, .wq_vip_login_dialog_quick_login_link {color: #8e8e8e;font-size: 14px;vertical-align: top;}
+.wq_vip_login_dialog_quick_login { display: inline-block;margin-right: 7px;}
+.ie7 .wq_vip_login_dialog_quick_login {display: inline;zoom:1;}
+.wq_vip_login_dialog_quick_login:last-child {margin-right: 0;}
+.wq_vip_login_dialog_quick_login i {margin-right: 3px;}
+.wp_vip_result_text_wrapper {padding: 40px 0;text-align: center;background: #fff;}
+.wp_vip_result_text_wrapper .wp_vip_dialog_text {font-size: 18px;color: #4c4c4c;margin-bottom: 40px;}
+.wp_vip_result_text_wrapper .wp_vip_result_btn {border: 1px solid #dddddd;background: #f5f5f5;color: #f08300;font-size: 13px;line-height: 13px;width: 118px;cursor: pointer;padding: 10px 0;}
+.wq_close_icon {position: absolute;top: 0;right: 1px;width: 17px;height: 17px;background-image: url(//www.quimg.com/a168/img/common/d-close.png );cursor: pointer;}
+
+/*dialog*/
+.wq_dialog_cover{position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity: 0.2;filter: alpha(opacity=20);z-index:9997;}
+.wq_dialog{border: 1px solid #cfdfdf;position:fixed;top:50%;left:50%;background:#fff;z-index:9999;max-width:900px;}
+.wq_dialog_title{height:40px;background:#e5fbfb;line-height:40px;font-size:16px;padding:0 20px;display:none;}
+.wq_dialog_close{display:none;position:absolute;top:10px;right:10px;width:18px;height:18px;background:url(//www.quimg.com/a7735/img/page/list/eurail/list-icon.png ) no-repeat right bottom;cursor:pointer;}
+.wq_dialog_content{padding:20px;overflow:hidden;font-size:14px;}
+.wq_dialog_content h2{font-size:16px;color:#0aaa96;font-weight:700;line-height:30px;}
+.wq_dialog_content h3{font-size:14px;color:#0aaa96;}
+.wq_dialog_content p{font-size:14px;line-height:26px;}
+.wq_dialog_cusp{display:none;position:absolute;width:14px;height:7px;background: url(//www.quimg.com/a9000/img/page/channel/around/bus-all.png ) no-repeat;}
+.wq_dialog_cusp_top{top:-7px;background-position: -370px 0;}
+.wq_dialog_cusp_bottom{bottom:-7px;background-position: -370px -7px;}
+
+/* global travel custom bottom fix */
+.travel_custom{position: fixed;width: 100%;height: 232px;bottom: 0;left: 0;z-index: 100;display:none; }
+.travel_custom .mask{width: 100%;height: 232px;background-color: #000;opacity: 0.8;filter: alpha(opacity=80);position:relative;}
+.travel_custom .mask img{position:absolute;bottom:0;left:50%;margin-left:-665px;display:block;width:1265px;height:254px;}
+.travel_custom .custom_main{width:1200px;height:254px;position:absolute;bottom:0;left:50%;margin-left:-600px;}
+.travel_custom .custom_close_btn{display:block;width:24px;height:24px;position:absolute;top:10px;left:333px;cursor:pointer;zoom:1;*display:inline;}
+.travel_custom .custom_info{width:300px;position:absolute;left:520px;top:30px;}
+.travel_custom .group_inpts{height:42px;width:300px;padding-top:23px;position:relative;}
+.travel_custom .group_inpts .errmsg{position:absolute;line-height:23px;left:0;bottom:-23px;color:#f50914;font-size:12px;display:none;}
+.travel_custom .group_inpts input{width:288px;height:36px;line-height:36px;font-size:14px;color:#868686;border:none;}
+.travel_custom .group_inpts select{width:93px;height:42px;float:left;margin-right:14px;color:#868686;line-height:42px;}
+.travel_custom .group_inpts .mobile{width:181px;float:left;}
+.travel_custom .group_inpts .custom_submit_btn{width:300px;height:42px;background-color:#f08300;color:#fff;font-size:18px;text-align:center;line-height:42px;border:none;border-radius:4px;outline:none;cursor:pointer;}
+.travel_custom .info_success{width:300px;height:165px;background-color:#fff;position:absolute;top:30px;left:0;text-align:center;display:none;}
+.travel_custom .info_success i{display:inline-block;width:32px;height:32px;background:url(//www.quimg.com/a168/img/common/add-cart-success.png ) no-repeat 0 0;position:relative;top:8px;margin-right:10px;}
+.travel_custom .info_success h2{font-size:22px;color:#00aa96;font-weight:700;line-height:40px;}
+.travel_custom .info_success p{margin: 10px 20px;line-height:24px;font-size:16px;}
+.travel_custom .info_success span{display:inline-block;width:50px;height:24px;background-color:#f08300;cursor:pointer;color:#fff;margin-top:10px;font-size:14px;border-radius:4px;}
+.travel_custom .more{position:absolute;right:0;bottom:30px;color:#00ffb4;text-decoration:underline;font-size:14px;}

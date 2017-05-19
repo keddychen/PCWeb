@@ -1,0 +1,851 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我趣旅行</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="list.css" />
+<link rel="stylesheet" type="text/css" href="article.css" />
+<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="list-js.js"></script>
+<script type="text/javascript" src="article-js.js"></script>
+
+</head>
+
+<body>
+	<!--头部导航结构开始-->
+	<div class="header">
+		<div class="Header-info">
+            <h2>我趣旅行</h2>
+            <p class="tencent">腾讯战略<br />合作伙伴</p>
+            <ul class="headerNav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="list.html">行程设计</a></li>
+                <li><a href="list.html">行程案例</a></li>
+                <li class="travel">
+                    <a href="list.html">旅行超市</a>
+                    <i></i>
+                    <!-- 旅行超市下拉菜单开始 -->
+                    <div class="sideNav clearfix">
+                        <span></span>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">旅游度假</a>
+                            </dt>
+                            <dd><a href="javascript:;">自由行</a></dd>
+                            <dd><a href="javascript:;">境外参团</a></dd>
+                            <dd><a href="javascript:;">当地玩乐</a></dd>
+                            <dd><a href="javascript:;">门票</a></dd>
+                            <dd><a href="javascript:;">欧洲循环游</a></dd>
+                        </dl>
+                        <dl class="hotel">
+                            <dt>
+                                <a href="javascript:;">机·酒·车</a>
+                            </dt>
+                            <dd><a href="javascript:;">机票</a></dd>
+                            <dd><a href="javascript:;">酒店</a></dd>
+                            <dd><a href="javascript:;">租车</a></dd>
+                            <dd><a href="javascript:;">房车</a></dd>
+                            <dd><a href="javascript:;">接送机</a></dd>
+                            <dd><a href="javascript:;">欧铁</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">旅行必备</a>
+                            </dt>
+                            <dd><a href="javascript:;">签证</a></dd>
+                            <dd><a href="javascript:;">保险</a></dd>
+                            <dd><a href="javascript:;">电话卡/wifi</a></dd>
+                        </dl>
+                    </div>
+                    <!-- 旅行超市下拉菜单结束 -->
+                </li>
+                <li class="travel">
+                    <a href="javascript:;">目的地</a>
+                    <i></i>
+                    <!-- "目的地"下拉菜单开始 -->
+                   <div class="sideNav sideNavTravel clearfix">
+                        <span></span>
+                        <dl>
+                            <dt class="green">
+                                <a href="javascript:;">北美旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">美国</a></dt>
+                            <dd>
+                                <a href="javascript:;">美国东海岸</a>
+                                <a href="javascript:;">华盛顿</a>
+                                <a href="javascript:;">纽约</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">美国西海岸</a>
+                                <a href="javascript:;">洛杉矶</a>
+                                <a href="javascript:;">旧金山</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">拉斯维加斯</a>
+                                <a href="javascript:;">夏威夷</a>
+                                <a href="javascript:;">瓦胡岛</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">夏威夷大岛</a>
+                                <a href="javascript:;">美西国家公园</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">黄石公园</a>
+                                <a href="javascript:;">大峡谷</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">佛罗里达和加勒比海</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">美国自驾</a>
+                                <a href="javascript:;">1号公路</a>
+                                <a href="javascript:;">66号公路</a>
+                            </dd>
+                            <dt><a href="javascript:;">加拿大</a></dt>
+                            <dd>
+                                <a href="javascript:;">加拿大东部</a>
+                                <a href="javascript:;">肯尼加拉大瀑布</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">加拿大西部</a>
+                                <a href="javascript:;">温哥华</a>
+                            </dd>
+                            <dd>
+                                <a href="article.html">落基山（班夫+贾斯珀）</a>
+                            </dd>
+                        </dl>
+                        <dl class="hotel">
+                            <dt class="green">
+                                <a href="javascript:;">欧洲旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">法国</a></dt>
+                            <dd><a href="javascript:;">巴黎</a></dd>
+                            <dt><a href="javascript:;">西班牙+葡萄牙</a></dt>
+                            <dd><a href="javascript:;">巴塞罗那</a></dd>
+                            <dt><a href="javascript:;">德国</a></dt>
+                            <dd><a href="javascript:;">法兰克福</a></dd>
+                            <dt><a href="javascript:;">意大利</a></dt>
+                            <dd><a href="javascript:;">米兰</a></dd>
+                            <dt><a href="javascript:;">英国+爱尔兰</a></dt>
+                            <dd><a href="javascript:;">伦敦及周边</a></dd>
+                        </dl>
+                        <dl>
+                            <dt class="green">
+                                <a href="javascript:;">澳新旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">澳大利亚</a></dt>
+                            <dd><a href="javascript:;">悉尼墨尔本及周边</a></dd>
+                            <dd>
+                                <a href="javascript:;">悉尼</a>
+                                <a href="javascript:;">墨尔本</a>
+                                <a href="javascript:;">大洋路</a>
+                            </dd>
+                            <dd><a href="javascript:;">大堡礁黄金海岸及周边</a></dd>
+                            <dd>
+                                <a href="javascript:;">大堡礁</a>
+                                <a href="javascript:;">黄金海岸</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">布里斯班</a>
+                                <a href="javascript:;">凯恩斯</a>
+                            </dd>
+                            <dd><a href="javascript:;">乌鲁鲁</a></dd>
+                            <dt><a href="javascript:;">新西兰</a></dt>
+                            <dd>
+                                <a href="javascript:;">新西兰南岛</a>
+                                <a href="javascript:;">蒂卡波+皇后镇</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">南岛冰川西线</a>
+                                <a href="javascript:;">新西兰北岛</a>
+                            </dd>
+                            <dd><a href="javascript:;">罗托鲁瓦</a></dd>
+                        </dl>
+                        <dl class="Japan">
+                            <dt class="green">
+                                <a href="javascript:;">日本旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">日本</a></dt>
+                            <dd><a href="javascript:;">东京</a></dd>
+                            <dd><a href="javascript:;">大阪</a></dd>
+                            <dd><a href="javascript:;">京都</a></dd>
+                            <dd><a href="javascript:;">北海道</a></dd>
+                            <dd><a href="javascript:;">冲绳</a></dd>
+                            <dd><a href="javascript:;">福冈</a></dd>
+                        </dl>
+                    </div>
+                    <!-- "目的地"下拉菜单结束 -->
+                </li>
+            </ul>
+            <ul class="headerUser">
+                <li class="search">
+                    <input type="text" value="新西兰"/>
+                    <a href="javascript:;">搜索</a>
+                </li>
+                <li><a href="javascript:;">我的订单</a></li>
+                <li class="myOrder"><a href="javascript:;">客服</a></li>
+                <li><a href="javascript:;">趣社区</a></li>
+            </ul>
+            <div class="moreAndMore" id="moreId">
+            	<div id="moreUp"><b>400-661-5757</b>  　更多<span></span></div>
+                <ul id="moreList">
+                	<li><a href="javascript:;"><span class="left">中国本地拨打</span>　<span>400-661-5757</span></a></li>
+                    <li><a href="javascript:;"><span class="left">国际通用拨打</span>　<span>86-755-3667-7780</span></a></li>
+                    <li><a href="javascript:;"><span class="left">美国本地拨打</span>　<span>855-967-8266</span></a></li>
+                    <li><a href="javascript:;"><span class="left">加拿大本地拨打</span>　<span>855-967-8266</span></a></li>
+                    <li><a href="javascript:;"><span class="left">澳大利亚本地拨打</span>　<span>1800-204-810</span></a></li>
+                    <li><a href="javascript:;"><span class="left">新西兰本地拨打</span>　<span>0800-440-238</span></a></li>
+                </ul>
+            </div>
+    	</div>
+	</div>
+	<!--头部导航结构结束-->
+    
+    <!-- 内容区域开始 -->
+    <div class="connectBanner">
+    	<div id="top">
+    	<div class="small">
+        	<ul>
+            	<li class="" style="opacity: 0.4; "><img src="./images/01.jpg" style="width:65px;height:48px;"></li>
+                <li class="" style="opacity: 0.4; "><img src="./images/02.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.96; " class="hove"><img src="./images/03.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.4; " class=""><img src="./images/04.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.4; " class=""><img src="./images/05.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.4; " class=""><img src="./images/06.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.4; " class=""><img src="./images/07.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.4; " class=""><img src="./images/08.jpg" style="width:65px;height:48px;"></li>
+                <li style="opacity: 0.4; " class=""><img src="./images/09.jpg" style="width:65px;height:48px;"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="box">
+        <div id="list">
+            <ul>
+                <li style="width: 204px; height: 260px; top:98px; left: 844px; z-index: 6; " class="">
+                    <img src="./images/01(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit" style="bottom: -120px; ">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>棕榈泉<em>&nbsp;&nbsp;&nbsp;&nbsp;【美西超值预售】</em></span>
+                            <em>全国出发往返洛杉矶+拉斯维加斯双城9天7晚自由行套餐</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 260px; height: 332px; top:61px; left: 640px; z-index: 8; " class="">
+                    <img src="./images/02(1).jpg">
+                    <div style="opacity: 0.21; "></div>
+                    <p class="b_tit">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>大峡谷西缘玻璃桥漫步<em>&nbsp;&nbsp;&nbsp;&nbsp;【美西超值预售】</em></span>
+                            <em>全国出发往返洛杉矶+拉斯维加斯双城自由行</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 500px; height: 350px; top: 0px; left: 352px; z-index: 10; " class="hove">
+                    <img src="./images/03(1).jpg">
+                    <div style="opacity: 0; "></div>
+                    <p class="b_tit" style="bottom: -120px; ">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>日落大道<em>&nbsp;&nbsp;&nbsp;&nbsp;【美西最精彩路线】</em></span>
+                            <span>美西4大城市+1号公路自驾之旅12日自由行套餐</span>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 260px; height: 332px; top:61px; left: 148px; z-index: 8; " class="">
+                    <img src="./images/04(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>巧克力工厂（拉斯维加斯）<em>&nbsp;&nbsp;&nbsp;&nbsp;【美西超值预售】</em></span>
+                            <em>全国出发往返洛杉矶+拉斯维加斯双城9天7晚自由行套餐</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 204px; height: 260px; top:98px; left: 0px; z-index: 6; " class="">
+                    <img src="./images/05(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit" style="bottom: -120px; ">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>直升机俯瞰落基山脉<em>&nbsp;&nbsp;&nbsp;&nbsp;【美西超值预售】</em></span>
+                            <em>多种不同的飞行方案选择，从最短20分钟至最长50分钟，满足您的不同需求。</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 140px; height: 180px; top: 132px; left: 148px; z-index: 4; " class="">
+                    <img src="./images/06(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>加拿大落基山脉全境自驾之旅</span>
+                            <em>4日<畅玩>卡尔加里、班夫、露易丝湖赏雪温泉超值游(赠送景点门票+免费泡温泉)</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 110px; height: 140px; top: 172px; left: 232px; z-index: 2; " class="">
+                    <img src="./images/07(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>落基山脉6-7日游</span>
+                            <em>离落基山脉的两大国家，能欣赏到周边惠斯勒、维多利亚等小城风光。</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 110px; height: 140px; top: 172px; left: 708px; z-index: 2; " class="">
+                    <img src="./images/08(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>加拿大落基山脉全境自驾之旅</span>
+                            <em>卡尔加里是进入落基山脉的重要门户团，能欣赏到班夫、路易斯湖、硫磺山等落基山美景，而且不用担心偏远地区容易导航不准，公共交通时间紧张，省心畅游。</em>
+                        </span>
+                    </p>
+                </li>
+                <li style="width: 140px; height: 180px; top: 132px; left: 770px; z-index: 4; " class="">
+                    <img src="./images/09(1).jpg">
+                    <div style="opacity: 0.71; "></div>
+                    <p class="b_tit">
+                        <span class="opacity"></span>
+                        <span class="tit">
+                            <span>班夫+路易斯湖落基山脉深度游</span>
+                            <em>户外探险,这里不仅仅只是风景观光，还有非常多的户外项目等着你去体验。如夏季看野生动物、白马河漂流，冬季滑雪、体验狗拉雪橇、直升机空中之旅、哥伦比亚冰川之旅等等。</em>
+                        </span>
+                    </p>
+                </li>
+            </ul>
+            <a href="javascript:;" class="prev"></a>
+            <a href="javascript:;" class="next"></a>
+        </div>
+    </div>
+    
+    <div class="dingzhi">
+        <a href="javascript:;"><img src="article-images/detail-banner.jpg"/></a>
+    </div>
+    <div class="articleNorth">
+    	<ul class="titleNusa clearfix">
+        	<li><a href="javascript:;">北美旅游</a></li>
+            <li>&gt;</li>
+            <li><a href="javascript:;">当地玩法</a></li>
+            <li>&gt;</li>
+            <li><a href="javascript:;">温哥华当地玩法</a></li>
+            <li>&gt;</li>
+            <li>产品详情</li>
+        </ul>
+        <div class="detail clearfix">
+        	<div class="detail-wod">
+            	<h1>落基山（班夫+贾斯珀)</h1>
+                <p>温哥华 落基山 班夫国家公园 贾斯珀国家公园</p>
+                <p class="island"><b>目的地速写：</b>加拿大境内的落基山脉被美国的《国家地理》杂志评为一生最值得去的50个地方之一，这里地形复杂多样：森林葱郁、湖泊静美、广漠荒野、雪山冰川应有尽有，被划分为多个国家公园，其中最为知名的是班夫和贾斯珀国家公园。而连接两个国家公园的那段路被认为是世界上风景最美丽的车道——冰原大道。</p>
+                <p class="island"><b>建议行程天数：</b>4至5天</p>
+                <p class="island"><b>旅行季节：</b>4-10月</p>
+                <p class="island"><b>适合人群：</b>老少皆宜</p>
+                <p class="island"><b>节庆节日：</b>班夫冬季艺术节、露易丝湖秋季节、落基山脉美食美酒节、冰之魔法国际冰雕节</p>
+                <h3>相关攻略</h3>
+            </div>
+        	<div class="detail-pcs">
+            	<h2></h2>
+            	<img src="article-images/commonimgguide2015-033-2015-03-14180233764.jpg" style="width:820px;height:440px;"/>
+            </div>
+            <div class="detail-tips">
+            	<ul class="Indetail-tips clearfix">
+                	<li>
+                        <div class="top1 clearfix">
+                        	<img src="article-images/commonimgguide140x1402015-01top1-2015-01-29212345114.jpg" />
+                            <div class="Intop1">	
+                                <h4><i></i><em>TOP1</em></h4>
+                            	<p>参观班夫温泉城堡酒店</p>
+                            </div>
+                        </div>
+                        <div class="top1 top5 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top5-2015-01-29212403621.jpg" />
+                            <div class="Intop1 Intop5">    
+                                <h4><i></i><em>TOP5</em></h4>
+                                <p>诺奎山滑雪场<br />特别夜间滑雪</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top1 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top2-2015-01-29212351664.jpg" />
+                            <div class="Intop1">    
+                                <h4><i></i><em>TOP2</em></h4>
+                                <p>硫磺山登山缆车 一览班夫小镇</p>
+                            </div>
+                        </div>
+                        <div class="top1 top5 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top6-2015-01-29212409167.jpg" />
+                            <div class="Intop1 Intop5">    
+                                <h4><i></i><em>TOP6</em></h4>
+                                <p>北美最受摄影师青睐——<br />露易丝湖</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top1 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top3-2015-01-29212357664.jpg" />
+                            <div class="Intop1">    
+                                <h4><i></i><em>TOP3</em></h4>
+                                <p>班夫公园露天冰雪泡温泉</p>
+                            </div>
+                        </div>
+                        <div class="top1 top5 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top7-2015-01-29212412464.jpg" />
+                            <div class="Intop1 Intop5">    
+                                <h4><i></i><em>TOP7</em></h4>
+                                <p>班夫步道徒步健行 或来一场高山瑜伽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top1 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top4-2015-01-29212402551.jpg" />
+                            <div class="Intop1">    
+                                <h4><i></i><em>TOP4</em></h4>
+                                <p>阳光山村滑雪场 天然雪地最长开放时间</p>
+                            </div>
+                        </div>
+                        <div class="top1 top5 clearfix">
+                            <img src="article-images/commonimgguide140x1402015-01top8-2015-01-29212413754.jpg" />
+                            <div class="Intop1 Intop5">    
+                                <h4><i></i><em>TOP8</em></h4>
+                                <p>自驾在最美丽的公路——冰原大道</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tourist">
+        <div class="title-play">
+            <p></p>
+        </div>
+        <h3>要省心，参加当地华人团景点线路游落基山</h3>
+        <div class="Intourist">
+            <p>班夫国家公园、贾斯珀国家公园、冰川国家公园、冰原大道等都是旅游观光发展比较完善的景点，旅游基础设施完备，非常适合放松身心的度假旅行，时间及预算比较紧张可以选择参团，相比自助游非常具有价格优势。</p>
+            <ul class="clearfix">
+                <li class="Intourist-p">
+                    <div class="Inp"><a href="javascript:;"><img src="article-images/commonimgguide2015-021-2015-02-02184824026.jpg" width="320px" height="192px"></a></div>
+                    <h4><a href="javascript:;">班夫+路易斯湖落基山脉深度游</a></h4>
+                    <p><a href="javascript:;">班夫国家公园除了峻岭雪山、澄清湖泊、垂钓徒步等户外运动，冬季还推出特色冰雪温泉；路易斯湖风景秀丽，摄影采风绝佳之地，两者皆为落基山观光重点，团队线路4-5日，6-7日选择多样，特别冬季出行，安全保障。</a></p>
+                    <ul>
+                        <li class="Inp-stars"><i></i></li>
+                        <li class="Inp-product">
+                            <a href="javascript:;"><span></span>24个产品</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="Intourist-p Intourist-p-m">
+                    <div class="Inp"><a href="javascript:;"><img src="article-images/commonimgguide2015-022-2015-02-02184826138.jpg" width="320px" height="192px"></a></div>
+                    <h4><a href="javascript:;">温哥华起止落基山脉6-7日游</a></h4>
+                    <p><a href="javascript:;">离落基山脉的两大国家公园最近的旅游城市只有温哥华和卡尔加里， 而温哥华是加拿大西部出入境游客接待量最大的城市，所以大部分当地华人旅行社推出的旅游线路也会选择温哥华起止，同时能欣赏到周边惠斯勒、维多利亚等小城风光。</a></p>
+                    <ul>
+                        <li class="Inp-stars"><i></i></li>
+                        <li class="Inp-product">
+                            <a href="javascript:;"><span></span>3个产品</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="Intourist-p">
+                    <div class="Inp"><a href="javascript:;"><img src="article-images/commonimgguide2015-023-2015-02-02184828090.jpg" width="320px" height="192px"></a></div>
+                    <h4><a href="javascript:;">卡尔加里起止落基山脉2-3日游</a></h4>
+                    <p><a href="javascript:;">卡尔加里是进入落基山脉的重要门户之一，加拿大国内大城市都有航班直飞，大多游客选择从这里落机参团，欣赏到班夫、路易斯湖、硫磺山等落基山美景，而且不用担心偏远地区容易导航不准，公共交通时间紧张，省心畅游。</a></p>
+                    <ul>
+                        <li class="Inp-stars"><i></i></li>
+                        <li class="Inp-product">
+                            <a href="javascript:;"><span></span>11个产品</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="Intourist-go">
+                <a href="javascript:;" class="go1">查看全部参团路线</a>
+                <a href="javascript:;" class="go2">GO&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+    <div class="middle-line"></div>
+    <div class="tourist">
+        <h3>要自由，全程DIY自助深度游落基山</h3>
+        <div class="Intourist">
+            <p>自驾在落基山脉的两大国家公园之间，高山雪顶清澈湖泊，还有某些不被人工开发及游客踏足的秘境，体验这个被评为一生中最值得去的50个地方之一的绝美幻境。</p>
+            <ul class="clearfix">
+                <li class="Intourist-p">
+                    <div class="Inp"><a href="javascript:;"><img src="article-images/commonimgguide2015-01cc_20140716130735892-2015-01-2921303175.jpg" width="320px" height="192px"></a></div>
+                    <h4><a href="javascript:;">直升机俯瞰落基山脉</a></h4>
+                    <p><a href="javascript:;">多种不同的飞行方案选择，从最短20分钟至最长50分钟，满足您的不同需求。乘坐直升机，将最快速最直观地欣赏洛基山脉的美景。从不同的角度，飞跃各种各样令人难以置信的景色。</a></p>
+                    <ul>
+                        <li class="Inp-stars"><i></i></li>
+                        <li class="Inp-product">
+                            <a href="javascript:;"><span></span>92个产品</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="Intourist-p Intourist-p-m">
+                    <div class="Inp"><a href="javascript:;"><img src="article-images/commonimgguide2015-012-2015-01-29212855314.jpg" width="320px" height="192px"></a></div>
+                    <h4><a href="javascript:;">班夫小镇户外探险</a></h4>
+                    <p><a href="javascript:;">班夫国家公园全年开放，这里不仅仅只是风景观光，还有非常多的户外项目等着你去体验。如夏季看野生动物、白马河漂流，冬季滑雪、体验狗拉雪橇、直升机空中之旅、班夫缆车、哥伦比亚冰川之旅等等。</a></p>
+                    <ul>
+                        <li class="Inp-stars"><i></i></li>
+                        <li class="Inp-product">
+                            <a href="javascript:;"><span></span>13个产品</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="Intourist-p">
+                    <div class="Inp"><a href="javascript:;"><img src="article-images/commonimgguide2015-011-2015-01-29213059774.jpg" width="320px" height="192px"></a></div>
+                    <h4><a href="javascript:;">探访贾斯珀国家公园</a></h4>
+                    <p><a href="javascript:;">大多数游客只会前往班芙在冰原大道上往北一小段就会折返，但其实冰原大道以北的贾斯珀国家公园，没了大众游客的蜂拥而至，更完美的保存了它的美感，奇花异草、环境优美被不少摄影师青睐，值得一游。</a></p>
+                    <ul>
+                        <li class="Inp-stars"><i></i></li>
+                        <li class="Inp-product">
+                            <a href="javascript:;"><span></span>2个产品</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="Intourist-go">
+                <a href="javascript:;" class="go1">全部当地玩法</a>
+                <a href="javascript:;" class="go2">GO&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+    <div class="live">
+        <div class="title-play title-live">
+            <p></p>
+        </div>
+        <ul class="Intitle-live">
+            <li>
+                <div class="airline">
+                    <i></i>
+                    <span>航空</span>
+                </div>
+                <div class="yyc">
+                    <p>卡尔加里是游客进入加拿大落基山脉各大国家公园的主要梦话之一，卡尔加里国际机场是距离班夫国家公园最近的机场，从这里乘坐旅游巴士到班夫镇只需要一个半小时左右。详情请查看官网：http://www.yyc.com/</p>
+                    <p>如需查询低价机票，请致电400-661-5757</p>
+                </div>
+            </li>
+            <li>
+                <div class="airline taxi">
+                    <i></i>
+                    <span>自驾 | 租车</span>
+                </div>
+                <div class="yyc">
+                    <p>自驾进入落基山脉，时间长的可以选择从温哥华出发，抵达贾斯珀，由北至南；时间较短可以选择直飞卡里加尔，而然从卡里加尔租车开往班夫和贾斯珀，但是无论选择哪条线路，连接贾斯珀和班夫两大国家公园的冰原大道都是不可错过的，这段路被认为是世界上风景最美丽的车道，必是一场让你终身难忘的旅程。</p>
+                    <p class="taxi-address">大部分人选择在以下地方租车：
+                        <a href="javascript:;">温哥华国际机场</a>
+                        <a href="javascript:;">Banff Airport</a>
+                        <a href="javascript:;">卡尔加里国际机场</a>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="airline bus">
+                    <i></i>
+                    <span>大巴 | 铁路 | 船</span>
+                </div>
+                <div class="yyc">
+                    <p>加拿大公路运输相对于铁路更加完善，从温哥华到卡尔加里的往返巴士一天多次发车，而且还有直达贾斯珀的巴士线路，而国家公园内也有多家旅游公司为游客提供便捷的交通服务，除了观光巴士、出租车、机场河度假村往返接送外，巴士司机还有增值服务，充当导游讲解当地好吃好玩之地。</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="tourist tourist2">
+        <div class="title-play title-hotel">
+            <p></p>
+        </div>
+        <div class="Intourist Inhotel">
+            <p>班夫小镇是发展完善的旅游服务基地，这里吃住行游购娱一应俱全过夜的旅客一般都会在小镇住宿，兼具历史神秘与华丽优雅的山中城堡——费尔蒙特温泉酒店，即使不选择入住也可作为知名景点拍照留念，还有经济实惠的连锁酒店、家庭旅馆等。而贾斯珀小镇虽然没有班夫小镇发展完善，但是也不乏特色家庭旅馆和品牌酒店。</p>
+            <ul class="clearfix">
+                <li class="Intourist-p hotels">
+                    <div class="banfu">
+                        <p class="names">班夫小镇</p>
+                        <p class="numbers">33家酒店</p>
+                    </div>
+                </li>
+                <li class="Intourist-p hotels jsb">
+                    <div class="banfu">
+                        <p class="names">贾斯柏小镇</p>
+                        <p class="numbers">15家酒店</p>
+                    </div>
+                </li>
+                <li class="Intourist-p hotels karl">
+                    <div class="banfu">
+                        <p class="names">卡尔加里小镇</p>
+                        <p class="numbers">61家酒店</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="tourist shop">
+        <div class="title-play title-hotel title-buy">
+            <p></p>
+        </div>
+        <div class="Intourist Inhotel">
+            <p>落基山国家公园内购物的话，建议在班夫小镇上面的班夫大道两侧街道选择，这里聚集了来自世界各地的名牌时装精品店，特别是立即就能用上的滑雪、登山、钓鱼灯户外运动装备。但是如果想要大采购的话，建议去卡尔加里：The CORE是市区最奢华的购物中心，离机场只有十分钟而且是卡尔加里最大的折扣仓——CrossIron Mills Outlets，更不能错过。</p>
+            <ul class="clearfix Edmon">
+                <li>
+                    <a href="javascript:;"><img src="article-images/WestEdmontonMallU1.jpg" /></a>
+                    <p>West Edmonton西埃德蒙顿购物中心（贾斯柏出发）</p>
+                    <div class="EdmonHours"><span></span>13小时<br />贾斯柏小镇</div>
+                    <div class="EdmonPrice">
+                        <em>￥</em>
+                        <span>481</span>
+                        <em>/人起</em>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="article-images/ad_20140715201401398.jpg" /></a>
+                    <p>豪华巴士-贾斯柏小镇到埃德蒙顿机场或埃德蒙购物中心共乘<接机>服务</p>
+                    <div class="EdmonHours Edmonfree"><span></span>自由安排<br />埃德蒙顿市</div>
+                    <div class="EdmonPrice">
+                        <em>￥</em>
+                        <span>433.31</span>
+                        <em>/人起</em>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="tourist eat">
+        <div class="title-play title-eat">
+            <p></p>
+        </div>
+        <div class="Intourist Inhotel Intitle-eat">
+            <p>落基山山脉的各大国家公园每年接待成千上万来自世界各地的旅客，以班夫小镇为代表的旅游服务基地提供各国风味美食，法意日、泰中韩应有尽有，声名远播的艾伯塔大草原的特级牛肉、各种无污染时令蔬菜、干酪、鲜鱼、野生麋鹿都被制作成精致美食。除此之外，还有熊掌饼干、苹果冰糖葫芦等特色小吃。</p>
+            <ul class="eatting clearfix">
+                <li>
+                    <img src="article-images/commonimgguide1.png"/>
+                    <div class="eatHouse">The Bison</div>
+                    <p class="Bison">Bison指北美野牛，从名字就能看出这家餐厅力荐菜品必不可少牛肉，这也是班夫小镇上最有名的餐厅，餐厅三面透明的窗户让你感觉置身于班夫最美的巍峨山脉。</p>
+                </li>
+                <li>
+                    <img src="article-images/commonimgguide2.jpg"/>
+                    <div class="eatHouse">Grizzly House</div>
+                    <p class="Bison">1967年开业的班夫小镇元老级餐厅甚至成为有地标景点，这里不仅供应芝士火锅、牛排等招牌菜式，而且还会有异域风情的野味加菜哦。</p>
+                </li>
+                <li>
+                    <img src="article-images/commonimgguide3.jpg"/>
+                    <div class="eatHouse">Mountain <br />Chocolates</div>
+                    <p class="Bison">班夫小镇上知名的手工甜点店，现场制作手工巧克力，以进口欧洲最好的巧克力结合当地特色生产各种魅惑心神的甜品，经典甜品包括焦糖棒、花生焦糖等。</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 内容区域结束 -->
+    
+    <!-- 底部结构开始 -->
+	<div class="footer">
+        <div class="Infooter clearfix">
+            <ul>
+                <li class="aboutWq">关于我趣</li>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">我趣动态</a></li>
+                <li><a href="javascript:;">媒体报道</a></li>
+                <li><a href="javascript:;">加入我们</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+            </ul>
+            <ul>
+                <li class="aboutWq">帮助中心</li>
+                <li><a href="javascript:;">常见问题</a></li>
+                <li><a href="javascript:;">在线咨询</a></li>
+                <li class="current"><a href="javascript:;">旅游顾问</a></li>
+                <li><a href="javascript:;">优惠券说明</a></li>
+            </ul>
+            <ul>
+                <li class="aboutWq">预订须知</li>
+                <li><a href="javascript:;">支付方式</a></li>
+                <li><a href="javascript:;">订购流程</a></li>
+                <li><a href="javascript:;">更改取消</a></li>
+                <li><a href="javascript:;">退款说明</a></li>
+            </ul>
+            <ul>
+                <li class="aboutWq">网站条款</li>
+                <li><a href="javascript:;">用户协议</a></li>
+                <li><a href="javascript:;">隐私保护</a></li>
+                <li><a href="javascript:;">免责声明</a></li>
+            </ul>
+            <ul>
+                <li class="aboutWq">我趣聚惠</li>
+                <li><a href="javascript:;">我趣有礼</a></li>
+                <li><a href="javascript:;">福利中心</a></li>
+            </ul>
+            <div class="borderBox"></div>
+            <div class="phoneNum clearfix">
+                <i></i>
+                <p>我趣旅游顾问24小时守候您身边</p>
+                <ul class="clearfix">
+                    <li>. 中国本地拨打：<span>400-661-5757</span></li>
+                    <li>. 国际通用拨打：<span>86-755-3667-7780</span></li>
+                    <li>. 美国本地拨打：<span>855-967-8266</span></li>
+                    <li>. 加拿大本地拨打：<span>855-967-8266</span></li>
+                    <li>. 澳大利亚本地拨打：<span>1800-204-810</span></li>
+                    <li>. 新西兰本地拨打：<span>0800-440-238</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="partner">
+            <div class="partnerLabel">
+                <i></i>
+                <a href="javascript:;">合作伙伴</a>
+            </div>
+            <ul class="clearfix">
+                <li class="li01">
+                    <a href="javascript:;"></a>
+                    <p>美国全国旅游协会</p>
+                </li>
+                <li class="li02">
+                    <a href="javascript:;"></a>
+                    <p>英国旅游局</p>
+                </li>
+                <li class="li03">
+                    <a href="javascript:;"></a>
+                    <p>德国国家旅游局</p>
+                </li>
+                <li class="li04">
+                    <a href="javascript:;"></a>
+                    <p>洛杉矶会议及旅游局</p>
+                </li>
+                <li class="li05">
+                    <a href="javascript:;"></a>
+                    <p>新西兰旅游局</p>
+                </li>
+                <li class="li06">
+                    <a href="javascript:;"></a>
+                    <p>拉斯维加斯会议及旅游局</p>
+                </li>
+                <li class="li07">
+                    <a href="javascript:;"></a>
+                    <p>西班牙国家旅游局</p>
+                </li>
+                <li class="li08">
+                    <a href="javascript:;"></a>
+                    <p>巴塞罗那旅游局</p>
+                </li>
+                <li class="li09">
+                    <a href="javascript:;"></a>
+                    <p>亚利桑那州旅游局</p>
+                </li>
+                <li class="li10">
+                    <a href="javascript:;"></a>
+                    <p>里昂旅游局</p>
+                </li>
+                <li class="li11">
+                    <a href="javascript:;"></a>
+                    <p>马赛旅游局</p>
+                </li>
+                <li class="li12">
+                    <a href="javascript:;"></a>
+                    <p>蔚蓝海岸地区旅游局</p>
+                </li>
+                <li class="li13">
+                    <a href="javascript:;"></a>
+                    <p>尼斯旅游局</p>
+                </li>
+                <li class="li14">
+                    <a href="javascript:;"></a>
+                    <p>携程</p>
+                </li>
+                <li class="li15">
+                    <a href="javascript:;"></a>
+                    <p>去哪儿</p>
+                </li>
+                <li class="li16">
+                    <a href="javascript:;"></a>
+                    <p>穷游</p>
+                </li>
+                <li class="li17">
+                    <a href="javascript:;"></a>
+                    <p>淘在路上</p>
+                </li>
+                <li class="li18">
+                    <a href="javascript:;"></a>
+                    <p>TripAdvisor</p>
+                </li>
+                <li class="li19">
+                    <a href="javascript:;"></a>
+                    <p>天猫</p>
+                </li>
+                <li class="li20">
+                    <a href="javascript:;"></a>
+                    <p>蚂蜂窝</p>
+                </li>
+                <li class="li21">
+                    <a href="javascript:;"></a>
+                    <p>海南航空</p>
+                </li>
+                <li class="li22">
+                    <a href="javascript:;"></a>
+                    <p>支付宝</p>
+                </li>
+                <li class="li23">
+                    <a href="javascript:;"></a>
+                    <p>财付通</p>
+                </li>
+                <li class="li24">
+                    <a href="javascript:;"></a>
+                    <p>浦发银行</p>
+                </li>
+                <li class="li25">
+                    <a href="javascript:;"></a>
+                    <p>环旅世界</p>
+                </li>
+                <li class="li26">
+                    <a href="javascript:;"></a>
+                    <p>德克萨斯州旅游局</p>
+                </li>
+                <li class="li27">
+                    <a href="javascript:;"></a>
+                    <p>中信银行信用卡中心</p>
+                </li>
+                <li class="li28">
+                    <a href="javascript:;"></a>
+                    <p>光大银行信用卡中心</p>
+                </li>
+                <li class="li29">
+                    <a href="javascript:;"></a>
+                    <p>QQ会员</p>
+                </li>
+            </ul>
+        </div>
+        <div class="certificate partner">
+            <div class="partnerLabel">
+                <i></i>
+                <a href="javascript:;">资质证书</a>
+            </div>
+            <ul class="clearfix">
+                <li class="li-1"><a href="javascript:;"></a></li>
+                <li class="li-2"><a href="javascript:;"></a></li>
+                <li class="li-3"><a href="javascript:;"></a></li>
+                <li class="li-4"><a href="javascript:;"></a></li>
+                <li class="li-5"><a href="javascript:;"></a></li>
+                <li class="li-6"><a href="javascript:;"></a></li>
+                <li class="li-7"><a href="javascript:;"></a></li>
+            </ul>
+        </div>
+        <div class="copyright partner">
+            <p>
+            我趣旅行，为全球华人打造的一站式出境自助游服务平台，自由自在趣旅行！<br>
+            &copy;2013-2015 WOQU.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我趣旅行网&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp; 
+                <a href="javascript:;">粤ICP备13084118号-1</a>&nbsp;&nbsp;&nbsp;    
+                <a href="javascript:;">粤B2-20150116</a>
+            </p>
+        </div>
+    </div>
+	<!-- 底部结构结束 -->
+
+</body>
+</html>

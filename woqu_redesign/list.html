@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我趣旅行</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="list.css" />
+<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="list-js.js"></script>
+</head>
+
+<body>
+<!--头部导航结构开始-->
+	<div class="header">
+		<div class="Header-info">
+            <h2>我趣旅行</h2>
+            <p class="tencent">腾讯战略<br />合作伙伴</p>
+            <ul class="headerNav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="list.html">行程设计</a></li>
+                <li><a href="list.html">行程案例</a></li>
+                <li class="travel">
+                    <a href="list.html">旅行超市</a>
+                    <i></i>
+                    <!-- 旅行超市下拉菜单开始 -->
+                    <div class="sideNav clearfix">
+                        <span></span>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">旅游度假</a>
+                            </dt>
+                            <dd><a href="javascript:;">自由行</a></dd>
+                            <dd><a href="javascript:;">境外参团</a></dd>
+                            <dd><a href="javascript:;">当地玩乐</a></dd>
+                            <dd><a href="javascript:;">门票</a></dd>
+                            <dd><a href="javascript:;">欧洲循环游</a></dd>
+                        </dl>
+                        <dl class="hotel">
+                            <dt>
+                                <a href="javascript:;">机·酒·车</a>
+                            </dt>
+                            <dd><a href="javascript:;">机票</a></dd>
+                            <dd><a href="javascript:;">酒店</a></dd>
+                            <dd><a href="javascript:;">租车</a></dd>
+                            <dd><a href="javascript:;">房车</a></dd>
+                            <dd><a href="javascript:;">接送机</a></dd>
+                            <dd><a href="javascript:;">欧铁</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">旅行必备</a>
+                            </dt>
+                            <dd><a href="javascript:;">签证</a></dd>
+                            <dd><a href="javascript:;">保险</a></dd>
+                            <dd><a href="javascript:;">电话卡/wifi</a></dd>
+                        </dl>
+                    </div>
+                    <!-- 旅行超市下拉菜单结束 -->
+                </li>
+                <li class="travel">
+                    <a href="javascript:;">目的地</a>
+                    <i></i>
+                    <!-- "目的地"下拉菜单开始 -->
+                   <div class="sideNav sideNavTravel clearfix">
+                        <span></span>
+                        <dl>
+                            <dt class="green">
+                                <a href="javascript:;">北美旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">美国</a></dt>
+                            <dd>
+                                <a href="javascript:;">美国东海岸</a>
+                                <a href="javascript:;">华盛顿</a>
+                                <a href="javascript:;">纽约</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">美国西海岸</a>
+                                <a href="javascript:;">洛杉矶</a>
+                                <a href="javascript:;">旧金山</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">拉斯维加斯</a>
+                                <a href="javascript:;">夏威夷</a>
+                                <a href="javascript:;">瓦胡岛</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">夏威夷大岛</a>
+                                <a href="javascript:;">美西国家公园</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">黄石公园</a>
+                                <a href="javascript:;">大峡谷</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">佛罗里达和加勒比海</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">美国自驾</a>
+                                <a href="javascript:;">1号公路</a>
+                                <a href="javascript:;">66号公路</a>
+                            </dd>
+                            <dt><a href="javascript:;">加拿大</a></dt>
+                            <dd>
+                                <a href="javascript:;">加拿大东部</a>
+                                <a href="javascript:;">肯尼加拉大瀑布</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">加拿大西部</a>
+                                <a href="javascript:;">温哥华</a>
+                            </dd>
+                            <dd>
+                                <a href="article.html">落基山（班夫+贾斯珀）</a>
+                            </dd>
+                        </dl>
+                        <dl class="hotel">
+                            <dt class="green">
+                                <a href="javascript:;">欧洲旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">法国</a></dt>
+                            <dd><a href="javascript:;">巴黎</a></dd>
+                            <dt><a href="javascript:;">西班牙+葡萄牙</a></dt>
+                            <dd><a href="javascript:;">巴塞罗那</a></dd>
+                            <dt><a href="javascript:;">德国</a></dt>
+                            <dd><a href="javascript:;">法兰克福</a></dd>
+                            <dt><a href="javascript:;">意大利</a></dt>
+                            <dd><a href="javascript:;">米兰</a></dd>
+                            <dt><a href="javascript:;">英国+爱尔兰</a></dt>
+                            <dd><a href="javascript:;">伦敦及周边</a></dd>
+                        </dl>
+                        <dl>
+                            <dt class="green">
+                                <a href="javascript:;">澳新旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">澳大利亚</a></dt>
+                            <dd><a href="javascript:;">悉尼墨尔本及周边</a></dd>
+                            <dd>
+                                <a href="javascript:;">悉尼</a>
+                                <a href="javascript:;">墨尔本</a>
+                                <a href="javascript:;">大洋路</a>
+                            </dd>
+                            <dd><a href="javascript:;">大堡礁黄金海岸及周边</a></dd>
+                            <dd>
+                                <a href="javascript:;">大堡礁</a>
+                                <a href="javascript:;">黄金海岸</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">布里斯班</a>
+                                <a href="javascript:;">凯恩斯</a>
+                            </dd>
+                            <dd><a href="javascript:;">乌鲁鲁</a></dd>
+                            <dt><a href="javascript:;">新西兰</a></dt>
+                            <dd>
+                                <a href="javascript:;">新西兰南岛</a>
+                                <a href="javascript:;">蒂卡波+皇后镇</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">南岛冰川西线</a>
+                                <a href="javascript:;">新西兰北岛</a>
+                            </dd>
+                            <dd><a href="javascript:;">罗托鲁瓦</a></dd>
+                        </dl>
+                        <dl class="Japan">
+                            <dt class="green">
+                                <a href="javascript:;">日本旅游&nbsp;&gt;</a>
+                            </dt>
+                            <dt><a href="javascript:;">日本</a></dt>
+                            <dd><a href="javascript:;">东京</a></dd>
+                            <dd><a href="javascript:;">大阪</a></dd>
+                            <dd><a href="javascript:;">京都</a></dd>
+                            <dd><a href="javascript:;">北海道</a></dd>
+                            <dd><a href="javascript:;">冲绳</a></dd>
+                            <dd><a href="javascript:;">福冈</a></dd>
+                        </dl>
+                    </div>
+                    <!-- "目的地"下拉菜单结束 -->
+                </li>
+            </ul>
+            <ul class="headerUser">
+                <li class="search">
+                    <input type="text" value="新西兰"/>
+                    <a href="javascript:;">搜索</a>
+                </li>
+                <li><a href="javascript:;">我的订单</a></li>
+                <li class="myOrder"><a href="javascript:;">客服</a></li>
+                <li><a href="javascript:;">趣社区</a></li>
+            </ul>
+            <div class="moreAndMore" id="moreId">
+            	<div id="moreUp"><b>400-661-5757</b>  　更多<span></span></div>
+                <ul id="moreList">
+                	<li><a href="javascript:;"><span class="left">中国本地拨打</span>　<span>400-661-5757</span></a></li>
+                    <li><a href="javascript:;"><span class="left">国际通用拨打</span>　<span>86-755-3667-7780</span></a></li>
+                    <li><a href="javascript:;"><span class="left">美国本地拨打</span>　<span>855-967-8266</span></a></li>
+                    <li><a href="javascript:;"><span class="left">加拿大本地拨打</span>　<span>855-967-8266</span></a></li>
+                    <li><a href="javascript:;"><span class="left">澳大利亚本地拨打</span>　<span>1800-204-810</span></a></li>
+                    <li><a href="javascript:;"><span class="left">新西兰本地拨打</span>　<span>0800-440-238</span></a></li>
+                </ul>
+            </div>
+    	</div>
+	</div>
+<!--头部导航结构结束-->
+
+<!--列表页开始-->
+	<div class="shoppingList clearfix">
+		<div class="shoppingBox">     
+            <ul class="listBanner">
+                <li class="list1"><a href="javascript:;"><img src="list-images/list1.jpg"/></a></li>
+                <li class="list2"><a href="javascript:;"><img src="list-images/list2.jpg"/></a></li>
+                <li class="list3"><a href="javascript:;"><img src="list-images/listbanner (2).jpg" width="500px" height="300px"/></a></li>
+                <li class="list4"><a href="javascript:;"><img src="list-images/listbanner (5).jpg" /></a></li>
+                <li class="list5"><a href="javascript:;"><img src="list-images/listlas.jpg" /></a></li>
+                <li class="list6"><a href="javascript:;"><img src="list-images/pack-695108317_20150910114436510.jpg" /></a></li>
+            </ul>
+        </div>    
+    	<h3><a href="javascript:;">首页</a> > 深度自由行</h3>
+        <div class="box">
+            <p class="searchTry">你可以通过以下筛选项缩小范围</p>
+            <ul class="list-s clearfix">
+                <li>
+                    <em>洲际：</em>
+                    <a href="javascript:;">亚洲</a>
+                    <a href="javascript:;">欧洲</a>
+                    <a href="javascript:;">北美</a>
+                    <a href="javascript:;">澳新</a>
+                    <a href="javascript:;">非洲</a>
+                </li>
+                <li class="list-center">
+                    <em>国家：</em>
+                    <a href="javascript:;">澳大利亚</a>
+                    <a href="javascript:;">法国</a>
+                    <a href="javascript:;">卢森堡</a>
+                    <a href="javascript:;">英国</a>
+                    <a href="javascript:;">美国</a>
+                    <a href="javascript:;">日本</a>
+                    <a href="javascript:;">德国</a>
+                    <a href="javascript:;">瑞士</a>
+                    <a href="javascript:;">意大利</a>
+                    <a href="javascript:;">新西兰</a>
+                    <a href="javascript:;">梵蒂冈</a>
+                    <a href="javascript:;">泰国</a>
+                    <a href="javascript:;">奥地利</a>
+                    <a href="javascript:;">摩纳哥</a>
+                    <a href="javascript:;">马尔代夫</a>
+                    <a href="javascript:;">荷兰</a>
+                    <a href="javascript:;">比利时</a>
+                    <a href="javascript:;">捷克</a>
+                    <a href="javascript:;">印尼</a>
+                    <a href="javascript:;">西班牙</a>
+                    <a href="javascript:;">斯洛伐克</a>
+                    <a href="javascript:;">匈牙利</a>
+                    <a href="javascript:;">新加坡</a>
+                    <a href="javascript:;">斯里兰卡</a>
+                    <a href="javascript:;">柬埔寨</a>
+                    <a href="javascript:;">马来西亚</a>
+                    <a href="javascript:;">越南</a>
+                    <a href="javascript:;">毛里求斯</a>
+                    <a href="javascript:;">加拿大</a>
+                    <a href="javascript:;">芬兰</a>
+                    <a href="javascript:;">克罗地亚</a>
+                    <a href="javascript:;">列支敦士登</a>
+                    <a href="javascript:;">挪威</a>
+                    <a href="javascript:;">阿联酋</a>
+                </li>
+                <li>
+                    <em>行程天数：</em>
+                    <a href="javascript:;">1-5天</a>
+                    <a href="javascript:;">6-10天</a>
+                    <a href="javascript:;">11-12天</a>
+                    <a href="javascript:;">13-15天</a>
+                    <input type="text" />
+                     - 
+                    <input type="text" />
+                    <a href="javascript:;" class="sure">确定</a>
+                </li>
+                <li>
+                    <em>交通：</em>
+                    <a href="javascript:;">自驾游</a>
+                    <a href="javascript:;">含国际机票</a>
+                    <a href="javascript:;">循环巴士</a>
+                    <a href="javascript:;">房车自驾</a>
+                    <a href="javascript:;">火车观光</a>
+                </li>
+                <li>
+                    <em>主题：</em>
+                    <a href="javascript:;">滑雪</a>
+                    <a href="javascript:;">海岛度假</a>
+                    <a href="javascript:;">蜜月</a>
+                    <a href="javascript:;">特色美食</a>
+                    <a href="javascript:;">城市套餐</a>
+                    <a href="javascript:;">高端私享</a>
+                    <a href="javascript:;">自驾游</a>
+                    <a href="javascript:;">家庭亲子</a>
+                    <a href="javascript:;">含国际机票</a>
+                </li>
+            </ul>
+            <div class="myBtn">更多选项（目的地、交通、主题）<span></span></div>
+        </div>
+        
+        <div class="personTravel">
+            <a href="javascript:;"><img src="list-images/customize.jpg" class="customize"/></a>
+            <a href="javascript:;"><img src="list-images/layer-pop.jpg" /></a>
+        </div>
+	</div>
+    <div class="product-section clearfix">
+        <h1><i></i>热门产品推荐<a href="javascript:;">更多>></a></h1>
+        <ul class="myTravel-list clearfix">
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/commonimgguide2015-0182-2015-01-31125716254.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>24个相关产品</span>
+                        <h3><span>深度自由行</span>新西兰皇后镇热气球浪漫日出之旅</h3>
+                        <p>
+                            ￥<em>4901.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>南岛6-9日西线冰川</h4>
+                        <p>南岛向西海岸的路线，近距离感受丰富多姿的福克斯冰川和冰河，那些美景必定令你目不暇接，跟着全程中英文讲解的导游，肯定令你获益匪浅，豪华大巴和有保障的交通工具带领着你安全舒适地去探索冰川里未知的领域，这也绝对令你毕生难忘。</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/b_20151109182630383.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>30个相关产品</span>
+                        <h3><span>深度自由行</span>6日<畅玩>南岛西线冰川超值游</h3>
+                        <p>
+                            ￥<em>4894.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>南岛4-9日纯净美食中线</h4>
+                        <p>让您尽享新西兰南岛风情，当地华人旅行社将带您游览基督城、皇后镇、丹尼丁的城市风光，欣赏蒂卡波湖、米佛峡湾、蒂阿瑙享受纯净风光，还将会享受毛利原始特色岩石烧烤、三文鱼、龙虾等美食让你大饱口福。全程四星级酒店，让你省心省钱游览。</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/commonimgguide2015-01-2015-01-31125918758.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>26个相关产品</span>
+                        <h3><span>深度自由行</span>皇后镇 跳伞</h3>
+                        <p>
+                            ￥<em>3999.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>皇后镇 跳伞</h4>
+                        <p>在“世界探险之都”皇后镇体验双人高空跳伞的极致乐趣。当你的大脑、灵魂身体抛开天生的自我保护意识，纵身跳出飞机时，你可以感受到失重是什么滋味！当你漂浮在几千米的高空，壮丽而辽阔的风景瞬间变成一幅缩小的地图展现在你眼底。来这！带你冒险带你飞！</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/commonimgguide2015-0115-2015-01-31130013505.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>34个相关产品</span>
+                        <h3><span>深度自由行</span>凯库拉观巨鲸之旅</h3>
+                        <p>
+                            ￥<em>4900.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>南岛6-9日西线冰川</h4>
+                        <p>凯库拉赏鲸之旅，零距离贴近大自然！与巨大的抹香鲸和会耍杂技的暗色斑纹海豚亲密接触！还将体验世界上风景最美的火车路线之一，舒适地观看野生动物和美丽崎岖的海岸线。</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/commonimgguide2015-0116-2015-01-31130015782.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>24个相关产品</span>
+                        <h3><span>深度自由行</span>蒸汽船高原牧场游</h3>
+                        <p>
+                            ￥<em>3908.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>蒸汽船高原牧场</h4>
+                        <p>登上TSS厄恩斯劳号蒸汽船，感受一个世纪之前的遗风，这是皇后镇的标志性轮船，是观赏皇后镇高山风光的理想方式。抵达瓦尔特峰高原牧场，下船体验新西兰牧场的生活方式。参加牧场或文化遗产之旅，或游览令人心旷神怡的乡村景色，体验地道的皇后镇生活。</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/commonimgguide2015-0181-2015-01-31125713758.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>24个相关产品</span>
+                        <h3><span>深度自由行</span>南岛7-9日深度全景游</h3>
+                        <p>
+                            ￥<em>2988.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>南岛7-9日深度全景游</h4>
+                        <p>基督城、皇后镇、蒂卡波的城市风光；见证两大万年冰川奇景；细细品味七大名湖美景。不想错过新西兰美丽的景点，那就在全南岛的精华景点，跟团省心省钱地游览，吃住玩通通为你安排好，你只需留下的脚印和炫酷的V字手。</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/pac1uswest153_20150912142104683.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>14个相关产品</span>
+                        <h3><span>深度自由行</span>大峡谷+羚羊谷+布莱斯8-9天游</h3>
+                        <p>
+                            ￥<em>6999.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>大峡谷+羚羊谷+布莱斯</h4>
+                        <p>乘坐豪华舒适大巴一路欣赏美国南部国家公园群：布莱斯国家公园+包伟湖+羚羊谷+马蹄湾+大峡谷+胡佛水坝，荒野与沙漠、红岩与峡谷，让你跟随中文导游的讲解深入这片苍壮大地。 </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/common_img_guide_.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>102个相关产品</span>
+                        <h3><span>深度自由行</span>浪漫北国北海道</h3>
+                        <p>
+                            ￥<em>5900.00</em>
+                        </p>
+                    </div>
+                    <div class="wordBox">
+                        <h4>浪漫北国北海道</h4>
+                        <p>就算存在语言障碍以及不能自驾等问题也不会影响自由自在游日本，行程由持证中文导游或语音导游讲解，白色恋人公园、、大仓山跳台滑雪竞技场与羊之丘观景台、富良野、温泉胜地，带你游玩印象中的北海道，不用担心会迷失在纵横交错的铁道线路，最大限度为旅途节省时间。</p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            
+       </ul>
+    </div>
+
+    <div class="product-section product-myqu clearfix">
+        <h1><i></i>我趣旅行<a href="javascript:;">更多>></a></h1>
+        <ul class="myTravel-list Inmyqu clearfix">
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/1_20150808150917531.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>12个相关产品</span>
+                        <h3><span>铁定成团游</span>【阿拉斯加】极地幸福北极光之旅</h3>
+                        <p>
+                            ￥<em>5913.62</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/common_img_guide_2015-03_3-2015-03-14180233764.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>35个相关产品</span>
+                        <h3><span>深度自由行</span>【美西超值】洛杉矶+拉斯维加斯9天7晚</h3>
+                        <p>
+                            ￥<em>5200.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/pack-634117038_20150910114418411.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>6个相关产品</span>
+                        <h3><span>深度自由行</span>【精品双人】Hola，私享西班牙</h3>
+                        <p>
+                            ￥<em>4800.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/pack-74034137_20150910114315403.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>11个相关产品</span>
+                        <h3><span>深度自由行</span>【美西超值】洛杉矶+拉斯维加斯9天7晚</h3>
+                        <p>
+                            ￥<em>8168.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/pack-420009662_20150910114349000.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>9个相关产品</span>
+                        <h3><span>深度自由行</span>【日本关东】横滨+镰仓+箱根6日</h3>
+                        <p>
+                            ￥<em>10898.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/pack-672142773_20150910114435214.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>22个相关产品</span>
+                        <h3><span>深度自由行</span>自驾天堂66号公路+美西大峡谷12天</h3>
+                        <p>
+                            ￥<em>27301.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/listbanner (7).jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>14个相关产品</span>
+                        <h3><span>深度自由行</span>大堡礁哈迪礁、心形礁、圣灵群岛之旅</h3>
+                        <p>
+                            ￥<em>4999.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/listbanner (6).jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>52个相关产品</span>
+                        <h3><span>深度自由行</span>大堡礁半日游（道格拉斯港出发）</h3>
+                        <p>
+                            ￥<em>2310.33</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/pack-1.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star"></span>
+                        <span class="tips"><i></i>5个相关产品</span>
+                        <h3><span>铁定成团游</span>【中东欧超值】璀璨东欧四国风情</h3>
+                        <p>
+                            ￥<em>7555.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/3_20150819115655828.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star star1"></span>
+                        <span class="tips"><i></i>2个相关产品</span>
+                        <h3><span>超值团购</span>冲绳游甘加拉山谷琉球王国城下町</h3>
+                        <p>
+                            ￥<em>3534.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/7798745726_077006ac26.jpg" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star star2"></span>
+                        <span class="tips"><i></i>3个相关产品</span>
+                        <h3><span>超值团购</span>高迪巴特罗公寓（Casa Batlló）之旅</h3>
+                        <p>
+                            ￥<em>27301.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+            <li>
+                <a href="article.html">
+                    <div class="imgBox">
+                        <h2>
+                            <img src="list-images/c_20150119114549272.JPG" width="250px" height="187px"/>
+                            <span></span>
+                        </h2>
+                        <span class="star star3"></span>
+                        <span class="tips"><i></i>1个相关产品</span>
+                        <h3><span>铁定成团游</span>【苏黎世 布拉格 法兰克福】十国游</h3>
+                        <p>
+                            ￥<em>7322.00</em>
+                        </p>
+                    </div>
+                </a>
+                <b></b>
+            </li>
+
+       </ul>
+    </div>
+<!--列表页结束-->
+
+
+<!-- 底部结构开始 -->
+	<div class="footer">
+        <div class="Infooter clearfix">
+        	<ul>
+            	<li class="aboutWq">关于我趣</li>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">我趣动态</a></li>
+                <li><a href="javascript:;">媒体报道</a></li>
+                <li><a href="javascript:;">加入我们</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li class="aboutWq">帮助中心</li>
+                <li><a href="javascript:;">常见问题</a></li>
+                <li><a href="javascript:;">在线咨询</a></li>
+                <li class="current"><a href="javascript:;">旅游顾问</a></li>
+                <li><a href="javascript:;">优惠券说明</a></li>
+            </ul>
+            <ul>
+            	<li class="aboutWq">预订须知</li>
+                <li><a href="javascript:;">支付方式</a></li>
+                <li><a href="javascript:;">订购流程</a></li>
+                <li><a href="javascript:;">更改取消</a></li>
+                <li><a href="javascript:;">退款说明</a></li>
+            </ul>
+            <ul>
+            	<li class="aboutWq">网站条款</li>
+                <li><a href="javascript:;">用户协议</a></li>
+                <li><a href="javascript:;">隐私保护</a></li>
+                <li><a href="javascript:;">免责声明</a></li>
+            </ul>
+            <ul>
+            	<li class="aboutWq">我趣聚惠</li>
+                <li><a href="javascript:;">我趣有礼</a></li>
+                <li><a href="javascript:;">福利中心</a></li>
+            </ul>
+            <div class="borderBox"></div>
+            <div class="phoneNum clearfix">
+            	<i></i>
+                <p>我趣旅游顾问24小时守候您身边</p>
+                <ul class="clearfix">
+                	<li>. 中国本地拨打：<span>400-661-5757</span></li>
+                    <li>. 国际通用拨打：<span>86-755-3667-7780</span></li>
+                    <li>. 美国本地拨打：<span>855-967-8266</span></li>
+                    <li>. 加拿大本地拨打：<span>855-967-8266</span></li>
+                    <li>. 澳大利亚本地拨打：<span>1800-204-810</span></li>
+                    <li>. 新西兰本地拨打：<span>0800-440-238</span></li>
+                </ul>
+            </div>
+		</div>
+		<div class="partner">
+        	<div class="partnerLabel">
+            	<i></i>
+                <a href="javascript:;">合作伙伴</a>
+            </div>
+            <ul class="clearfix">
+            	<li class="li01">
+                	<a href="javascript:;"></a>
+                    <p>美国全国旅游协会</p>
+                </li>
+                <li class="li02">
+                	<a href="javascript:;"></a>
+                    <p>英国旅游局</p>
+                </li>
+                <li class="li03">
+                	<a href="javascript:;"></a>
+                    <p>德国国家旅游局</p>
+                </li>
+                <li class="li04">
+                	<a href="javascript:;"></a>
+                    <p>洛杉矶会议及旅游局</p>
+                </li>
+                <li class="li05">
+                	<a href="javascript:;"></a>
+                    <p>新西兰旅游局</p>
+                </li>
+                <li class="li06">
+                	<a href="javascript:;"></a>
+                    <p>拉斯维加斯会议及旅游局</p>
+                </li>
+                <li class="li07">
+                	<a href="javascript:;"></a>
+                    <p>西班牙国家旅游局</p>
+                </li>
+                <li class="li08">
+                	<a href="javascript:;"></a>
+                    <p>巴塞罗那旅游局</p>
+                </li>
+                <li class="li09">
+                	<a href="javascript:;"></a>
+                    <p>亚利桑那州旅游局</p>
+                </li>
+                <li class="li10">
+                	<a href="javascript:;"></a>
+                    <p>里昂旅游局</p>
+                </li>
+                <li class="li11">
+            		<a href="javascript:;"></a>
+                    <p>马赛旅游局</p>
+                </li>
+                <li class="li12">
+                	<a href="javascript:;"></a>
+                    <p>蔚蓝海岸地区旅游局</p>
+                </li>
+                <li class="li13">
+                	<a href="javascript:;"></a>
+                    <p>尼斯旅游局</p>
+                </li>
+                <li class="li14">
+                	<a href="javascript:;"></a>
+                    <p>携程</p>
+                </li>
+                <li class="li15">
+                	<a href="javascript:;"></a>
+                    <p>去哪儿</p>
+                </li>
+                <li class="li16">
+                	<a href="javascript:;"></a>
+                    <p>穷游</p>
+                </li>
+                <li class="li17">
+                	<a href="javascript:;"></a>
+                    <p>淘在路上</p>
+                </li>
+                <li class="li18">
+                	<a href="javascript:;"></a>
+                    <p>TripAdvisor</p>
+                </li>
+                <li class="li19">
+                	<a href="javascript:;"></a>
+                    <p>天猫</p>
+                </li>
+                <li class="li20">
+                	<a href="javascript:;"></a>
+                    <p>蚂蜂窝</p>
+                </li>
+                <li class="li21">
+                	<a href="javascript:;"></a>
+                    <p>海南航空</p>
+                </li>
+                <li class="li22">
+                	<a href="javascript:;"></a>
+                    <p>支付宝</p>
+                </li>
+                <li class="li23">
+                	<a href="javascript:;"></a>
+                    <p>财付通</p>
+                </li>
+                <li class="li24">
+                	<a href="javascript:;"></a>
+                    <p>浦发银行</p>
+                </li>
+                <li class="li25">
+                	<a href="javascript:;"></a>
+                    <p>环旅世界</p>
+                </li>
+                <li class="li26">
+                	<a href="javascript:;"></a>
+                    <p>德克萨斯州旅游局</p>
+                </li>
+                <li class="li27">
+                	<a href="javascript:;"></a>
+                    <p>中信银行信用卡中心</p>
+                </li>
+                <li class="li28">
+                	<a href="javascript:;"></a>
+                    <p>光大银行信用卡中心</p>
+                </li>
+                <li class="li29">
+                	<a href="javascript:;"></a>
+                    <p>QQ会员</p>
+                </li>
+            </ul>
+        </div>
+		<div class="certificate partner">
+        	<div class="partnerLabel">
+                <i></i>
+                <a href="javascript:;">资质证书</a>
+            </div>
+            <ul class="clearfix">
+            	<li class="li-1"><a href="javascript:;"></a></li>
+                <li class="li-2"><a href="javascript:;"></a></li>
+                <li class="li-3"><a href="javascript:;"></a></li>
+                <li class="li-4"><a href="javascript:;"></a></li>
+                <li class="li-5"><a href="javascript:;"></a></li>
+                <li class="li-6"><a href="javascript:;"></a></li>
+                <li class="li-7"><a href="javascript:;"></a></li>
+            </ul>
+		</div>
+        <div class="copyright partner">
+        	<p>
+            我趣旅行，为全球华人打造的一站式出境自助游服务平台，自由自在趣旅行！<br>
+			&copy;2013-2015 WOQU.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我趣旅行网&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp; 
+            	<a href="javascript:;">粤ICP备13084118号-1</a>&nbsp;&nbsp;&nbsp;    
+                <a href="javascript:;">粤B2-20150116</a>
+            </p>
+        </div>
+    </div>
+<!-- 底部结构结束 -->
+</body>
+</html>

@@ -1,0 +1,203 @@
+/*
+ banner slider
+*/
+.banner_wrapper {overflow: hidden;position: relative;width: 100%;height: 630px;margin: 0 auto;z-index: 8;}
+.slider_list {position: absolute;width: 100%;height: 100%;top: 0;left: 0;}
+.slider_list li {position:absolute;top:0;left:100%;width:100%;height: 100%;}
+.slider_list .on{left:0;/* width:100%; */z-index:5;}
+.slider_list a {display: block;width: 100%;height: 100%;}
+.slider_list img {display: block;width: 100%;height: 630px;}
+.slider_list .text{position:absolute;width:600px;bottom:50px;right:100px;text-align:right;color:#fff;}
+.slider_list .text p{font-size:14px;margin-bottom:10px;}
+.slider_list .text span{font-size:30px;font-weight:700;}
+.slider_list .text i{color:#f08300;}
+.slider_list .text h4{font-size:20px;}
+.btn_list {position: absolute;width: 114px;right: 100px;top: 150px;z-index:10;} 
+.btn_list li{margin-bottom: 8px;width: 110px; height: 58px; border:2px solid transparent;cursor: pointer;position:relative;overflow:hidden;}
+.btn_list li img{display:block;width:177px;height:58px;position:absolute;top:0;left:50%;margin-left:-88px;}
+.btn_list .current {border-color:#fff;}
+
+.search{width:650px;position:absolute;top:360px;left:50%;margin-left:-325px;color:#fff;z-index:99;}
+.search-tab{text-align:center;}
+.search-tab p{width:150px;display:inline-block;*display:inline;margin:0 50px;cursor:pointer;font-size:32px;font-weight:700;text-shadow:0 0 2px rgba(0,0,0,.4);transition:text-shadow .2s ease-in-out;}
+.search-tab p span{display:inline-block;width:16px;height:16px;margin-right:10px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat -18px -119px;}
+.search-tab .current span{background-position:1px -119px;}
+.search-tab .current,.search-tab p:hover{text-shadow:0 0 5px rgba(255,255,255,.5);}
+.search-content{margin-top:20px;position:relative;}
+.search-content i{position:absolute;top:-13px;left:200px;display:block;width:22px;height:13px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat -27px -99px;}
+.search-content .search-box{padding:20px;background:url(//www.quimg.com/a13072/img/page/index/cv.png) repeat 0 0;border-radius:4px;}
+.search-content .search-do{animation: up 1s forwards;}
+.search-content .search-do p{width:596px;height:61px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat 0 -560px;margin:0 auto 10px;}
+.search-content .search-do .btn{display:block;width:190px;height:44px;line-height:44px;font-size:24px;margin:0 auto;}
+.search-content .search-find{display:none;position:relative;height:44px;animation: down 1s forwards;}
+.search-content .search-find input{display:block;width:500px;border:none;border-radius:4px;padding-right:104px;height:38px;background-color:#fff;}
+.search-content .search-find .search-btn{display:block;width:98px;height:44px;font-size:24px;line-height:44px;position:absolute;top:0;right:0;}
+@keyframes up{
+	from{transform-style: preserve-3d;transform:perspective(600px) rotateX(90deg);}
+	100%{transform:perspective(600px) rotateX(0deg);}
+}
+@keyframes down{
+	from{transform-style: preserve-3d;transform:perspective(600px) rotateX(-90deg);}
+	100%{transform:perspective(600px) rotateX(0deg);}
+}
+.search-content .search-list{display:none;width:470px;border:1px solid #dfdfdf;border-radius:4px;padding:20px;background-color:#fff;}
+.search-content .search-list h3{font-size:16px;line-height:18px;border-bottom:2px solid #f08300;color:#333;width:64px;}
+.search-content .search-list p{width:67px;line-height:16px;float:left;padding-top:9px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.search-content .search-list a{color:#333;font-size:14px;}
+.search-content .search-list a:hover{color:#00bb66;}
+.banner_main .activity_list {position: absolute;top: 0;right: 0;width: 170px;height: 400px;overflow: hidden;background-color: #fff;}
+.activity_list .item {display: block;width: 100%;height: 133px;border-bottom: 1px dotted #d7c1ad;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center #fff;}
+.activity_list .item img {display: block;}
+/*
+ section
+*/
+.section_box{width:1200px;margin:0 auto;}
+.section_box > .title {margin-bottom:20px;}
+.section_box > .title h2 {color: #848484;font-size: 30px;line-height:30px;}
+.section_box > .title span{font-size:16px;margin-left:10px;}
+/*
+ type section
+*/
+.type_section{background-color:#fff;border-bottom:1px solid #e5e5e5;}
+.type_section .section_box{padding:60px 0 40px;}
+.type_section li{width:386px;height:230px;float:left;margin:0 20px 20px 0;position:relative;overflow:hidden;border-radius:6px;}
+.type_section li.nomr{margin-right:0;}
+.type_section .cv{display:none;position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.5;filter:alpha(opacity=50);}
+.type_section li:hover{box-shadow:0 0 4px 1px #bbbbbb;}
+.type_section li:hover .cv{display:block;-webkit-animation:slideSkewIn .3s ease-in forwards;-moz-animation:slideSkewIn .3s ease-in forwards;-o-animation:slideSkewIn .3s ease-in forwards;-ms-animation:slideSkewIn .3s ease-in forwards;animation:slideSkewIn .3s ease-in forwards;}
+@-webkit-keyframes slideSkewIn{
+	0%{-webkit-transform:translateX(130%) skew(-45deg) scale(1);-webkit-transform:translateX(130%) skew(-45deg) scale(1)}
+	100%{-webkit-transform:translateX(0) skew(-45deg) scale(2);-webkit-transform:translateX(0) skew(-45deg) scale(2)}
+}
+@-moz-keyframes slideSkewIn{
+	0%{-moz-transform:translateX(130%) skew(-45deg) scale(1);-moz-transform:translateX(130%) skew(-45deg) scale(1)}
+	100%{-moz-transform:translateX(0) skew(-45deg) scale(2);-moz-transform:translateX(0) skew(-45deg) scale(2)}
+}
+@-o-keyframes slideSkewIn{
+	0%{-o-transform:translateX(130%) skew(-45deg) scale(1);-o-transform:translateX(130%) skew(-45deg) scale(1)}
+	100%{-o-transform:translateX(0) skew(-45deg) scale(2);-o-transform:translateX(0) skew(-45deg) scale(2)}
+}
+@-ms-keyframes slideSkewIn{
+	0%{-ms-transform:translateX(130%) skew(-45deg) scale(1);-ms-transform:translateX(130%) skew(-45deg) scale(1)}
+	100%{-ms-transform:translateX(0) skew(-45deg) scale(2);-ms-transform:translateX(0) skew(-45deg) scale(2)}
+}
+@keyframes slideSkewIn{
+	0%{transform:translateX(130%) skew(-45deg) scale(1);transform:translateX(130%) skew(-45deg) scale(1)}
+	100%{transform:translateX(0) skew(-45deg) scale(2);transform:translateX(0) skew(-45deg) scale(2)}
+}
+.type_section img{display:block;}
+.type_section h3{line-height:50px;width:100%;text-align:center;font-size:30px;color:#fff;position:absolute;left:0;top:90px;text-shadow:0 0 1px #000;}
+/*
+ custom section
+*/
+.custom_section{padding:60px 0;background-color:#fafafa;border-bottom:1px solid #e5e5e5;}
+.custom_section .custom_list{height:1160px;position:relative;}
+.custom_section li{background-color:#fff;position:absolute;width:346px;border:1px solid #e5e5e5;border-radius:2px;box-shadow:0 0 1px 1px #e5e5e5;padding:19px;z-index:1;}
+.custom_section li:hover{box-shadow:0 0 1px 1px #00bb66;*border-color:#00bb66;
+	/* -webkit-animation:shake .5s linear;
+	-moz-animation:shake .5s linear;
+	-o-animation:shake .5s linear;
+	-ms-animation:shake .5s linear;
+	animation:shake .5s linear; 
+	z-index:5; */
+}
+@-webkit-keyframes shake{
+	20%{-webkit-transform:rotate(2deg);}
+	40%{-webkit-transform:rotate(-2deg);}
+	60%{-webkit-transform:rotate(1deg);}
+	80%{-webkit-transform:rotate(-1deg);}
+	
+	50%{-webkit-transform:scale(1.1);}
+	100%{-webkit-transform:scale(1);}
+}
+@-moz-keyframes shake{
+	20%{-moz-transform:rotate(2deg);}
+	40%{-moz-transform:rotate(-2deg);}
+	60%{-moz-transform:rotate(1deg);}
+	80%{-moz-transform:rotate(-1deg);}
+}
+@-o-keyframes shake{
+	20%{-o-transform:rotate(2deg);}
+	40%{-o-transform:rotate(-2deg);}
+	60%{-o-transform:rotate(1deg);}
+	80%{-o-transform:rotate(-1deg);}
+}
+@-ms-keyframes shake{
+	20%{-ms-transform:rotate(2deg);}
+	40%{-ms-transform:rotate(-2deg);}
+	60%{-ms-transform:rotate(1deg);}
+	80%{-ms-transform:rotate(-1deg);}
+}
+@keyframes shake{
+	20%{transform:rotate(2deg);}
+	40%{transform:rotate(-2deg);}
+	60%{transform:rotate(1deg);}
+	80%{transform:rotate(-1deg);}
+}
+.custom_section .cl_1{height:520px;top:0;left:0;}
+.custom_section .cl_2{height:570px;top:0;left:406px;}
+.custom_section .cl_3{height:520px;top:0;left:812px;}
+.custom_section .cl_4{height:535px;top:580px;left:0;}
+.custom_section .cl_5{height:485px;top:630px;left:406px;}
+.custom_section .cl_6{height:535px;top:580px;left:812px;}
+.custom_section h3{font-size:20px;font-weight:700;line-height:30px;margin-bottom:20px;}
+.custom_section h4{font-size:16px;color:#000;margin-bottom:5px;}
+.custom_section p{font-size:13px;color:#848484;line-height:20px;margin-bottom:15px;}
+.custom_section a{color:#00bb66;font-size:14px;}
+.custom_section a:hover{text-decoration:underline;}
+.custom_section .imgbox{height:270px;position:relative;}
+.custom_section .imgbox > div{width:346px;height:210px;overflow:hidden;}
+.custom_section .imgbox img{display:block;transition:all 1s ease;}
+.custom_section .imgbox h5{height:60px;line-height:60px;font-size:16px;padding-left:140px;}
+.custom_section .imgbox i{color:#fe957c;}
+.custom_section .imgbox span{display:block;width:100px;height:100px;position:absolute;top:160px;left:20px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat;}
+.custom_section .cl_1 .imgbox span{background-position:-301px 0;}
+.custom_section .cl_2 .imgbox span{background-position:-401px 0;}
+.custom_section .cl_3 .imgbox span{background-position:-501px 0;}
+.custom_section .cl_4 .imgbox span{background-position:-301px -100px;}
+.custom_section .cl_5 .imgbox span{background-position:-401px -100px;}
+.custom_section .cl_6 .imgbox span{background-position:-501px -100px;}
+.custom_section li:hover img{
+	transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+}
+/*
+ mall section
+*/
+.mall_section{background-color:#fff;padding:60px 0;}
+.mall_section .section_box .title{margin-bottom:0;}
+.mall_section li{width:130px;height:170px;float:left;margin:40px 84px 0 0;}
+.mall_section li.nomr{margin-right:0;}
+.mall_section li div{width:120px;height:120px;padding:4px;border:1px solid #fff;border-radius:50%;margin-bottom:10px;-webkit-transition:-webkit-transform .5s linear;-moz-transition:-moz-transform .5s linear;-o-transition:-o-transform .5s linear;-ms-transition:-ms-transform .5s linear;transition:transform .5s linear;}
+.mall_section li div p{border-radius:50%;width:120px;height:120px;background:url(//www.quimg.com/a13072/img/page/index/index-20151223.png) no-repeat;}
+.mall_section li:hover div{border-color:#d1d1d1;box-shadow:0 0 1px #d1d1d1;-webkit-transform:-webkit-rotate(360deg);-moz-transform:-moz-rotate(360deg);-o-transform:-o-rotate(360deg);-ms-transform:-ms-rotate(360deg);transform:rotate(360deg);}
+.mall_section li:hover h3{color:#00bb66;}
+.mall_section .package div p{background-color:#f07373;background-position:0 -200px}
+.mall_section .localjoin div p{background-color:#b2556d;background-position:-120px -200px}
+.mall_section .mustactive div p{background-color:#c69167;background-position:-240px -200px}
+.mall_section .airticket div p{background-color:#76b0f7;background-position:-360px -200px}
+.mall_section .hotel div p{background-color:#f29b76;background-position:-480px -200px}
+.mall_section .rentcar div p{background-color:#7ecef4;background-position:0 -320px}
+.mall_section .traffic div p{background-color:#97a750;background-position:-120px -320px}
+.mall_section .campers div p{background-color:#a69deb;background-position:-240px -320px}
+.mall_section .eurail div p{background-color:#9cb2b7;background-position:-360px -320px}
+.mall_section .visa div p{background-color:#ba9382;background-position:-480px -320px}
+.mall_section .insurance div p{background-color:#80c269;background-position:0 -440px}
+.mall_section .sim div p{background-color:#f8b551;background-position:-120px -440px}
+.mall_section h3{text-align:center;font-size:18px;line-height:30px;color:#333;}
+/*
+ bottom link
+*/
+.bottom_link {border-bottom: 1px solid #d9d9d9;font-size: 14px;padding: 18px 0;}
+.bottom_link label {float: left;color: #999;font-weight: bold;margin-left: 20px;}
+.bottom_link li {float: left;margin-left: 30px;}
+.bottom_link li a {color: #333;}
+.bottom_link li a:hover {color: #0aaa96;text-decoration: underline;}
+/*
+	head gif
+*/
+.nav_op_gif {position: relative;top: 7px;right: 6px;}
+.ie7 .nav_op_gif {top:2px;}

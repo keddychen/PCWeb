@@ -1,0 +1,9 @@
+.error_hint{border: 1px solid #ff0000;}
+.error_hint .travel_date{color: #ff0000;}
+.error_hint .combo_select{color: #ff0000;}
+.sec_confirm{margin-left: 25px;}
+.wq_price_tips{margin-left: 10px;}
+.mustactive_padding_adjust{padding:25px 10px 25px 40px!important; }
+.product_price{margin-left: 20px!important;width: 380px!important;}
+.date_exp{display: inline;}
+.error_text{font-size: 14px; color: #ff0000;margin: 10px 0 0 20px;display: none;}

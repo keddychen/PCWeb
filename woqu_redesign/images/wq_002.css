@@ -1,0 +1,18 @@
+/* +++++++++++++ 
+ * hover tips  +
+ * +++++++++++++  
+ */
+#hoverTipsDialog {position: absolute;z-index: 1001;top: 0;left: 0;display: none;border: 1px solid #43bebe;background-color: #fff;}
+.has_title, .no_title {position: absolute;width: 21px;height: 12px;display: block;top: -12px;left: 50%;margin-left: -10px;}
+.has_title {background: url(http://www.quimg.com/a168/img/common/wq-triangle.png) 0 0 no-repeat;}
+.no_title {background:url(http://www.quimg.com/a168/img/common/wq-triangle.png) -30px 0 no-repeat;}
+#hoverTipsDialog h2 {height:40px;background:#d4f5f5;color:#06a6a6;line-height:40px;font-size:18px;font-weight:bold;text-indent: 20px;}
+.content_container {padding: 10px;font-size: 12px;color: #333;}
+
+/* ++++++++++ 
+ * loading  +
+ * ++++++++++  
+ */
+.loading {position: fixed;z-index: 9999;top: 0;left: 0;width: 100%;height: 100%;}
+.loading .mask {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #fff;opacity: 0.6;filter: alpha(opacity=60);}
+.loading .icon {position: absolute;top: 50%;left: 50%;margin-left: -16px;margin-top: -16px;width: 31px;height: 31px;background: url(//www.quimg.com/a4535/img/common/loading.gif) no-repeat center;}

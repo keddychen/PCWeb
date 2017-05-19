@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/*====================代码重置====================*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family:Microsoft Yahe,Verdana, Tahoma, Arial, \5b8b\4f53, sans-serif;
+	font-size: 12px;
+}
+*{border-style:none; outline:none;}
+table {
+	border-collapse: collapse;/*为表格设置合并边框模型*/
+	border-spacing: 0;
+}
+textarea {
+	resize: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+ul, ol, li {
+	list-style: none;
+}
+em, i {
+	font-style: normal;
+}
+img {
+	
+	border-style:none; 
+}
+input, img {
+	vertical-align: middle;
+}
+a {
+	color: #333;
+	text-decoration: none;
+	border: 0;
+	outline: none;
+
+	
+}
+
+input:focus, a:focus {
+	outline: none;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

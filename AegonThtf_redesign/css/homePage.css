@@ -1,0 +1,523 @@
+/**
+ * Created by chenxiaping on 17/3/23.
+ */
+
+body{
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.topWrapper,.topBar{
+    height: 32px;
+    line-height: 32px;
+    background-color: #333333;
+}
+.topBar,.menuInwrapper,.headerMenu,.productContent,.foo-c{
+    width:1100px;
+    margin:0 auto;
+}
+.topBar li.leftBar,.headerMenu li,.menuSearch,.aegon,.hotKeyWords li,.subNavInWrapper dd,.productList li,.productCon-hotSell li,.productCon-individual li,.productCon-organization li,.serveList li,.serveCon-individual li,.serveCon-organization li,.foo-c dl,.footer .paTel,.more_list .list_02,.more_list .view04,.more_list .left,.news li,.investmentSearch li,.dianList li{
+    float: left;
+}
+.topBar li.rightBar,.headerTel,.more_list .more_view li span{
+    float: right;
+}
+.leftBar div,.leftBar span,.rightBar,.title,.caption dl dt,.caption dl dd{
+    color: #ffffff;
+}
+.hello,.h-tel,.border,.foo-c dl,.more_list .OpenClose.on strong,.more_list .OpenClose span,.demoDateTips span{
+    display: inline-block;
+}
+.hello{
+    margin-right: 25px;
+}
+.login,.register,.r1,.infoBar,.hm,.hm:hover a,.productList li,.serveList li,.news li,.investmentSearch li{
+    cursor: default;
+}
+.hotKeyWords li,.footer dd:hover,.more_list .OpenClose,.m-v-padding,.goBack{
+    cursor: pointer;
+}
+.leftBar span,.hotKeyWords li{
+    margin-left:15px;
+}
+.leftBar span:hover,.r1:hover,.infoBar:hover{
+    color:#00B0EE;
+}
+.r1{
+    color:#80c5ec;
+}
+.line{
+    color:#cccccc;
+}
+.aegon img{
+    width: 200px;
+}
+.menuWrapper{
+    padding-top:20px;
+}
+.menuSearch{
+    margin:28px 0 0 92px;
+}
+.searchQuick,.headerMenu,.banner,.imgList,.productContent,.container,.productList li,.serveList li,.p-i-rel li,.productInCon,.serveCon-individual li,.serveCon-organization li,.more_list .OpenClose,.more_list .left,.more_list .right,.more_list,.more_list .list_02 li,.news li,.con,.investmentSearch li{
+    position: relative;
+}
+.searchQuick{
+    width: 500px;
+    height: 30px;
+    border:#666666 solid 1px;
+}
+.searchQuick input{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    text-indent: 12px;
+}
+.searchQickIco,.subMenu,.imgList li,.imgList li img,.dianList,.border,.tips,.title,.caption,.more_list span.bg,.more_list .list_02 li .boder,.more{
+    position: absolute;
+}
+.searchQickIco{
+    width: 40px;
+    height: 32px;
+    background: url("../images/icon4.png") no-repeat center;
+    top:-1px;
+    right:0;
+}
+.hotKeyWords li{
+    color: #e72e34;
+}
+.hotKeyWords li.hw,.hotKeyWords li.hw:hover,.footer dt,.more_list .list_02 li,.more_list .list_02 li a{
+    color: #333333;
+}
+.hotKeyWords li.hw,.hotKeyWords li.hw:hover{
+    cursor: auto;
+    margin-left: 0;
+}
+.headerTel,.productContent,.serve{
+    margin-top:20px;
+}
+.headerTel img{
+    width: 35px;
+    height: 35px;
+    margin:-20px 16px 0 0;
+}
+.h-tel li{
+    height: 20px;
+    line-height: 20px;
+}
+.h-tel li,.container ul li,.container ul li a,.tips,.footer dt,.more_list .OpenClose.on strong,.more_list .OpenClose span,.more_list .news,.more,.investmentSearch,.m-v-padding,.demoDateTips span{
+    font-size: 14px;
+}
+.h-tel li.tel,.headerMenu li,.subNavInWrapper dd{
+    font-size: 15px;
+}
+.headerMenu{
+    height: 56px;
+    line-height: 56px;
+}
+.headerMenu li.hm,.productList li,.serveList li,.caption,dl.foo-code dd,dl.foo-code dt,.news li,.investmentSearch li,.more_list .OpenClose{
+    text-align: center;
+}
+.headerMenu li.hm{
+    width: 120px;
+    height: 53px;
+}
+.headerMenu li.hm:hover{
+    border-bottom: #ff8200 solid  4px;
+}
+.menuInwrapper{
+    height: 105px;
+}
+.subMenu{
+    background: #fff;
+    width: 1000px;
+    padding:20px 50px;
+    z-index: 5;
+    left: 0px;
+    top: 57px;
+    -webkit-box-shadow: 0 10px 20px #888;
+    -moz-box-shadow: 0 10px 20px #888;
+    box-shadow: 0 10px 20px #888;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.b-r{
+    height: 16px;
+    width:2px;
+    background-color: #4397d7;
+    margin-top: 21px;
+}
+.subMenu li{
+    padding:0 20px;
+    line-height: 45px;
+    height:45px;
+}
+.subMenu li.redColor,.footer dd a:hover,.more_list ul.m-v-a li a:hover,.m-v-padding:hover{
+    color: #f40;
+}
+.subMu li:hover,.subNavInWrapper dd:hover{
+    color: #e72e34;
+}
+.subMenu,.b2,.b3,.bs2,.productCon-individual,.productCon-organization,.caption,.serveCon-organization,.more_list .OpenClose strong,.more_list .con,.more_list .view04,.more_list .list_02 li .boder,.view03,.nm-c,.more_list .OpenClose.on strong,.goBack{
+    display: none;
+}
+.headerMenuWrapper{
+    width: 100%;
+    height:52px;
+    background-color: #f5f5f5;
+    border-top: #e5e5e5 solid 1px;
+    border-bottom: #e5e5e5 solid 1px;
+    padding-bottom: 4px;
+}
+.subNavInWrapper{
+    height:100%;
+}
+.subNavInWrapper dd{
+    width: 130px;
+    padding:0;
+    text-align: left;
+}
+.subNavWrapper li,.subNavWrapper li.subNavBottom{
+    padding:0;
+}
+.subNavWrapper li.subNavBottom{
+    border-bottom: #c0c0c0 dotted 1px;
+    padding-bottom: 15px;
+}
+.subNavWrapper li.subNavTop{
+    padding-top:15px;
+}
+.container{
+    top:183px;
+}
+.imgList li,.productList,.serveList,.p-i-rel li,.serveCon-individual li,.productInCon{
+    overflow: hidden;
+}
+/*banner*/
+.banner,.imgList li{
+    width: 100%;
+}
+.banner{
+    height: 435px;
+}
+.imgList{
+    height: 435px;
+}
+.imgList li{
+    height: 435px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+.imgList li.current{
+    z-index: 2;
+}
+.imgList li img{
+    left: 50%;
+    top: 0;
+    margin-left: -840px;
+}
+.dianList{
+    width: 174px;
+    height: 12px;
+    left: 50%;
+    margin-left: -98px;
+    bottom: 10px;
+    z-index: 10;
+}
+.dianList li{
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    margin-right: 20px;
+    background: url(../images/sprite_banner.png) -17px 0;
+}
+.dianList li.current{
+    background-position: 0 0;
+}
+/*banner*/
+.productList,.serveList{
+    background: url("../images/bg.jpg") repeat-x left bottom;
+}
+.productList li,.serveList li,.border{
+    width: 100px;
+}
+.productList li,.serveList li{
+    height: 50px;
+    line-height: 50px;
+    margin-right: 0;
+}
+.border{
+    height:4px;
+    background-color: #ff8200;
+}
+.border,.tips{
+    bottom:0;
+    left: 0;
+}
+.productList li a,.serveList li a{
+    width:100%;
+    height:100%;
+}
+.productList li a,.serveList li a,.footer dt,.footer dd,.more_list span.bg,.more_list .news,.more_list .list_02 li a,.news li.current .border,.left div.curr,.investmentSearch li.current .border,.right div.curr{
+    display: block;
+}
+.productCon-individual,.productCon-hotSell,.productCon-organization,.serveCon-individual,.serveCon-organization{
+    margin-top: 20px;
+}
+.p-i-rel li{
+    width: 358px;
+    height:415px;
+}
+.tips{
+    background-color: #ffffff;
+    padding:12px 15px;
+    width: 329px;
+}
+.tips,.caption,.goBack{
+    opacity: 0.85;
+    -moz-opacity: 0.85;
+    filter:alpha(opacity=85);
+}
+.p-i-rel li.current img,.productCon-hotSell li div.current img{
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    transition: all 1s 0s;
+    -webkit-transition:all 1s 0s;
+    -moz-transition: all 1s 0s;
+}
+.p-margin{
+    margin:0 13px;
+}
+.title{
+    top:20px;
+    left:20px;
+}
+.title dt,.title dd,h3.title,.caption dl dt{
+    font-size: 16px;
+}
+.title dd{
+    margin-top: 10px;
+}
+.title span{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.title span,.footer dt{
+    font-weight: bold;
+}
+.p-top{
+    margin-top:13px;
+}
+ul.p-i-rel-h li{
+    height: 230px;
+}
+.productInCon{
+    width: 358px;
+    height: 201px;
+}
+.serveCon-individual li,.serveCon-organization li{
+    width: 263.7px;
+    height: 200px;
+    margin-left: 15px;
+}
+.caption{
+    background-color:#2779ea;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+.caption dl{
+    margin-top: 60px;
+}
+.caption dl dt,.caption dl dd{
+    padding-bottom: 15px;
+}
+.serveCon-individual li.s-i-m,.serveCon-organization li.s-i-m,.news li.s-i-m,.investmentSearch li.s-i-m{
+    margin-left:0;
+}
+.s-i-top{
+    margin-top: 15px;
+}
+.foo-c dl{
+    width: 140px;
+    height: 142px;
+    margin:40px 35px 0 40px;
+}
+.footer{
+    background-color: #e5e5e5;
+    padding-bottom: 40px;
+}
+.footer dt,.footer dd{
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+.footer dd a{
+    color: #646464;
+}
+.footer .paTel{
+    padding: 40px 20px 0 0;
+}
+.footer .paTel img{
+    vertical-align: top;
+    border:none;
+    width: 220px;
+}
+.footer dd img{
+    width: 100px;
+}
+.more_list .OpenClose.on strong{
+    color: #ff8200;
+    background: #f0f0f0 url(../images/btnMore.jpg) left center no-repeat;
+}
+.more_list .OpenClose strong,.more_list .OpenClose span,.more_list .OpenClose{
+    height: 30px;
+    line-height: 30px;
+}
+.more_list .OpenClose strong,.more_list .OpenClose span{
+    padding-left: 20px;
+}
+.more_list .OpenClose span{
+    color: #ff8200;
+    background: url(../images/btnUp.jpg) left center no-repeat;
+    font-weight: bold;
+}
+.more_list .OpenClose{
+    width: 120px;
+    margin: 0 auto;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    background: #f0f0f0;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+}
+.more_list .con{
+    background: #f0f0f0;
+    padding:10px 45px 15px 30px;
+    -moz-border-radius: 18px 18px 0 0;
+    -webkit-border-radius: 18px 18px 0 0;
+    border-radius: 18px 18px 0 0;
+    overflow: hidden;
+    height: 198px;
+    border: 1px solid #dddddd;
+}
+.more_list span.bg{
+    top: 31px;
+    left: 523px;
+    height: 1px;
+    background: #f0f0f0;
+    width: 120px;
+}
+.more_list .left{
+    width: 525px;
+}
+.more_list .right{
+    float: right;
+    width: 525px;
+}
+.more_list .news,.investmentSearch{
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.more_list .list_02{
+    width: 57px;
+    background: url(../images/bg01.jpg) right top repeat-y;
+    margin-left: 16px;
+}
+.more_list .view04{
+    width: 452px;
+}
+.more_list .list_02 li .boder{
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #ff8200;
+}
+.more_list{
+    margin-top: 40px;
+}
+.more_list .more_view li a,.more_list .more_view li,.more_list .list_02 li{
+    height: 13px;
+    line-height: 13px;
+    font-size: 12px;
+    color: #666666;
+}
+.more_list .more_view li a,.more,.more{
+    text-decoration: none;
+}
+.more_list .more_view li a,.m-v-date-padding{
+    padding-left: 15px;
+}
+.more_list .more_view li span{
+    color: #999999;
+}
+.more_list .more_view li{
+    padding: 6px 0 6px 0;
+    clear: both;
+}
+.more{
+    right: 0;
+    bottom:-30px;
+    color: #ff8200;
+}
+.more:hover,.hotKeyWords li:hover{
+    color: #FF5900;
+}
+.more_list .list_02 li{
+    padding: 6px 0 6px 0;
+    clear: both;
+}
+.more_list .list_02 li.on a {
+    color: #ff8200;
+}
+.news li{
+    width: 100px;
+}
+.investmentSearch li,.is-border{
+    width: 130px;
+}
+.m-v-padding{
+    padding-left: 24px;
+}
+.goBack{
+    width: 31px;
+    height: 38px;
+    background:#000000 url(../images/top.png) no-repeat center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.demoDateTips{
+    margin-bottom: 5px;
+}
+.demoDateTips span.date{
+    margin-left:28px;
+}
+.demoDateTips span.buy{
+    margin: 0 20px 0 110px;
+}
+#demo {
+    text-align: left;
+    float: left;
+    width: 290px!important;
+    margin: 0 15px 12px 15px;
+    _margin: 0 8px 10px 8px;
+    height: 298px !important;
+    background: #f1f1f1;
+    padding: 0 12px !important;
+    overflow: hidden;
+}
+

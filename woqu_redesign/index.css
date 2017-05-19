@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{
+		width:100%;
+		position:relative;
+		top:-100px;
+}
+/*首屏banner样式开始*/
+/*.banner{
+		width:100%;
+		position:relative;
+		top:-100px;
+}
+.bannerSlider{
+		height:630px;
+		overflow:hidden;
+}
+.bannerSlider li{
+		position:relative;
+		bottom:0;
+}
+.bannerSlider li a{
+		display:block;
+		width:100%;
+		height:630px;
+}
+li.banner1 a{background:url(index-images/banner1.jpg) no-repeat top center;}
+li.banner2 a{background:url(index-images/banner2.jpg) no-repeat top center;}
+li.banner3 a{background:url(index-images/banner3.jpg) no-repeat top center;}
+li.banner4 a{background:url(index-images/banner4.jpg) no-repeat top center;}
+li.banner5 a{background:url(index-images/banner5.jpg) no-repeat top center;}
+.bannerSlider li p{
+		position:absolute;
+		width:600px;
+		height:27px;
+		line-height:27px;
+		right:100px;
+		bottom:50px;
+		color:#fff;
+		font-size:20px;
+}
+.bannerSlider li p.Intext{
+	margin-bottom: 34px;
+	font-size:14px;
+	margin-right: -156px;
+}
+.bannerList{
+		position:absolute;
+		width:114px;
+		right:100px;
+		top:150px;
+		z-index:1;
+}
+.bannerList li{
+		margin-bottom:8px;	
+}
+.bannerList li:hover{
+		width:110px;
+		height:58px;
+		border:#fff solid 2px;
+}*/
+.wrapperSearch{
+		width:650px;
+		height:217px;/*background:pink;*/
+		position:absolute;
+		top:360px;
+		left:50%;
+		margin-left:-325px;
+}
+.search-tab{
+		text-align:center;
+}
+.search-tab p{
+		width:90px;
+		height:42px;
+		font-size:30px;
+		line-height:42px;
+		font-weight:bold;
+		color:#fff;
+		display:inline-block;
+		cursor:pointer;
+		padding-left:30px;
+		position:relative;
+}
+.search-tab p.current{
+		margin-right:134px;
+}
+.search-tab span{
+		width:16px;
+		height:17px;
+		background:url(index-images/index-20151223.png) no-repeat -19px -119px;
+		position:absolute;
+		left:0;
+		top:15px;
+}
+.search-tab p.current span{
+		background:url(index-images/index-20151223.png) no-repeat 0 -119px;
+}
+.search-con{
+		margin-top:20px;
+		position:relative;
+}
+.search-con i{
+		width:22px;
+		height:13px;
+		background:url(index-images/index-20151223.png) -27px -100px;
+		position:absolute;
+		top:-13px;
+		left:200px;
+}
+.search-con i{
+		/*left:460px;*//*鼠标停留在“找产品”上时*/
+}
+/* “做行程”下拉菜单开始 */
+.searchBox{
+		width:598px;
+		height:115px;
+		background:url(index-images/cv.png) repeat;
+		border-radius:4px;
+		padding:20px 26px;
+		display:none;
+}
+.searchBox p{
+		width:596px;
+		height:57px;
+		background:url(index-images/index-20151223.png) 0 -561px;
+}
+.searchBox a{
+		width:190px;
+		height:44px;
+		line-height:44px;
+		font-size:24px;
+		color:#fff;
+		background:#F08300;
+		border-radius:4px;
+		display:block;
+		text-align:center;
+		margin:12px auto 0;
+		text-decoration:none;
+}
+/* “做行程”下拉菜单结束 */
+
+/* “找产品”下拉菜单开始 */
+.searchFind{
+		width:610px;
+		height:44px;
+		padding:20px;
+		background:url(index-images/cv.png) repeat;
+		border-radius:4px;
+		position:relative;
+		/* display:none; */
+}
+.searchFind input{
+		width:604px;
+		height:44px;
+		border-radius:4px;
+		padding-left:6px;
+		color:#757575;
+}
+.searchFind button{
+		width:98px;
+		height:44px;
+		background:#F08300;
+		display:block;
+		font-size:24px;
+		border-radius:4px;
+		color:#fff;
+		line-height:44px;
+		text-align:center;
+		position:absolute;
+		top:20px;
+		right:20px;
+}
+.searchFind button:hover{
+		background:#FF8800;
+}
+.search-list{
+		width:470px;
+		height:97px;
+		padding:20px;
+		border:#DFDFDF solid 1px;
+		border-radius:4px;
+		background:#fff;
+}
+.search-list h3{
+		font-size:16px;
+		line-height:20px;
+		border-bottom:#F08300 solid 1px;
+		display:inline;
+		color:#333333;
+}
+.Insearch-list{
+		/*background:pink;*/
+		margin-top:4px;
+}
+.Insearch-list li{
+		width:56px;
+		float:left;
+		margin-right:11px;
+}
+.Insearch-list li a{
+		line-height:24px;
+		color:#333333;
+		font-size:14px;
+		text-decoration:none;
+}
+.Insearch-list li:hover a{color:#00BB66;}
+/* “找产品”下拉菜单结束 */
+/*首屏banner样式结束*/
+
+/*主体图片展示开始*/
+.con-picture{
+	/*width:1200px;*/
+	width:1158px;
+	height:851px;
+	margin:-100px auto 0;
+}
+.con-picture ul{
+	/*width:1200px;*/
+	margin-top:100px;
+	/*padding: 60px 0 40px;*/
+	background-color:#000;
+}
+.con-picture ul li{
+	width:386px;
+	height:230px;
+	float: left;
+	/*margin:0 20px 20px 0;*/
+	border-radius:6px;
+	position: relative;
+}
+/*.con-picture ul li.qzTravel{margin-right:0;}*/
+.con-picture ul li h3{
+	width:100%;
+	font-size: 30px;
+	font-weight:normal;
+	line-height:50px;
+	color:#fff;
+	text-align: center;
+	position: absolute;
+	top:90px;
+}
+
+/*主体图片展示结束*/
+
+/*行程定制案例开始*/
+.custom{
+	height:1202px;
+	background:#FAFAFA;
+	border-top: #E5E5E5 solid 1px;
+	border-bottom:#E5E5E5 solid 1px;
+	padding:60px 0;
+}
+.Incustom-case{
+	width:1200px;
+	margin:0 auto;
+}
+h2.case{
+	font-size:30px;
+	color:#848484;
+	font-weight:normal;
+	margin-bottom: 22px;
+}
+.case em{
+	font-size:14px;
+	margin-left:10px;
+}
+.Incustom-case ul li{
+	width:344px;
+	height:518px;
+	float:left;
+	border-radius:2px;
+	box-shadow:#E5E5E5 0 0 1px 1px;
+	border:#E5E5E5 solid 1px;
+	background-color:#fff;
+	margin-bottom:16px;
+	padding:20px ;
+	position:relative;
+	transition:All 0.4s ease-in-out;    
+	-webkit-transition:All 0.4s ease-in-out;    
+	-moz-transition:All 0.4s ease-in-out;    
+	-o-transition:All 0.4s ease-in-out;
+}
+.Incustom-case ul li:hover img{
+	transform:scale(1.1);    
+	-webkit-transform:scale(1.1);    
+	-moz-transform:scale(1.1);    
+	-o-transform:scale(1.1);    
+	-ms-transform:scale(1.1);
+}
+.custom-demo li:hover{
+	border:#3ECB8B solid 1px;
+}
+.Incustom-case ul li.c-2{
+	margin:0 16px;
+	height:534px;
+}
+.Incustom-case ul li.short{
+	height:502px;
+	margin-top:16px;
+}
+.Incustom-case ul li h3{
+	font-size:20px;	
+}
+.Incustom-case ul li h4{
+	font-size:16px;
+	font-weight:normal;
+	line-height:36px;
+	margin-top:10px;	
+}
+.Incustom-case ul li h4 em{
+	color:#FE957C;
+	cursor: pointer;
+}
+.Incustom-case ul li h4.user{
+	padding:0 0 15px 138px;		
+}
+.Incustom-case ul li.c-2 h4.user{
+	margin:4px 0 -6px 0;
+}
+.Incustom-case ul li.c-2.plane h4.user{
+	margin:14px 0 2px 0;
+}
+.Incustom-case ul li p{
+	font-size:12px;
+	color:#848484;
+	line-height:20px;
+	padding:2px 0 12px;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+.Incustom-case ul li p a{
+	color:#00BB66;
+}	
+.Incustom-case ul li p:hover a{
+	text-decoration:underline;	
+}
+.Incustom-case ul li span{
+	width:100px;
+	height:100px;
+	background:url(index-images/index-20151223.png) no-repeat -302px 0;
+	position:absolute;
+	bottom:150px;
+	left:40px;	
+}
+.Incustom-case ul li.c-2 span{
+	background:url(index-images/index-20151223.png) no-repeat -402px 0;
+}
+.Incustom-case ul li.children span{
+	background:url(index-images/index-20151223.png) no-repeat -502px 0;	
+}
+.Incustom-case ul li.car span{
+	background:url(index-images/index-20151223.png) no-repeat -302px -100px;	
+}
+.Incustom-case ul li.plane span{
+	background:url(index-images/index-20151223.png) no-repeat -402px -100px;	
+}
+.Incustom-case ul li.star span{
+	background:url(index-images/index-20151223.png) no-repeat -502px -100px;	
+}
+/*行程定制案例结束*/
+
+/* 旅行商城开始 */
+.travel-market{
+	height:574px;
+	padding:60px 0;	
+}
+.travel-market ul li{
+	border:none;
+	box-shadow:none;
+	margin:20px 36px 0 0;
+	width:130px;
+	height:170px;
+	text-align:center;
+}
+.travel-market ul li h6{
+	transition:All 0.4s ease-in-out;    
+	-webkit-transition:All 0.4s ease-in-out;    
+	-moz-transition:All 0.4s ease-in-out;    
+	-o-transition:All 0.4s ease-in-out;}
+.travel-market ul li:hover h6{
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+}
+.travel-market ul li a h6{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	background:url(index-images/index-20151223.png) no-repeat;
+	margin:0 auto 18px;
+}
+.travel-market ul li a h6.package{
+	background-position:0 -200px;
+	background-color:#F07373;
+}
+.travel-market ul li a h5{
+	font-size:18px;
+	line-height:30px;
+	color:#333;
+	font-weight:normal;
+}
+.travel-market ul li a{
+	text-decoration:none;
+}
+.travel-market ul li a:hover h5{
+	color:#00BB66;
+	text-decoration:none;
+}
+.travel-market ul li a h6.outside{
+	background-position:-120px -198px;
+	background-color:#B2556D;
+}
+.travel-market ul li a h6.local{
+	background-position:-240px -198px;
+	background-color:#C69167;
+}
+.travel-market ul li a h6.ticket{
+	background-position:-360px -198px;
+	background-color:#76B0F7;
+}
+.travel-market ul li a h6.publicHouse{
+	background-position:-480px -200px;
+	background-color:#F29B76;
+}
+.travel-market ul li a h6.taxi{
+	background-position:0 -318px;
+	background-color:#97A750;
+}
+.travel-market ul li a h6.traffic{
+	background-position:-120px -318px;
+	background-color:#97A750;
+}
+.travel-market ul li a h6.campers{
+	background-position:-240px -318px;
+	background-color:#A69DEB;
+}
+.travel-market ul li a h6.train{
+	background-position:-360px -318px;
+	background-color:#9CB2B7;
+}
+.travel-market ul li a h6.visa{
+	background-position:-480px -318px;
+	background-color:#BA9382;
+}
+.travel-market ul li a h6.insurance{
+	background-position:0 -438px;
+	background-color:#80C269;
+}
+.travel-market ul li a h6.sim{
+	background-position:-120px -438px;
+	background-color:#80C269;
+}
+
+/* 旅行商城结束 */
+

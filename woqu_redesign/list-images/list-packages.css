@@ -1,0 +1,116 @@
+.banner {margin-bottom: 20px;}
+.banner_wrapper {overflow: hidden;position: relative;height: 180px;margin: 0 auto;z-index: 8;}
+.slider_list {position: absolute;width: 100%;height: 100%;top: 0;left: 0;}
+.slider_item {float: left;width: 100%;height: 100%;}
+.slider_item a {display: block;width: 100%;height: 100%;}
+.slider_item a img {display: block;width: 100%;height: 180px;}
+.btn_list {position: absolute;width: auto;right: 40px;bottom: 20px;} 
+.btn_item {float: left;margin-right: 8px;width: 12px;height: 12px;background-image: url(//www.quimg.com/a4535/img/page/index/index-all.png);background-position: 0 0;text-align: center;color: #fff;font-size: 12px;}
+.btn_item:hover, .btn_item.active {cursor: pointer;background-position: -22px 0;}
+
+.wq_boutique {background-color: #f25e6c;color: #fff;padding: 0 3px;}
+.expand_collapse {border-top: 1px solid #d9d9d9;height: 35px;background-color: #fff;margin-bottom: 12px; color: #848484;font-size: 14px;}
+.expand_collapse_inner {height: 35px;line-height: 35px; width: 298px;border: 1px solid #d9d9d9;border-top: none;;background-color: #fff;margin: 0 auto; margin-top: -1px;text-align: center;cursor: pointer;}
+.expand_collapse_inner >i {display: inline-block;width: 12px;height: 6px;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png) no-repeat -131px 0;margin-left: 5px;}
+.expand_collapse .on i{background-position: -150px 0;}
+.packages_list >li {width: 900px;border: none;height: auto;background: #fff; margin-bottom: 10px;}
+.packages_list >li >a {display: block; padding: 20px;}
+.product_title {position: relative;padding-left: 75px;}
+.product_title >span {display: inline-block;font-size: 12px;color: #fff;height: 20px;line-height: 20px;padding: 0 8px;border-radius: 2px;position: absolute;left: 0px;top: 2px;}
+.second_confirm {background-color: #f97698;}
+.instant_order {background-color: #3da7ef;}
+.product_title_text {font-size: 18px; font-weight: bold;width: 785px;overflow: hidden;white-space: nowrap;color: #333;}
+.product_title_text:hover {text-decoration: underline;color: #00aa96;}
+.tag_list {margin: 10px 0 20px 0;}
+.tag_list .tag_item {height: 20px;line-height: 20px;display: inline-block;border: 1px solid #c8c8c8;padding: 0 5px;border-radius: 2px;margin-right: 6px;}
+.tag_item:hover {color: #00aa96;border-color: #00aa96;}
+.setoff_info {margin-right: 20px;}
+.setoff_info i{display: inline-block;width: 10px;height: 13px;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png) no-repeat -85px 0;margin-right: 5px;}
+.package_content {overflow: hidden;}
+.pack_content_left {float: left;width: 350px;height: 210px;position: relative;}
+.contry_tag {position: absolute;left: 20px;top: 0px;height: 45px;padding: 5px 10px;}
+.ie7 .contry_tag {display: inline-block;}
+.contry_tag_mask {position: absolute;left: 0px;top: 0px; width: 100%;height: 100%;  background-color: #333;opacity: 0.5;filter:alpha(opacity=50);}
+.contry_tag_content {position: relative; color: #fff;text-align: center;}
+.contry_tag_content >div {border-top: 1px solid #fff; width: 26px; margin: 0 auto;margin-top: 2px;height: 1px;}
+.ie7 .contry_tag_content >div {display: inline-block;display: inline;}
+.pack_content_right {width: 490px;float: right; position: relative;font-size: 14px;}
+.pack_content_right >p{color: #666;margin-bottom: 3px;width: 490px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.comment_wrapper {position: absolute;left: 0px;top: 80px;width: 100%;}
+.star {display: inline-block;width: 71px;height: 11px;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png ) no-repeat 0 -207px;position: absolute;left: 75px;top: 5px;}
+.star i {display: block;width: 0;height: 11px;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png) no-repeat 0 -186px;}
+.star0 i {width: 0;}
+.star05 i {width: 6px;}
+.star1 i {width: 11px;}
+.star15 i {width: 21px;}
+.star2 i {width: 26px;}
+.star25 i {width: 36px;}
+.star3 i {width: 41px;}
+.star35 i {width: 51px;}
+.star4 i {width: 56px;}
+.star45 i {width: 66px;}
+.star5 i {width: 71px;}
+.ie7 .star {display: inline;zoom: 1;}
+.comment_user {float: right;}
+.ie7 .comment_user {margin-top: -17px;}
+.comment_area {width: 468px;height: 38px;border: 1px solid #d9d9d9;position: absolute;top: 105px;left: 0px;padding: 10px;color: #666;font-size: 14px;}
+.comment_area >i{position: absolute; width: 10px;height: 6px;right: 41px;top: -6px;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png) no-repeat -112px 0 ;display: none;}
+.comment_on i {display: block;}
+.comment_area >p {height: 40px;overflow: hidden;line-height: 20px;}
+.price_area {position: absolute;top: 178px;left: 0px;width: 100%;}
+.price_area .btn_detail {border: none;float: right;}
+.ie7 .btn_detail {margin-top: -29px;}
+.price_item {float: right;margin-right: 30px;}
+.ie7 .price_item {margin-top: -32px;}
+.lazy { background:url(//www.quimg.com/a4744/img/common/loading-large.gif) no-repeat center;}
+.light-theme{margin-top: 40px;}
+.customize_order {margin-top: 80px;cursor: pointer; cursor: pointer;}
+li.order_pricesort_range,li.order_datesort_range{width:70px;border:1px solid #cfdfdf;margin:7px 0 7px 10px;padding:0;height:24px;text-align:center;line-height:24px;position:relative;}
+li.order_pricesort_range div,li.order_datesort_range div{display:none;position:absolute;top:-10px;left:-1px;width:200px;padding:10px;background:#fff;border:1px solid #cfdfdf;box-shadow:0 0 1px #ccc;}
+li.order_datesort_range div{width:450px;}
+li.order_pricesort_range:hover div,li.order_datesort_range:hover div{display:block;}
+.customize {display: block;cursor:pointer;}
+.customize >img {display: block;}
+.layer_pop {cursor:pointer;}
+.layer_pop >img {display: block;}
+.lr_pack_list {padding-top: 30px;color: #848484;}
+.lr_pack_list {padding-top: 30px;color: #848484}
+.lr_pack_list li {position: relative;padding: 0 0 40px 60px;}
+.lr_pack_list div {float: left;}
+.lr_pack_list h3 {font-size: 16px; color: #333;font-weight: bold; margin-left: 12px;}
+.lr_pack_list p {font-size: 12px; color: #848484; margin-left: 12px;}
+.lr_pack_list i {position: absolute;top: 8px;left: 2px;width: 44px;height: 44px;background-image: url(//www.quimg.com/a10332/img/page/list/packages/packages.png);background-repeat: no-repeat; margin-left: 4px;}
+.pack_pro1 {background-position: -181px 0;}
+.pack_pro2 {background-position: -247px 0;}
+.pack_pro3 {background-position: -182px -53px;}
+.pack_order_step {}
+.pack_order_step >div{height: 40px;line-height: 40px; background-color: #00aa96; color: #fff;font-size: 18px;padding-left: 30px;}
+
+.desc_layer {position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 99999;}
+.desc_layer .desc_mask {position: absolute;width: 100%;height: 100%;top: 0;left: 0;background-color: #000;opacity: 0.6;filter: alpha(opacity=60);}
+.desc_layer .desc_info {position: absolute;width: 720px;height: 680px;top: 50%;left: 50%;margin-top: -340px;margin-left: -360px;background-color: #fff;}
+.desc_info h2 {background-color: #0aaa96;color: #fff;font-weight: bold;font-size: 18px;height: 58px;line-height: 58px;text-indent: 20px;}
+.desc_info .close_btn {position: absolute;width: 28px;height: 28px;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png) no-repeat;right: -10px;top: -10px;}
+.desc_info table {width: 680px;margin: 0 auto;font-size: 14px;}
+.desc_info table th {font-size: 16px;color: #333;font-weight: bold;text-align: center;border-bottom: 1px solid #cfdfdf;line-height: 16px;padding: 30px 0 15px 0;}
+.desc_info table td {border-bottom: 1px dotted #cfdfdf;}
+.desc_info .no_bd td {border-bottom: none;}
+.desc_info table .item_icon {text-align: center;font-size: 16px;padding: 6px 0 6px 0;line-height: 16px;}
+.desc_info table .item_icon p {padding-top: 8px;}
+.item_icon i {display: block;margin: 0 auto;background: url(//www.quimg.com/a10332/img/page/list/packages/packages.png) no-repeat;}
+.item_icon .air_ticket {width: 38px;height: 37px;background-position: 0 -37px;}
+.item_icon .airport_pick {width: 43px;height: 31px;background-position: -48px -38px;}
+.item_icon .local_live {width: 54px;height: 37px;background-position: -101px -35px;}
+.item_icon .local_traffic {width: 57px;height: 30px;background-position: 0 -85px;}
+.item_icon .local_food {width: 42px;height: 34px;background-position: -67px -79px;}
+.item_icon .scenery_spot {width: 53px;height: 28px;background-position: -117px -85px;}
+.item_icon .chinese_guide {width: 34px;height: 33px;background-position: 0 -124px;}
+.item_icon .local_fun {width: 55px;height: 32px;background-position: -57px -123px;}
+.desc_info table .item_content p {width: 310px;margin: 0 auto;color: #848484;}
+.desc_info table .uninclude, .desc_info table .include {position: relative;margin-left: 40px;padding-left: 25px;color: #f08300;}
+.desc_info table .include {color: #0aaa96;}
+.desc_info table .uninclude i, .desc_info table .include i {position: absolute;top: 2px;left: 0;width: 14px;height: 14px;background: url(//www.quimg.com/a2794/img/page/list/localjoin/layer-icon.png) no-repeat -37px 0;}
+.desc_info table .include i {background-position: -61px 0;}
+
+.filter_list {width: 790px;}
+.order_price_range {width:180px!important;}

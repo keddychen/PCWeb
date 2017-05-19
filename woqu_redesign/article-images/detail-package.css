@@ -1,0 +1,270 @@
+body {background-color: #f9f9f9;}
+.lazy {background: url(//www.quimg.com/a4535/img/common/loading.gif) center center no-repeat;}
+.banner {height: 470px;background: url(//www.quimg.com/a11904/img/page/package/banner-bg.jpg) top center no-repeat;}
+.photowall-wrapper {width: 1200px;margin: 40px auto 0 auto;position: relative;}
+.switch-l {width: 60px;height: 120px;background: url(//www.quimg.com/a12027/img/page/package/package.png ) 0 -190px no-repeat;position: absolute;top: 120px;left: -90px;cursor: pointer;}
+.switch-r {width: 60px;height: 120px;background: url(//www.quimg.com/a12027/img/page/package/package.png ) -69px -190px no-repeat;position: absolute;top: 120px;right: -90px;cursor: pointer;}
+.photowall-inner {overflow: hidden;width: 1200px;padding-top: 40px;height: 390px;position: relative;}
+.photo-list {}
+.photo-list li {float: left;width: 348px;height: 280px;background: #fff;position: relative;margin: 0 1px;cursor: pointer;}
+.photo-list img {display: block;}
+.photo-content {width: 330px;margin:15px auto 0 auto; text-align: center;}
+.photo-list .on {}
+.more-route {width: 184px;height: 30px;line-height: 30px; border: 1px solid #fff;font-size: 14px;color: #fff;text-align: center;border-radius: 3px;position: absolute;left: 50%;bottom: 10px;margin-left: -92px;}
+.intro-wrapper {background-color: #fff;width: 100%;padding-bottom: 30px;}
+.intro-inner {width: 1200px;margin: 0 auto;position:relative;}
+.intro-title {padding: 30px 40px 30px 0;position: relative;width:790px;}
+.intro-title h3 {line-height:33px;} 
+.etc-info {margin-top: 15px;overflow: hidden;}
+.etc-info .schedule {margin-left: 40px;}
+.light-spot {width: 620px;float: right;margin-right: 190px;}
+.light-spot span {display: inline-block;background-color: #999999;color: #fff;height: 20px;line-height: 20px;padding: 0 8px;border-radius: 2px; margin:0 6px 6px 0;}
+.intro-price {width: 200px;height: 86px;line-height: 86px;text-align: center;background-color: #f08300;color: #fff;position: absolute;right: 0px;top: 0px;}
+.pack-rec {border: 1px solid #f0f0f0;width:828px;height:176px;}
+.expert-detail {float: left;width: 268px;position:relative;text-align:center;}
+.expert-title{position:absolute;line-height:20px;width:100%;top:-10px;left:0;font-size:16px;text-align:center;}
+.expert-title span{display:inline-block;padding:0 30px;background-color:#fff;}
+.expert-imgs{height:54px;padding:34px 0 20px;text-align:right;}
+.expert-imgs img{width:54px;height:54px;border-radius:50%;margin:0 10px;}
+
+.expert-content .left-border {position: absolute;left: 0px;top: 10px;width: 4px;height: 64px;background-color: #c9ccd0;}
+.expert-name {font-size: 36px;color: #7c7c7c; margin:0 0 5px 0;}
+.contact-cs {display: inline-block;width:200px;height:40px;line-height:40px;border-color:#0aaa96;margin-left:40px;}
+.contact-cs:hover{background-color:#f7f7f7;}
+.spot-list {margin-left:268px;position:relative;padding-right:46px;}
+.spot-list .expert-title{text-align:center;color:#333;}
+.spot-list p{width:181px;float:left;padding:34px 0 0 76px;height:40px;line-height:20px;overflow:hidden;position:relative;}
+.spot-list p em{display:block;width:35px;height:40px;position:absolute;top:34px;left:30px;color:#00aa96;font-size:40px;line-height:40px;}
+
+.rec-etc {width: 200px;height: 100%;position: absolute;right: 0px;top: 0px;border-left: 1px solid #f0f0f0;cursor: pointer;}
+
+.main-content {margin-top: 30px;position: relative;}
+.content-left {width: 830px;float: left;position: relative;padding-top: 45px;}
+.scroll-nav {height: 49px;line-height: 49px; border-top: 1px solid #f0f0f0;border-bottom: 1px solid #f0f0f0; background: #fff;position: absolute;top: 0px;left: 0px;}
+.scroll-nav >a {width: 206px;display: block; float: left;font-size: 18px;text-align: center;color: #333;border-left: 1px solid #f0f0f0;}
+.scroll-nav .on {background-color: #00aa96;color: #fff;}
+
+.section-item {margin-top: 40px;}
+.section-header {border-bottom: 1px solid #f0f0f0;padding-bottom: 10px;color: #7c7c7c;}
+.section-header i {display: inline-block;width: 4px;height: 16px;background-color: #00aa96;margin-right: 5px;}
+.cost-type {margin-top: 20px;padding: 0 20px 0 50px;font-size: 14px;color: #7c7c7c;}
+.type-item {position: relative;font-size: 16px;margin-bottom: 10px;}
+.type-item i {width: 21px;height: 21px;position: absolute;left: -30px;top:0px;}
+.icon-airline {background: url(//www.quimg.com/a12027/img/page/package/package.png ) -121px 0;}
+.icon-hotel {background: url(//www.quimg.com/a12027/img/page/package/package.png ) -147px 0;}
+.icon-car {background: url(//www.quimg.com/a12027/img/page/package/package.png ) -172px 0;}
+.icon-play {background: url(//www.quimg.com/a12027/img/page/package/package.png ) -121px -28px;}
+.cost-type p {line-height: 25px;}
+.product_p {cursor:pointer;}
+.product_p:hover{color:#0aaa96;}
+
+.route-wrapper {margin: 40px 0 0 15px; border-left: 2px solid #c9ccd0;padding-left: 25px;}
+.route-item {margin:-10px 0 30px 0; border-bottom: 1px dashed #f0f0f0;padding-bottom: 20px; }
+.route-header {position: relative;}
+.route-header span {margin-right: 20px;}
+.route-header .time-node {width: 18px;height: 18px; background:url(//www.quimg.com/a12027/img/page/package/package.png ) -84px 0 no-repeat #f9f9f9;position: absolute;top: 7px;left: -35px;}
+.text-nopic {margin-top: 25px;}
+.text-pic {margin-top: 25px; overflow: hidden;}
+.pic-wrapper {width: 250px;height: 150px;float: left;position: relative;}
+.v-devide {width: 4px;height: 130px;background-color: #f0f0f0;position: absolute;top: 10px;right: -20px;}
+.route-text {width: 500px;float: right;font-size: 14px;overflow: hidden;}
+.route-text .text-title {margin-bottom: 10px;}
+.route-text .text-content {overflow: hidden;}
+.route-text .btn-expand {float: right;margin-top: 5px;display: none;cursor: pointer;}
+.route-text .btn-expand i {display: inline-block;width: 10px;height: 10px;background:url(//www.quimg.com/a12027/img/page/package/package.png ) -310px -34px no-repeat;margin-left: 3px;}
+.route-text .on i {background:url(//www.quimg.com/a12027/img/page/package/package.png ) -310px -49px no-repeat}
+.expand-collapse {text-align: center;}
+.expand-collapse >span {border-bottom: 1px solid #0aaa96; cursor: pointer;}
+.expand-collapse .green-arrow {display: inline-block;width: 10px;height: 5px;margin-left: 5px;vertical-align: 2px; background:url(//www.quimg.com/a12027/img/page/package/package.png ) 0 -97px no-repeat ;}
+.expand-collapse .on i{background-position: 0 -90px;}
+
+.notice-wrapper p{font-size: 14px;margin-top: 25px;color: #7c7c7c;}
+.notice-item {margin-top: 40px;}
+
+/*side bar*/
+.content-right {width: 340px;position: absolute;right: 0px;top: 0px; z-index: 99;}
+.side-on {position: fixed;left: 50%;margin-left: 260px;top: 0px;}
+.product-order {background-color: #fff;width: 340px;}
+.order-header {height: 60px;line-height: 60px;background-color: #3d495f;color: #ececec;font-size: 28px;padding:0 20px;}
+.order-header span{float:left;font-size:14px;line-height:75px;}
+.order-header p{text-align:right;}
+.order-inner {border: 1px solid #f0f0f0;padding: 10px 20px 20px;box-shadow:1px 1px 2px #ccc;}
+.group-label {font-weight: bold;font-size: 14px;color: #333;margin: 15px 0 10px;}
+.setoff-date {display: block;height: 24px;width: 285px;border: 1px solid #c9ccd0;background: url(//www.quimg.com/a12027/img/page/package/package.png ) 270px -102px;}
+.people-group {}
+.people-group select{display: inline-block;width: 141px;height: 32px;border: 1px solid #c9ccd0;outline: none;color: #333;}
+.adult-num {margin-right: 11px;}
+.combo-list {overflow: hidden;margin-right: -30px;}
+.combo-list .combo-item {float: left;min-width: 61px;height: 30px;line-height: 30px; border: 1px solid #c9ccd0;text-align: center;color: #848484; font-size: 14px;margin:0 25px 5px 0;padding: 0 10px;position: relative;cursor: pointer;}
+.combo-item i {width: 12px;height: 12px;position: absolute;right: 0px;bottom: 0px;background: url(//www.quimg.com/a12027/img/page/package/package.png ) -207px 0;display: none;}
+.combo-list .on {border: 2px solid #0aaa96;color: #0aaa96;height:28px;line-height:28px;}
+.combo-list .on i{display: block;}
+.combo-item-disable {display: inline-block;min-width: 61px; height: 26px;line-height: 26px;border: 1px dashed #cfdfdf;color: #b2b1b1;background-color: #fff;padding: 0 10px;margin:0 25px 5px 0; text-align: center;cursor: auto;}
+.combo-exp {margin-top: 10px;}
+.total-price {margin-top: 10px;}
+.total-price img,.ava-price img{position:relative;top:8px;}
+.btn-group {margin-top: 20px;}
+.btn-group a,.btn-group button {display: block;height:42px;line-height:42px;width:100%;font-size:16px;}
+.btn-group a.btn_cancel{border-color:#0aaa96;height:40px;line-height:40px;}
+.btn-group a.btn_cancel:hover{background-color:#f7f7f7;}
+.btn-group button:hover{background-color:#ff8800 !important;}
+.book-now {margin-bottom: 14px;border:none;}
+.jd-white {width: 265px;height: 18px;background: url(//www.quimg.com/a12027/img/page/package/package.png ) 0 -140px;text-align: center;font-weight: bold;color: #555555;margin: 30px auto 10px auto;}
+.jd-etc {margin-right: -30px;}
+.jd-etc span {margin-right: 10px;}
+.jd-etc i{display: inline-block;width: 26px;height: 25px;vertical-align: -6px; margin-right: 3px;}
+.jd-icon1 {background: url(//www.quimg.com/a12027/img/page/package/package.png ) 0 -49px;}
+.jd-icon2 {background: url(//www.quimg.com/a12027/img/page/package/package.png ) -43px -49px;}
+.jd-icon3 {background: url(//www.quimg.com/a12027/img/page/package/package.png ) -89px -49px;}
+
+.customization {margin-top: 30px;cursor: pointer;}
+
+/* new comment start */
+
+.pt40 {padding-top: 40px;}
+.eqa_wrapper {position: relative;padding: 25px 30px;background-color: #fff;}
+.title_wrapper {padding-bottom: 15px;border-bottom: 1px solid #cfdfdf;}
+.eqa_wrapper .eqa_title {display: inline-block;}
+.evaluation_start {display: inline-block;}
+.evaluation_list li {-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;-webkit-box-shadow: 0px 1px 3px #ddd;-moz-box-shadow: 0px 1px 3px #ddd;-o-box-shadow: 0px 1px 3px #ddd;box-shadow: 0px 1px 3px #ddd;overflow: hidden;margin-top: 20px;}
+.member_info {position: relative;float: left;width: 90px;height: 75px;background-color: #0aaa96;padding-top: 55px;}
+.member_avatar {position: absolute;width: 36px;height: 33px;left: 28px;top: 24px;background: url(//www.quimg.com/a2358/img/common/woqu-detail-all.png) no-repeat -214px -62px;}
+.member_info > p {text-align: center;line-height: 22px;}
+.member_evaluation {float: left;padding: 25px;height: 80px;width: 798px;}
+.evaluation_text {float: left;width: 655px;line-height: 24px;}
+.evaluation_right {float: left;width: 80px;text-align: center;margin-left: 40px;}
+
+.comment_list {padding-top: 20px;}
+.comment_item {margin-bottom:20px;}
+.comment_item > div {padding-bottom: 20px;overflow: hidden;}
+.comment_item .user_avatar {float: left;text-align: center;font-size: 12px;color: #848484; width: 90px;}
+.comment_item .user_content {position: relative;float: left;border: 1px solid #cfdfdf;padding: 10px 15px;margin-left: 15px;width: 666px;}
+.comment_item .user_avatar p {width: 90px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.user_content > i {position: absolute;width: 6px;height: 12px;background: url(//www.quimg.com/a3204/img/page/note-comment-collect/common.png) no-repeat 0 -122px;left: -6px;top: 35px;}
+.user_content .date, .adviser_content .date {font-size: 14px;color: #848484;padding-top: 8px;}
+.user_content .content, .adviser_content .content {font-size: 14px;color: #666;line-height: 20px;}
+.user_content .star_list {color: #848484;font-size: 12px;line-height: 28px;overflow: hidden;}
+.user_content .favor_tips {position: absolute;border: 1px solid #f08300;right: -1px;top: -1px;font-size: 12px;color: #848484;width: 80px;text-align: center;}
+.star_list > div {float: left;margin-right: 12px;}
+.star_list .star {display: inline-block;margin-left: 5px;width: 71px;height: 11px;background: url(//www.quimg.com/a3204/img/page/note-comment-collect/common.png) no-repeat 0 -165px;}
+.star_list .star i {display: block;width: 0;height: 11px;background: url(//www.quimg.com/a3204/img/page/note-comment-collect/common.png) no-repeat 0 -144px;}
+.star_list .star0 i {width: 0;}
+.star_list .star05 i {width: 6px;}
+.star_list .star1 i {width: 11px;}
+.star_list .star15 i {width: 21px;}
+.star_list .star2 i {width: 26px;}
+.star_list .star25 i {width: 36px;}
+.star_list .star3 i {width: 41px;}
+.star_list .star35 i {width: 51px;}
+.star_list .star4 i {width: 56px;}
+.star_list .star45 i {width: 66px;}
+.star_list .star5 i {width: 71px;}
+.ie7 .star_list .star {display: inline;zoom: 1;}
+.title_wrapper .star_list {position: relative;display: inline-block;font-size: 14px;color: #848484;top: 4px;line-height: 18px;}
+.ie7 .title_wrapper .star_list {display: inline;zoom: 1;}
+.title_wrapper a {text-decoration: underline;}
+.comment_item .adviser_avatar {float: right;text-align: center;font-size: 12px;color: #848484;}
+.comment_item .adviser_content {position: relative;float: right;margin-right: 15px;border: 1px solid #cfdfdf;padding: 10px 15px;width: 666px;}
+.adviser_content > i {position: absolute;width: 6px;height: 12px;background: url(//www.quimg.com/a3204/img/page/note-comment-collect/common.png) no-repeat -16px -122px;right: -6px;top: 35px;}
+.note_comment_link {font-size: 12px;color: #f08300;position: absolute;top: 28px;right: 30px;}
+.comment_time{color:#aeaeae;}
+.comment_time span{display:inline-block;padding:0 25px 0 20px;background:url(//www.quimg.com/a9566/img/page/vip/comment/comment.png) no-repeat;}
+.comment_time .comment_from_pc{background: url(//www.quimg.com/a7003/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position:right 0;}
+.comment_time .comment_from_app{background: url(//www.quimg.com/a7003/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position:right -20px;}
+.comment_time .comment_from_phone{background: url(//www.quimg.com/a7003/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position:right -40px;}
+.comment_time .comment_from_invite{background: url(//www.quimg.com/a7003/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position:right -60px;}
+
+.note_list li {padding-top: 20px;overflow: hidden;}
+.note_list li a {color: #333;}
+.note_list li .img {position: relative;float: left;width: 170px;height: 136px;}
+.note_list li .mask {position: absolute;width: 166px;height: 24px;line-height: 24px;left: 2px;bottom: 2px;}
+.note_list li .mask > span {display: block;position: relative;z-index: 3;color: #fff;font-size: 12px;text-align: center;}
+.note_list li .mask i {position: absolute;width: 166px;height: 24px;top: 0;left: 0;background-color: #000;opacity: 0.8;filter: alpha(opacity=80);z-index: 0;}
+.note_list li .content {float: right;width: 708px;height: 116px;background-color: #f7f7f7;border-radius: 0 4px 0 4px;border-right: 1px solid #dfdede;border-bottom: 1px solid #dfdede;box-shadow: 2px 2px 4px #ddd;padding: 10px 20px;}
+.note_list li .content h4 {font-size: 16px;width: 708px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.note_list li .content p {font-size: 14px;color: #666;}
+.note_list li .content .date {font-size: 14px;color: #848484;padding: 5px 0 10px 0;}
+
+.question_btn {position: absolute;right: 32px;top: 20px;}
+.pagination_wrapper {width: 120px;margin: 0 auto;padding: 30px 0 20px 0;}
+.pagination_wrapper a {float: left;width: 20px;height: 20px;background-image: url(//www.quimg.com/a2358/img/common/woqu-detail-all.png);background-repeat: no-repeat;}
+a.prev_page_btn {background-position: -330px -43px;}
+a.prev_page_btn:hover {background-position: -330px -1px;}
+a.next_page_btn {background-position: -385px -43px;}
+a.next_page_btn:hover {background-position: -385px -1px;}
+.current_page {float: left;padding: 0 15px;}
+
+.eqa_wrapper .comment_item .user_content {width: 630px;}
+.eqa_wrapper .comment_item .adviser_content {width: 630px;}
+/* new comment end */
+
+/* ++++++++++++++++++++++++
+ * calendar wrapper start +
+ * ++++++++++++++++++++++++
+ */
+.calendar_wrapper{z-index:999;display:none;position:absolute;top:-490px;right:100px;background-color:#fff;width:455px;border:1px solid #d5d4d4;border-top: 1px solid #f1f1f1;box-shadow: 1px 1px 1px #f1f1f1;overflow-x:hidden;}
+.calendar_head{clear:both;float:left;width:100%;height:37px;line-height:37px;overflow:hidden;}
+.prev_left_month, .prev_right_month {display:block;cursor:pointer;width: 20px;height: 20px;background: url(//www.quimg.com/a2399/img/common/calendar-prev-next.png) no-repeat 7px 5px #fff;margin: 8px;}
+.prev_right_month{background-position: -17px 5px;}
+.current_date{display:block;float:left;width:150px;margin-left:150px;color:#333;font-weight: bold;font-size: 14px;}
+.week_list{padding:0;clear:both;background-color:#E8E8E8;height:26px;line-height:26px;font-size:14px;}
+.week_list li{display:block;float:left;width:65px;text-align:center;}
+.week_list .weekend{color:#f08300;}
+.date_list{list-style:none;padding:0;clear:both;float:left;background-color:#fff;font-size:14px;}
+.date_list li{float:left;width: 14%;height:59px;border-right:1px solid #f1f1f1;border-bottom:1px solid #f1f1f1;text-align:center;padding-top:5px;overflow:hidden;position:relative;cursor:pointer;}
+.date_list li:hover{border: 1px solid #00aa96;width: 63px;height: 58px;}
+.date_list li.on{background-color:#e6fffb;border: 1px solid #00aa96;width: 63px;height: 58px;}
+.date_list .invalid_day{color:#aeaeae;cursor:default;}
+.date_list .invalid_day:hover {background-color:#fff;border-color: #f1f1f1;border-top: none;border-left: none;width:64px;height:59px;}
+.date_list .right_li{width:65px;border-right:0;}
+.date_list .inner_price{position: absolute;display: block;width: 65px;left: 0;bottom: 3px;color: #f08300;text-align: center;font-size: 12px;}
+
+/*jd white*/
+.jd_switch {overflow: hidden;font-size: 14px;}
+.jd_switch label {display: block; width: 104px;}
+.jd_switch > div {float: left;text-align: center;margin-right: -30px;}
+.jd_switch p {position: relative;float: left;width: 140px;height: 36px;line-height:16px;border: 1px solid #b8b7bd;padding-top:6px;margin-right: 14px;cursor: pointer;}
+.jd_switch p.active {border: 2px solid #0aaa96;width: 138px;height: 34px;padding-top:5px;}
+.jd_switch p img {display: none;position: absolute;right: 0;bottom: 0;}
+.jd_switch p.active img {display: block;}
+.jd_switch span {display: block;}
+.jd_switch span font {font-weight: bold;}
+.jd_switch > img {margin-top: 10px;}
+.jd-act-detail {line-height: 30px;}
+.jd-act-detail .font_color_black{margin-left: 35px;text-decoration: underline;}
+
+/*product detail*/
+.table_pop{width: 1180px;height: 740px;background: #e6eef9;position: fixed;z-index: 999;left: 50%;margin-left: -590px;top: 50%;margin-top: -370px;}
+.pop_left{width: 348px;height: 698px; border: 1px solid #fff;margin: 20px 10px 0px 10px;position: relative;float: left;}
+.pop_left_top{width: 118px; height: 22px; border: 1px solid #d8dde9;text-align: center;line-height: 22px;background: #fff;color: #0aaa96;margin: 0 auto;margin-bottom: 10px; margin-top: -11px;}
+.alternate_list{overflow: hidden;height: 660px;}
+.alternate_list li{width: 328px;height: 118px;background: #fff;border: 1px solid #fff;position: relative;margin: 10px;position: relative; cursor: pointer;}
+.active_arrow{display: block;width: 9px; height: 22px;background: url(//www.quimg.com/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position: -969px 0px;position: absolute;right: -9px;top: 48px;display: none;}
+li.alt_on{border: 1px solid #f08300;}
+.alt_on .active_arrow{display: block;}
+.select_icon{display: block;width: 87px; height: 79px;background: url(//www.quimg.com/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position: -313px -109px;position: absolute;left: 0px; top: 0px;}
+.alt_icon{display: block;width: 87px; height: 79px;background: url(//www.quimg.com/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position: -425px -109px;position: absolute;left: 0px; top: 0px;}
+.alt_img{margin: 10px 10px 5px 10px;float: left;}
+.alt_des{width: 205px;float: right;font-size: 14px;margin-top: 15px;}
+.alt_price{color: #f08300;font-size: 14px;position: absolute;bottom: 5px;right: 15px;}
+.pop_page{height: 30px;background: #fff;line-height: 30px;text-align: center; color: #848484;}
+.pop_page i{display: inline-block;width: 18px; height: 18px;cursor: pointer; position: relative;top: 3px;}
+.page_prev{background: url(//www.quimg.com/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position: -1016px 0px; margin-right: 10px;}
+.page_next{background: url(//www.quimg.com/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position: -1087px 0px;margin-left: 10px;}
+.pop_right{width: 798px;height: 698px; border: 1px solid #f0f3fa;background: #fff;float: left;margin-top: 19px;}
+.simple_intro{margin: 25px 0 0 25px; height: 155px;}
+.intro_title{color: #0aaa96; font-size: 24px;}
+.intro_content{margin-top: 15px;}
+.feature_list{width: 440px; float: left;}
+.woqu_price{width: 290px; height: 90px; border-left:1px solid #cfdfdf;float: right; text-align: center;}
+.replace_now{display: inline-block;}
+.product_num{color: #848484;text-align: center;margin: 1px 0 5px;}
+.price_row{margin-top: -5px;}
+.content_switch{padding-left: 1px; overflow: hidden;border: 1px solid #cfdfdf;}
+.content_switch div{height: 43px;line-height: 43px; text-align: center; width: 198px;border-right: 1px solid #cfdfdf; float: left;margin-left: -1px;cursor: pointer;}
+.switch_on{background: #f0f3fa;}
+.content_area{width: 770px; height: 440px;overflow-y: scroll; margin:0 auto;margin-top: 15px;font-size: 14px;}
+.table_pop_wrapper{position: fixed;width: 100%;height: 100%;z-index: 999;}
+.table_pop_mask{position: fixed;height: 100%;width: 100%;background: #000;top: 0px; left: 0px;opacity: 0.5;filter:alpha(opacity=50);z-index: 900;}
+.top_block{background: #e6eef9; width: 257px;position: absolute;height: 100px; top: -100px; left: 100px;}
+.top_block_close{display: block;width: 36px; height: 34px;position:  fixed;top: 10px;right: 10px;background: url(//www.quimg.com/a7003/img/page/pack-line/pack-line.png) 9999px 9999px no-repeat; background-position: -1143px 0px; cursor: pointer;z-index: 999;}

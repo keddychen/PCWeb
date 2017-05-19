@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+           #InviteWindow {
+	       Z-INDEX: 8889;
+	       POSITION: absolute;
+	       TEXT-ALIGN: left;
+	       BACKGROUND:url(http://www.quimg.com/fixed/img/live800/invite.png) transparent no-repeat 0 0;/*邀请窗口背景图设置样式*/
+	       WIDTH: 242px;/*邀请窗口背景图的宽度*/
+	       HEIGHT: 294px;/*邀请窗口背景图的高度*/
+	       VISIBILITY: hidden;
+           }
+           #invite_title {display:none;}
+           #invite_text P {display:block;color: rgb(255, 255, 255); line-height: 24px; font-family: 微软雅黑; font-size: 16.8px;padding: 60px 20px 0;}
+           #invite_btn BUTTON {
+	       Z-INDEX: 90000;
+	       BORDER-BOTTOM: medium none;
+	       BORDER-LEFT: medium none;
+	       BORDER-TOP: medium none;
+	       BORDER-RIGHT: medium none;
+	       CURSOR: pointer;
+           }
+           #invite_btn .accept {
+	       POSITION: absolute;
+	       background:url(http://www.quimg.com/fixed/img/live800/invite-button.png) no-repeat;/*接受咨询按钮的图片*/
+	       WIDTH: 110px;/*接受咨询按钮的宽度*/	 
+	       HEIGHT: 30px;/*接受咨询按钮的高度*/
+	       BOTTOM: 45px;/*接受咨询按钮距离背景图底部的距离*/
+	       left:75px;/*接受咨询按钮距离背景图左侧的距离*/
+           }
+
+           #invite_btn .cancel {
+	       POSITION: absolute;
+	       background:url(http://www.quimg.com/fixed/img/live800/close.png) no-repeat;/*拒绝咨询按钮的图片*/
+	       WIDTH: 24px; /*拒绝咨询按钮的宽度*/
+	       HEIGHT: 25px;/*拒绝咨询按钮的高度*/
+	       top: 9px;/*拒绝咨询按钮距离背景图顶部的距离*/
+	       right:10px;	/*拒绝咨询按钮距离背景图右侧的距离*/
+           }
+
+          #invite_btn BUTTON span{display:none;}/*替换系统默认的按钮背景设置样式*/
